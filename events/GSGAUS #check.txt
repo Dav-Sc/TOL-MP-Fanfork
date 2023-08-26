@@ -1,0 +1,2034 @@
+
+country_event = {
+
+	id = 201432
+	title = "Romanians Rise To Power"
+	desc = "The Romanians have stages a massive revolt, we have no choice but to give up our privileged lifestyles."
+	picture = "Riot"
+
+	trigger = {
+		tag = SIE
+		is_vassal = no
+		OR = {
+			is_culture_group = germanic
+			primary_culture = hungarian
+		}
+		any_pop = {
+				has_pop_culture = romanian
+				militancy = 9
+				consciousness = 6
+		}
+		average_militancy = 5
+		average_consciousness = 6
+		NOT = {
+			primary_culture = romanian
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Such is life."
+		primary_culture = romanian
+		remove_accepted_culture = south_german
+		remove_accepted_culture = north_german
+		clr_country_flag = catholic_religion
+		clr_country_flag = protestant_religion
+		clr_country_flag = hugenott_religion
+		clr_country_flag = coptic_religion
+		clr_country_flag = sunni_religion
+		clr_country_flag = shiite_religion
+		clr_country_flag = shinto_religion
+		clr_country_flag = mahayana_religion
+		clr_country_flag = gelugpa_religion
+		clr_country_flag = theravada_religion
+		clr_country_flag = hindu_religion
+		clr_country_flag = confucian_religion
+		clr_country_flag = sikh_religion
+		clr_country_flag = jewish_religion
+		clr_country_flag = animist_religion
+		religion = orthodox
+		set_country_flag = orthodox_religion
+		any_pop = {
+			limit = {
+				culture = north_german
+			}
+			militancy = 7
+			consciousness = 5
+		}
+		any_pop = {
+			limit = {
+				culture = south_german
+			}
+			militancy = 7
+			consciousness = 5
+		}
+		any_pop = {
+			limit = {
+				culture = hungarian
+			}
+			militancy = 7
+			consciousness = 5
+		}
+		any_pop = {
+			limit = {
+				culture = romanian
+			}
+			militancy = -7
+			consciousness = -5
+		}
+		ai_chance = {
+				factor = 65
+			}
+	}
+
+	option = {
+		name = "We refuse, we'll fight to the end!"
+		any_pop = {
+			limit = {
+				culture = romanian
+			}
+			militancy = 9
+			consciousness = 9
+		}
+		ai_chance = {
+				factor = 35
+			}
+	}
+}
+
+#############################
+####2ND BALKAN WAR EVENTS####
+#############################
+
+
+country_event = {
+	id = 188144 #Bulgaria decides whether to attack or not
+	title = "EVTNAME188144"
+	desc = "EVTDESC188144"
+	picture = "balkan_war"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BUL
+		war = no
+		is_vassal = no
+		is_disarmed = no
+		TUR_806 = { owned_by = SER }
+		TUR_823 = { owned_by = BUL }
+		TUR_809 = { owned_by = BUL }
+		NOT = {
+			num_of_revolts = 1
+			truce_with = SER
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			has_global_flag = first_balkan_war
+		}
+	}
+
+	option = {
+		name = "Prepare the war plans!"
+		prestige = 5
+		badboy = 4
+		leave_alliance = SER
+		SER = { country_event = 188146 }
+		set_global_flag = second_balkan_war
+		ai_chance = {
+			factor = 85
+		}
+	}
+
+	option = {
+		name = "This isn't a good idea."
+		prestige = -5
+		any_pop = {
+			militancy = 3
+			dominant_issue = {
+				factor = 0.10
+				value = pacifism
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+country_event = {
+	id = 188145 #Serbia requesting alliance with Montenegro, Romania and Greece
+	title = "EVTNAME188145"
+	desc = "EVTDESC188145"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA188145" #agree
+		badboy = 1
+		relation = {
+			who = FROM
+			value = 300
+		}
+		create_alliance = FROM
+		leave_alliance = BUL
+		relation = {
+			who = BUL
+			value = -150
+		}
+		set_country_flag = second_balkan_war_help
+		ai_chance = {
+			factor = 85
+		}
+	}
+	option = {
+		name = "EVTOPTB188145" #don't agree
+		relation = {
+			who = FROM
+			value = -50
+		}
+		relation = {
+			who = BUL
+			value = 50
+		}
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 10
+				relation = {
+					who = BUL
+					value = 150
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 188146 #Serbia is told that Bulgaria is planning to attack
+	title = "EVTNAME188146"
+	desc = "EVTDESC188146"
+	picture = "treaty"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #yes alliance
+		name = "Propose a defensive alliance."
+		random_country = {
+			limit = {
+				tag = GRE
+				exists = yes
+			}
+			country_event = 188145
+		}
+		random_country = {
+			limit = {
+				tag = ROM
+				exists = yes
+				have_core_in = BUL
+			}
+			country_event = 188145
+		}
+		random_country = {
+			limit = {
+				tag = MON
+				exists = yes
+			}
+			country_event = 188145
+		}
+		set_country_flag = second_balkan_war_serbia
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = { #no alliance
+		name = "We are fine on our own, thank you."
+		set_country_flag = second_balkan_war_serbia
+		prestige = 5
+		any_pop = {
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 188147 #Balkan war start
+	title = "EVTNAME188147"
+	desc = "EVTDESC188147"
+	picture = "balkan_war"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BUL
+		SER = { has_country_flag = second_balkan_war_serbia }
+		has_global_flag = second_balkan_war
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = "Begin the war!"
+		any_country = {
+			limit = {
+				is_sphere_leader_of = SER
+				NOT = { has_country_flag = second_balkan_war_help }
+			}
+			diplomatic_influence = { who = THIS value = -100 }
+			country_event = { id = 188173 days = 2 }
+		}
+		relation = { who = SER value = -300 }
+		war = {
+			target = SER
+			attacker_goal = {
+				casus_belli = acquire_core_state
+				state_province_id = 807
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+	}
+}
+
+country_event = {
+	id = 188148 #Bulgaria loses
+	title = "EVTNAME188148"
+	desc = "EVTDESC188148"
+	picture = "treaty"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BUL
+		truce_with = SER
+		NOT = {
+			owns = 806
+			has_global_flag = second_balkan_war_victory
+		}
+		OR ={
+			ROM = {
+				has_country_flag = second_balkan_war_help
+				truce_with = BUL
+			}
+			GRE = {
+				has_country_flag = second_balkan_war_help
+				truce_with = BUL
+			}
+		}
+		has_global_flag = second_balkan_war
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = "Sign the treaty."
+		prestige = -5
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			consciousness = 2
+			dominant_issue = {
+				factor = 0.1
+				value = jingoism
+			}
+		}
+		random_owned = { #Western Eastern Macedonia to Greece
+			limit = {
+				province_id = 823
+				owned_by = BUL
+			}
+			secede_province = GRE
+		}
+		random_owned = { #Western Eastern Macedonia to Greece
+			limit = {
+				province_id = 825
+				owned_by = BUL
+			}
+			secede_province = GRE
+		}
+		random_owned = { #some provinces to Serbia
+			limit = {
+				OR = {
+					province_id = 799
+					province_id = 3290
+					province_id = 807
+					province_id = 3421
+				}
+				owned_by = BUL
+			}
+			secede_province = SER
+		}
+		random_owned = { #Dobrudja to Romania
+			limit = {
+				province_id = 818
+				owned_by = BUL
+			}
+			state_scope = {
+				any_owned = {
+					secede_province = ROM
+				}
+			}
+		}
+		SER = { country_event = 188149 }
+		random_country = {
+			limit = {
+				tag = ROM
+				exists = yes
+				has_country_flag = second_balkan_war_help
+				truce_with = BUL
+			}
+			country_event = 188149
+			relation = { who = SER value = -100 }
+			leave_alliance = SER
+		}
+		random_country = {
+			limit = {
+				tag = GRE
+				exists = yes
+				has_country_flag = second_balkan_war_help
+				truce_with = BUL
+			}
+			country_event = 188149
+		}
+		random_country = {
+			limit = {
+				tag = MON
+				exists = yes
+				has_country_flag = second_balkan_war_help
+				truce_with = BUL
+			}
+			country_event = 188149
+		}
+	}
+}
+
+country_event = {
+	id = 188149 #Bulgaria defeated, yay
+	title = "EVTNAME188149"
+	desc = "EVTDESC188149"
+	picture = "treaty"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Wonderful!"
+		prestige = 5
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+	}
+}
+
+country_event = {
+	id = 188155 #Bulgarian victory
+	title = "The Balkan War"
+	desc = "We have defeated the Serbian forces and gained control over Macedonia. Long live Bulgaria!"
+	picture = "balkan_war"
+	fire_only_once = yes
+	trigger = {
+		tag = BUL
+		truce_with = SER
+		owns = 807
+		has_global_flag = second_balkan_war
+		war = no
+	}
+	mean_time_to_happen = {
+		days = 5
+	}
+	option = {
+		name = "Wonderful!"
+		prestige = 5
+		any_pop = {
+			limit = {
+				OR = {
+					is_accepted_culture = yes
+					is_primary_culture = yes
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		set_global_flag = second_balkan_war_victory
+		any_country = {
+			limit = {
+				OR = {
+					tag = SER
+					has_country_flag = second_balkan_war_help
+				}
+			}
+			country_event = 188157
+		}
+	}
+}
+
+country_event = {
+	id = 188157 #Bulgarian victory: demands
+	title = "Bulgarian demands"
+	desc = "We have defeated the Serbian forces and gained control over Macedonia. Long live Bulgaria!"
+	picture = "balkan_war"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "They will pay for this!"
+		prestige = 5
+		any_pop = {
+			limit = {
+				OR = {
+					is_accepted_culture = yes
+					is_primary_culture = yes
+				}
+			}
+			militancy = 2
+			consciousness = 1
+		}
+		any_owned = {
+			limit = {
+				is_core = BUL
+			}
+			secede_province = BUL
+		}
+	}
+}
+
+##############################
+###FIRST BALKAN WAR EVENTS####
+##############################
+
+country_event = {
+	id = 188168 #formation of the balkan league
+	title = "EVTNAME188168"
+	desc = "EVTDESC188168"
+	picture = "balkan_war"
+
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			tag = SER
+			tag = BUL
+			tag = GRE
+			tag = MON
+		}
+		has_global_flag = ottomans_supported
+		has_global_flag = berlin_conference
+		war = no
+		is_vassal = no
+		is_disarmed = no
+		have_core_in = TUR
+		TUR = { is_greater_power = no }
+		BUL = {
+			exists = yes
+			have_core_in = TUR
+			is_vassal = no
+			war = no
+			is_disarmed = no
+			NOT = {
+				truce_with = TUR
+			}
+		}
+		SER = {
+			exists = yes
+			have_core_in = TUR
+			is_vassal = no
+			war = no
+			is_disarmed = no
+			NOT = {
+				truce_with = TUR
+			}
+		}
+		OR = {
+			GRE = {
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					truce_with = TUR
+				}
+			}
+			MON = {
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					truce_with = TUR
+				}
+			}
+		}
+		NOT = {
+			num_of_revolts = 1
+			truce_with = TUR
+			has_global_flag = first_balkan_war
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 0.1
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.9
+			TUR = {
+				is_greater_power = no
+				is_secondary_power = no
+			}
+		}
+		modifier = {
+			factor = 0.8
+			TUR = { num_of_revolts = 20 }
+		}
+		modifier = {
+			factor = 0.8
+			TUR = { war = yes }
+		}
+		modifier = {
+			factor = 0.8
+			TUR = { has_recently_lost_war = yes }
+		}
+		modifier = {
+			factor = 2
+			BUL = {
+				NOT = {
+					has_country_flag = annex_eastern_rumelia
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			BUL = {
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					truce_with = TUR
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			SER = {
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					truce_with = TUR
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			GRE = {
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					truce_with = TUR
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			MON = {
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					truce_with = TUR
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			bolt_action_rifles = 1
+		}
+		modifier = {
+			factor = 0.5
+			indirect_artillery_fire = 1
+		}
+		modifier = {
+			factor = 0.5
+			military_directionism = 1
+		}
+		modifier = {
+			factor = 0.5
+			army_nco_training = 1
+		}
+		modifier = {
+			factor = 0.8
+			year = 1890
+		}
+		modifier = {
+			factor = 0.8
+			year = 1895
+		}
+		modifier = {
+			factor = 0.8
+			year = 1900
+		}
+		modifier = {
+			factor = 0.8
+			year = 1905
+		}
+	}
+
+	option = {
+		name = "Propose the alliance."
+		set_global_flag = first_balkan_war
+		set_country_flag = balkan_league_leader
+		leave_alliance = TUR
+		random_country = {
+			limit = {
+				tag = SER
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					tag = THIS
+					truce_with = TUR
+				}
+			}
+			country_event = 188169
+		}
+		random_country = {
+			limit = {
+				tag = BUL
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					tag = THIS
+					truce_with = TUR
+				}
+			}
+			country_event = 188169
+		}
+		random_country = {
+			limit = {
+				tag = GRE
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					tag = THIS
+					truce_with = TUR
+				}
+			}
+			country_event = 188169
+		}
+		random_country = {
+			limit = {
+				tag = MON
+				exists = yes
+				have_core_in = TUR
+				is_vassal = no
+				war = no
+				is_disarmed = no
+				NOT = {
+					tag = THIS
+					truce_with = TUR
+				}
+			}
+			country_event = 188169
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}
+
+	option = {
+		name = "This isn't a good idea."
+		prestige = -5
+		any_pop = {
+			militancy = 3
+			dominant_issue = {
+				factor = 0.10
+				value = pacifism
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+country_event = {
+	id = 188169 #join the balkan league?
+	title = "EVTNAME188169"
+	desc = "EVTDESC188169"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Join the Balkan League."
+		relation = {
+			who = FROM
+			value = 400
+		}
+		create_alliance = FROM
+		leave_alliance = TUR
+		relation = {
+			who = TUR
+			value = -400
+		}
+		set_country_flag = balkan_league_member
+		ai_chance = {
+			factor = 85
+		}
+	}
+	option = {
+		name = "This isn't a good idea."
+		relation = {
+			who = FROM
+			value = -50
+		}
+		relation = {
+			who = TUR
+			value = 50
+		}
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 10
+				relation = {
+					who = TUR
+					value = 150
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 188171 #Ottomans surrender
+	title = "EVTNAME188171"
+	desc = "EVTDESC188171"
+	picture = "treaty"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = TUR
+		has_global_flag = first_balkan_war
+		OR = {
+			SER = {
+				war_with = THIS
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			BUL = {
+				war_with = THIS
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			GRE = {
+				war_with = THIS
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			MON = {
+				war_with = THIS
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+		}
+		OR = {
+			AND = {
+				capital_scope = { controlled_by = THIS }
+				national_provinces_occupied = .30
+			}
+			AND = {
+				capital_scope = { NOT = { controlled_by = THIS } }
+				national_provinces_occupied = .15
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = "Sign the treaty."
+		prestige = -15
+		any_country = {
+			limit = {
+				war_with = TUR
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			end_war = TUR
+			clr_country_flag = balkan_league_member
+			clr_country_flag = balkan_league_leader
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			consciousness = 2
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 804
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = SER
+					secede_province = SER
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 806
+				owned_by = TUR
+				owner = { truce_with = SER }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = SER
+					secede_province = SER
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 806
+				owned_by = TUR
+				NOT = { owner = { truce_with = SER } }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = BUL
+					secede_province = BUL
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2577
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = MON
+					secede_province = MON
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 808
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = BUL
+					secede_province = BUL
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 829
+				owned_by = TUR
+				owner = { truce_with = BUL }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = BUL
+					secede_province = BUL
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 829
+				owned_by = TUR
+				NOT = { owner = { truce_with = BUL } }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = GRE
+					secede_province = GRE
+					remove_core = TUR
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = TUR_805
+					region = TUR_832
+					region = EGY_843
+					region = TUR_855
+				}
+			}
+			add_core = GRE
+			secede_province = GRE
+			remove_core = TUR
+		}
+		release = ALB
+		TUR_853 = { remove_core = TUR }
+		any_country = {
+			limit = {
+				NOT = { tag = BUL }
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			relation = { who = BUL value = -200 }
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "We will never surrender!"
+		prestige = 10
+		war_exhaustion = -10
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			militancy = -2
+			consciousness = -2
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 188172 #Ottomans lose peace treaty
+	title = "EVTNAME188171"
+	desc = "EVTDESC188172"
+	picture = "treaty"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Sign the treaty."
+		any_country = {
+			limit = {
+				war_with = TUR
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			end_war = TUR
+			clr_country_flag = balkan_league_member
+			clr_country_flag = balkan_league_leader
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			consciousness = 2
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2577
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = MON
+					secede_province = MON
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 3420
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = MON
+					secede_province = MON
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 804
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = SER
+					secede_province = SER
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 806
+				owned_by = TUR
+				owner = { truce_with = SER }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = SER
+					secede_province = SER
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 806
+				owned_by = TUR
+				NOT = { owner = { truce_with = SER } }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = BUL
+					secede_province = BUL
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 808
+				owned_by = TUR
+			}
+			state_scope = {
+				any_owned = {
+					add_core = BUL
+					secede_province = BUL
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 829
+				owned_by = TUR
+				owner = { truce_with = BUL }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = BUL
+					secede_province = BUL
+					remove_core = TUR
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 829
+				owned_by = TUR
+				NOT = { owner = { truce_with = BUL } }
+			}
+			state_scope = {
+				any_owned = {
+					add_core = GRE
+					secede_province = GRE
+					remove_core = TUR
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = TUR_805
+					region = TUR_832
+					region = EGY_843
+					region = TUR_855
+				}
+			}
+			add_core = GRE
+			secede_province = GRE
+			remove_core = TUR
+		}
+		release = ALB
+		TUR_853 = { remove_core = TUR }
+		any_country = {
+			limit = {
+				NOT = { tag = BUL }
+				OR = {
+					has_country_flag = balkan_league_member
+					has_country_flag = balkan_league_leader
+				}
+			}
+			relation = { who = BUL value = -200 }
+		}
+	}
+}
+
+country_event = {
+	id = 188173 #balkan league member readded to GP's sphere
+	title = "EVTNAME188170"
+	desc = "EVTDESC188170"
+	picture = "balkan_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Worrying news."
+		diplomatic_influence = { who = FROM value = 100 }
+	}
+}
+
+country_event = {
+	id = 188193 #GP asks to mediate Transylvania
+	title = "EVTNAME188193"
+	desc = "EVTDESC188193"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Ask for $FROMCOUNTRY$ arbitration."
+		set_country_flag = transylvanian_question_agree
+		badboy = -1
+		relation = { who = FROM value = 50 }
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 10
+				relation = {
+					who = FROM
+					value = 150
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Never!"
+		clr_country_flag = transylvanian_question_agree
+		badboy = 1
+		relation = { who = FROM value = -50 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				government = fascist_dictatorship
+				FROM = { NOT = { government = fascist_dictatorship } }
+			}
+			modifier = {
+				factor = 5
+				SIE = { all_core = { owned_by = THIS } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 188194 #both agree
+	title = "EVTNAME188193"
+	desc = "EVTDESC188194"
+	picture = "treaty"
+
+	trigger = {
+		war = no
+		has_country_flag = transylvanian_question
+		HUN = {
+			has_country_flag = transylvanian_question_agree
+			war = no
+		}
+		ROM = {
+			has_country_flag = transylvanian_question_agree
+			war = no
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = "Transylvania belongs to Hungary."
+		relation = { who = HUN value = 200 }
+		relation = { who = ROM value = -200 }
+		ROM = { country_event = 188195 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				relation = {
+					who = HUN
+					value = 100
+				}
+				NOT = {
+					relation = {
+						who = ROM
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				HUN = { vassal_of = THIS }
+				ROM = { NOT = { vassal_of = THIS } }
+			}
+		}
+	}
+
+	option = {
+		name = "Transylvania belongs to Romania."
+		relation = { who = HUN value = -200 }
+		relation = { who = ROM value = 200 }
+		HUN = { country_event = 188197 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				relation = {
+					who = ROM
+					value = 100
+				}
+				NOT = {
+					relation = {
+						who = HUN
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				ROM = { vassal_of = THIS }
+				HUN = { NOT = { vassal_of = THIS } }
+			}
+		}
+	}
+
+	option = {
+		name = "Split Transylvania between Hungary and Romania."
+		random_country = {
+			limit = {
+				tag = HUN
+				AUS_654 = { owned_by = HUN }
+				AUS_657 = { owned_by = HUN }
+
+			}
+			relation = { who = THIS value = -100 }
+		}
+		random_country = {
+			limit = {
+				tag = HUN
+				AUS_654 = { NOT = { owned_by = HUN } }
+				AUS_657 = { NOT = { owned_by = HUN } }
+
+			}
+			relation = { who = THIS value = 100 }
+		}
+		random_country = {
+			limit = {
+				tag = ROM
+				AUS_654 = { owned_by = ROM }
+				AUS_657 = { owned_by = ROM }
+
+			}
+			relation = { who = THIS value = -100 }
+		}
+		random_country = {
+			limit = {
+				tag = ROM
+				AUS_654 = { NOT = { owned_by = ROM } }
+				AUS_657 = { NOT = { owned_by = ROM } }
+
+			}
+			relation = { who = THIS value = 100 }
+		}
+		HUN = { country_event = 188199 }
+		ROM = { country_event = 188200 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = {
+	id = 188195 #romania loses
+	title = "EVTNAME188193"
+	desc = "EVTDESC188195"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Why did we agree to this arbitration?"
+		relation = { who = HUN value = -200 }
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = AUS_652
+					region = AUS_654
+					region = AUS_657
+				}
+			}
+			add_core = SIE
+			add_core = ROM
+			add_core = HUN
+			secede_province = HUN
+		}
+		HUN = { country_event = 188196 }
+	}
+}
+
+country_event = {
+	id = 188196 #hungary wins
+	title = "EVTNAME188193"
+	desc = "EVTDESC188196"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Wonderful!"
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+				location = { is_core = SIE }
+			}
+			militancy = -6
+			consciousness = -6
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+				location = { NOT = { is_core = SIE } }
+			}
+			militancy = -1
+			consciousness = -2
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188197 #hungary loses
+	title = "EVTNAME188193"
+	desc = "EVTDESC188197"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Why did we agree to this arbitration?"
+		relation = { who = ROM value = -200 }
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = AUS_652
+					region = AUS_654
+					region = AUS_657
+				}
+			}
+			add_core = SIE
+			add_core = HUN
+			add_core = ROM
+			secede_province = ROM
+		}
+		ROM = { country_event = 188198 }
+	}
+}
+
+country_event = {
+	id = 188198 #romania wins
+	title = "EVTNAME188193"
+	desc = "EVTDESC188196"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Wonderful!"
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+				location = { is_core = SIE }
+			}
+			militancy = -6
+			consciousness = -6
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+				location = { NOT = { is_core = SIE } }
+			}
+			militancy = -1
+			consciousness = -2
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188199 #Hungary gives half
+	title = "EVTNAME188193"
+	desc = "EVTDESC188199"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "One day all of Transylvania will be ours."
+		any_owned = {
+			limit = {
+				OR = {
+					region = AUS_652
+					region = AUS_657
+				}
+			}
+			add_core = SIE
+			add_core = HUN
+			add_core = ROM
+			secede_province = ROM
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = hungarian
+					has_pop_culture = romanian
+				}
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188200 #Romania gives half
+	title = "EVTNAME188193"
+	desc = "EVTDESC188199"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "One day all of Transylvania will be ours."
+		any_owned = {
+			limit = {
+				region = AUS_654
+			}
+			add_core = SIE
+			add_core = ROM
+			add_core = HUN
+			secede_province = HUN
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = hungarian
+					has_pop_culture = romanian
+				}
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188209 #GP asks to mediate Slovakia
+	title = "EVTNAME188209"
+	desc = "EVTDESC188209"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Ask for $FROMCOUNTRY$ arbitration."
+		set_country_flag = slovak_question_agree
+		badboy = -1
+		relation = { who = FROM value = 50 }
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 10
+				relation = {
+					who = FROM
+					value = 150
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Never!"
+		clr_country_flag = slovak_question_agree
+		badboy = 1
+		relation = { who = FROM value = -50 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				government = fascist_dictatorship
+				FROM = { NOT = { government = fascist_dictatorship } }
+			}
+			modifier = {
+				factor = 5
+				SLV = { all_core = { owned_by = THIS } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 188210 #both say yes
+	title = "EVTNAME188209"
+	desc = "EVTDESC188210"
+	picture = "treaty"
+
+	trigger = {
+		war = no
+		has_country_flag = slovak_question
+		HUN = {
+			has_country_flag = slovak_question_agree
+			war = no
+		}
+		CZH = {
+			has_country_flag = slovak_question_agree
+			war = no
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = "Slovakia belongs to Hungary."
+		relation = { who = HUN value = 200 }
+		relation = { who = CZH value = -200 }
+		CZH = { country_event = 188211 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				relation = {
+					who = HUN
+					value = 100
+				}
+				NOT = {
+					relation = {
+						who = CZH
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				HUN = { vassal_of = THIS }
+				CZH = { NOT = { vassal_of = THIS } }
+			}
+		}
+	}
+
+	option = {
+		name = "Slovakia belongs to Czechoslovakia."
+		relation = { who = HUN value = -200 }
+		relation = { who = CZH value = 200 }
+		HUN = { country_event = 188213 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				relation = {
+					who = CZH
+					value = 100
+				}
+				NOT = {
+					relation = {
+						who = HUN
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				CZH = { vassal_of = THIS }
+				HUN = { NOT = { vassal_of = THIS } }
+			}
+		}
+	}
+
+	option = {
+		name = "Split Slovakia between Hungary and Czechoslovakia."
+		random_country = {
+			limit = {
+				tag = HUN
+				AUS_633 = { owned_by = HUN }
+
+			}
+			relation = { who = THIS value = -100 }
+		}
+		random_country = {
+			limit = {
+				tag = HUN
+				AUS_633 = { NOT = { owned_by = HUN } }
+
+			}
+			relation = { who = THIS value = 100 }
+		}
+		random_country = {
+			limit = {
+				tag = CZH
+				AUS_633 = { owned_by = CZH }
+
+			}
+			relation = { who = THIS value = -100 }
+		}
+		random_country = {
+			limit = {
+				tag = CZH
+				AUS_633 = { NOT = { owned_by = CZH } }
+
+			}
+			relation = { who = THIS value = 100 }
+		}
+		HUN = { country_event = 188215 }
+		CZH = { country_event = 188216 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = {
+	id = 188211 #czechoslovakia gives up Slovakia
+	title = "EVTNAME188209"
+	desc = "EVTDESC188211"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Why did we agree to this arbitration?"
+		relation = { who = HUN value = -200 }
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = slovak
+					has_pop_culture = czech
+				}
+			}
+			militancy = 1
+			consciousness = 2
+		}
+		any_owned = {
+			limit = {
+				region = AUS_633
+			}
+			add_core = HUN
+			add_core = SLV
+			add_core = CZH
+			secede_province = HUN
+		}
+		HUN = { country_event = 188212 }
+	}
+}
+
+country_event = {
+	id = 188212 #Hungary gets Slovakia
+	title = "EVTNAME188209"
+	desc = "EVTDESC188212"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Wonderful!"
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+				location = { is_core = SLV }
+			}
+			militancy = -6
+			consciousness = -6
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+				location = { NOT = { is_core = SLV } }
+			}
+			militancy = -1
+			consciousness = -2
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = slovak
+					has_pop_culture = czech
+				}
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188213 #Hungary gives up Slovakia
+	title = "EVTNAME188209"
+	desc = "EVTDESC188213"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Why did we agree to this arbitration?"
+		relation = { who = CZH value = -200 }
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+		any_owned = {
+			limit = {
+				region = AUS_633
+			}
+			add_core = HUN
+			add_core = SLV
+			add_core = CZH
+			secede_province = CZH
+		}
+		CZH = { country_event = 188214 }
+	}
+}
+
+country_event = {
+	id = 188214 #czechoslovakia gains Slovakia
+	title = "EVTNAME188209"
+	desc = "EVTDESC188212"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Wonderful!"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = slovak
+					has_pop_culture = czech
+				}
+				location = { is_core = HUN }
+			}
+			militancy = -6
+			consciousness = -6
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = slovak
+					has_pop_culture = czech
+				}
+				location = { NOT = { is_core = HUN } }
+			}
+			militancy = -1
+			consciousness = -2
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188215 #hungary gives up half
+	title = "EVTNAME188209"
+	desc = "EVTDESC188215"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "One day all of Slovakia will be ours."
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 633
+					province_id = 634
+					province_id = 636
+					province_id = 638
+				}
+			}
+			add_core = HUN
+			add_core = SLV
+			add_core = CZH
+			secede_province = CZH
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = hungarian
+					has_pop_culture = slovak
+					has_pop_culture = czech
+				}
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 188216 #czechoslovakia gives up half
+	title = "EVTNAME188209"
+	desc = "EVTDESC188215"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "One day all of Slovakia will be ours."
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 635
+					province_id = 637
+					province_id = 950
+					province_id = 3332
+				}
+			}
+			add_core = HUN
+			add_core = SLV
+			add_core = CZH
+			secede_province = HUN
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = hungarian
+					has_pop_culture = slovak
+					has_pop_culture = czech
+				}
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+

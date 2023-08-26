@@ -1,0 +1,8 @@
+owner = BAL
+controller = BAL
+add_core = BAL
+trade_goods = tropical_wood
+life_rating = 35
+terrain = jungle_mountains
+colonial = 2
+

@@ -1,0 +1,24 @@
+owner = SCO
+controller = SCO
+add_core = SCO
+add_core = ENG
+add_core = CLT 
+trade_goods = fish
+life_rating = 35
+terrain = hills
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 20
+}
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 5
+}
+
+state_building = {
+	level = 2
+	building = ammunition_factory
+	upgrade = yes
+}
+
+1861.1.1 = { railroad = 3 }

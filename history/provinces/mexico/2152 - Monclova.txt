@@ -1,0 +1,6 @@
+owner = ZAC
+controller = ZAC
+terrain = new_world_semidesert
+add_core = ZAC
+trade_goods = dye
+life_rating = 35

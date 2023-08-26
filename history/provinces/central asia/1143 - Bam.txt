@@ -1,0 +1,7 @@
+owner = QUA
+controller = QUA
+add_core = QUA
+add_core = BLC
+terrain = semi_desert_mountains
+trade_goods = grain
+life_rating = 35

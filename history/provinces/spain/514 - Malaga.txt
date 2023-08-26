@@ -1,0 +1,9 @@
+owner = GNA
+controller = GNA
+add_core = GNA
+add_core = MOR
+add_core = IBR
+trade_goods = fruit
+life_rating = 35
+terrain = dry_mountains
+1861.1.1 = { railroad = 3 }

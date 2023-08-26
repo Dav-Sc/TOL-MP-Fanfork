@@ -1,0 +1,301 @@
+political_decisions = {
+
+  support_saar_industrialism = {
+  picture = alsace_lorraine_mines
+		potential = {
+			OR = {
+				tag = LOR
+				tag = LUX
+				tag = NGF
+				tag = GER
+				tag = GCF
+				tag = SAA
+			}
+			NOT = { tech_school = prussian_tech_school }
+		}
+
+		allow = {
+			regenerative_furnaces = 1
+			iron_breech_loaded_artillery = 1
+			state_n_government = 1
+			industrial_score = 150
+			owns = 573
+			OR = {
+				573 = { state_scope = { has_building = steel_factory } }
+				ai = yes
+			}
+		}
+
+		effect = {
+			tech_school = prussian_tech_school
+			prestige = 5
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	claim_burgundy = {
+		picture = german_tyrol
+		potential = {
+			tag = LOR
+			NOT = { has_country_flag = brugundian_weak }
+		}
+
+		allow = {
+		empiricism = 1 
+			all_core = {
+				owned_by = THIS
+			}
+	 
+		}
+
+		effect = { 
+		 badboy = 10
+		 add_accepted_culture = burgundian
+		 set_country_flag = brugundian_weak
+			BRG = {
+				all_core = {
+					add_core = LOR
+				}
+			}
+			ARP = {
+				all_core = {
+					add_core = LOR
+				}
+			}			
+		}
+	}
+
+	who_wants_champagne = {
+		picture = normandie_mine
+		potential = {
+			tag = LOR
+			has_country_flag = brugundian_weak
+			NOT = { has_country_flag = champania }
+		}
+
+		allow = {
+		is_greater_power = yes
+		war = no
+		empiricism = 1 
+			all_core = {
+				owned_by = THIS
+			}
+	 
+		}
+
+		effect = { 
+			badboy = 7
+			prestige = 10
+			set_country_flag = champania
+			451 = { add_core = THIS }
+			454 = { add_core = THIS }
+			FRA_406 = {
+				add_core = LOR
+			}		
+		}
+	}
+
+#Luxembourg		
+	northern_manace = {
+		picture = luxembourg_crisis
+		potential = {
+			tag = LOR
+			has_country_flag = champania
+			NOT = { has_country_flag = luxembourg_gone }
+		}
+
+		allow = {
+		state_n_government = 1 
+			all_core = {
+				owned_by = THIS
+			}
+	 
+		}
+
+		effect = { 
+			badboy = 10
+			set_country_flag = luxembourg_gone
+			LUX = {
+				all_core = {
+					add_core = LOR
+				}
+			}
+		}
+	}
+		
+		
+	rhineland_lorrainian = {
+		picture = rhineland
+		potential = {
+			tag = LOR
+			has_country_flag = luxembourg_gone
+			NOT = { has_country_flag = rhineland_manace }
+		}
+
+		allow = {
+		is_greater_power = yes
+		war = no
+		social_science = 1 
+			all_core = {
+				owned_by = THIS
+			}
+	 
+		}
+
+		effect = { 
+		 badboy = 5
+		 set_country_flag = rhineland_manace
+			PRU_575 = {
+				add_core = LOR
+			}
+			577 = { add_core = THIS }
+			381 = { add_core = THIS }
+			570 = { add_core = THIS }
+		}
+		
+		}
+		
+	claim_switzerland = {
+		picture = declare_neutrality
+		potential = {
+			tag = LOR
+			NOT = { has_country_flag = swabians_weak }
+		}
+
+		allow = {
+		state_n_government = 1 
+			all_core = {
+				owned_by = THIS
+			}
+	 
+		}
+
+		effect = { 
+		add_accepted_culture = arpitan
+		 badboy = 10
+	   set_country_flag = swabians_weak
+			SWI = {
+				all_core = {
+					add_core = LOR
+				}
+			}
+		}
+	 }
+	 
+	 reform_lotharingia = {
+		picture = german_confederation
+		potential = {
+			tag = LOR
+			has_country_flag = rhineland_manace
+			NOT = { has_country_flag = lotharingia }
+		}
+
+		allow = {
+		is_greater_power = yes
+		war = no
+		social_science = 1 
+			all_core = {
+				owned_by = THIS
+			}
+	     owns = 375
+		 owns = 451
+         owns = 387
+		 }
+
+		effect = { 
+		 badboy = 5
+		 set_country_flag = lotharingia
+			LOR = { all_core = { add_core = LOT  } }
+				PRO = { all_core = { add_core = LOT } }
+				ARP = { all_core = { add_core = LOT } }
+				LUX = { all_core = { add_core = LOT } }
+				KOL = { all_core = { add_core = LOT } }
+				WLL = { all_core = { add_core = LOT } }
+				NET = { all_core = { add_core = LOT } }
+				change_tag = LOT
+		}
+		
+		}
+		
+	reforms_francia = {
+		#picture = francia_map
+		potential = {
+		 OR = {
+			tag = AAC
+			tag = LOT
+			}
+		}
+
+			allow = {
+				owns = 564
+				owns = 425
+				owns = 530
+				owns = 461
+				owns = 749
+			}
+
+			effect = {
+				FRA = { all_core = { add_core = FRC } }
+				FRR = { all_core = { add_core = FRC } }
+				FRZ = { all_core = { add_core = FRC } }
+				GER = { all_core = { add_core = FRC } }
+				VEN = { all_core = { add_core = FRC } }
+				SLO = { all_core = { add_core = FRC } }
+				BEL = { all_core = { add_core = FRC } }
+				LUX = { all_core = { add_core = FRC } }
+				PAR = { all_core = { add_core = FRC } }
+				MOD = { all_core = { add_core = FRC } }
+				LUC = { all_core = { add_core = FRC } }
+				TUS = { all_core = { add_core = FRC } }
+				PAP = { all_core = { add_core = FRC } }
+				SMR = { all_core = { add_core = FRC } }
+				prestige = 50
+				change_tag = FRC
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+		lothar_accept = {
+		potential = {
+			tag = LOT
+			NOT = { has_country_flag = lotaccept }
+		}
+		
+		allow = {
+			NOT = { war = yes }
+		}
+		
+		effect = { 
+			set_country_flag = lotaccept
+			add_accepted_culture = french
+			add_accepted_culture = rhinelander
+			add_accepted_culture = flemish
+			add_accepted_culture = belgican
+			add_accepted_culture = burgundian
+			add_accepted_culture = dutch
+			add_accepted_culture = provencial
+		}
+	}
+	
+	francia_accept = {
+		potential = {
+			tag = FRC
+			NOT = { has_country_flag = frcaccept }
+		}
+		
+		allow = {
+			NOT = { war = yes }
+		}
+		
+		effect = { 
+			set_country_flag = frcaccept
+			add_accepted_culture = french
+			add_accepted_culture = occitan
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+		}
+	}
+	 
+  }

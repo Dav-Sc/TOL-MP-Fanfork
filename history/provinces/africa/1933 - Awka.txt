@@ -1,0 +1,5 @@
+owner = EBO
+controller = EBO
+add_core = EBO
+trade_goods = cattle
+life_rating = 35

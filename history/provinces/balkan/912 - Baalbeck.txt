@@ -1,0 +1,8 @@
+owner = OYO
+controller = OYO
+add_core = OYO
+add_core = EGB
+add_core = IBD
+add_core = IFE
+trade_goods = silk
+life_rating = 35

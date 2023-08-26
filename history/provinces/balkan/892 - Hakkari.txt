@@ -1,0 +1,10 @@
+owner = BHT
+controller = BHT
+add_core = BHT
+add_core = HTY
+add_core = HTY
+add_core = BDN
+add_core = KDS
+add_core = ARM
+trade_goods = fruit
+life_rating = 35

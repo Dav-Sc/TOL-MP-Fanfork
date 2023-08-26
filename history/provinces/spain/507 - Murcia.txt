@@ -1,0 +1,7 @@
+owner = GNA
+controller = GNA
+add_core = GNA
+add_core = MOR
+add_core = IBR
+trade_goods = cattle
+life_rating = 35

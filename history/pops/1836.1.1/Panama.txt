@@ -1,0 +1,356 @@
+#Panama Region (128000)
+#Ruled by Colombia 1836
+#Balboa (12000/3000 POPS)
+1723 = {
+	aristocrats = {
+		culture = ngabe
+		religion = animist
+		size = 60
+	}
+
+	clergymen = {
+		culture = ngabe
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = ngabe
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = ngabe
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = ngabe
+		religion = animist
+		size = 2685
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = ngabe
+		religion = animist
+		size = 3975
+	}
+
+	slaves = {
+		culture = afro_caribbean
+		religion = animist
+		size = 1500
+	}
+}
+
+#Panama City (52000/13000 POPS)
+2204 = {
+	aristocrats = {
+		culture = ngabe
+		religion = animist
+		size = 675
+	}
+
+	bureaucrats = {
+		culture = ngabe
+		religion = animist
+		size = 75
+	}
+
+	officers = {
+		culture = ngabe
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = ngabe
+		religion = animist
+		size = 300
+	}
+
+	artisans = {
+		culture = ngabe
+		religion = animist
+		size = 1350
+	}
+
+	soldiers = {
+		culture = ngabe
+		religion = animist
+		size = 300
+	}
+
+	farmers = {
+		culture = ngabe
+		religion = animist
+		size = 24150
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 225
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 600
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 8025
+	}
+
+	slaves = {
+		culture = afro_caribbean
+		religion = animist
+		size = 3300
+	}
+}
+#David (28000/7000 POPS)
+2205 = {
+	aristocrats = {
+		culture = ngabe
+		religion = animist
+		size = 450
+	}
+
+	clergymen = {
+		culture = ngabe
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = ngabe
+		religion = animist
+		size = 900
+	}
+
+	soldiers = {
+		culture = ngabe
+		religion = animist
+		size = 225
+	}
+
+	farmers = {
+		culture = ngabe
+		religion = animist
+		size = 16125
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 60
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 2010
+	}
+
+	slaves = {
+		culture = afro_caribbean
+		religion = animist
+		size = 750
+	}
+}
+#Penonome (24000/6000 POPS)
+2206 = {
+	aristocrats = {
+		culture = ngabe
+		religion = animist
+		size = 450
+	}
+
+	clergymen = {
+		culture = ngabe
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = ngabe
+		religion = animist
+		size = 750
+	}
+
+	soldiers = {
+		culture = ngabe
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = ngabe
+		religion = animist
+		size = 13500
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 60
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 2010
+	}
+
+	slaves = {
+		culture = afro_caribbean
+		religion = animist
+		size = 750
+	}
+}
+#Yaviza (12000/3000 POPS)
+2208 = {
+	aristocrats = {
+		culture = ngabe
+		religion = animist
+		size = 60
+	}
+
+	clergymen = {
+		culture = ngabe
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = ngabe
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = ngabe
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = ngabe
+		religion = animist
+		size = 2685
+	}
+
+	aristocrats = {
+		culture = north_andean
+		religion = jesuite
+		size = 60
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = jesuite
+		size = 75
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = jesuite
+		size = 150
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = jesuite
+		size = 30
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = jesuite
+		size = 2685
+	}
+
+	aristocrats = {
+		culture = ngabe #native_american_minor
+		religion = animist
+		size = 45
+	}
+
+	clergymen = {
+		culture = ngabe #native_american_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = ngabe #native_american_minor
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = ngabe #native_american_minor
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = ngabe #native_american_minor
+		religion = animist
+		size = 2700
+	}
+
+}

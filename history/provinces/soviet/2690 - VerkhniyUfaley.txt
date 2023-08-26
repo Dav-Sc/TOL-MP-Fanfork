@@ -1,0 +1,6 @@
+owner = EBO
+controller = EBO
+add_core = EBO
+add_core = IDA
+trade_goods = fish
+life_rating = 35

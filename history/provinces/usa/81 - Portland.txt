@@ -1,0 +1,5 @@
+owner = GKS
+controller = GKS
+add_core = GKS
+life_rating = 35
+trade_goods = timber

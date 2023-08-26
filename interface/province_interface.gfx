@@ -1,0 +1,2519 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_crisis_temperature_bar_frame"
+		texturefile = "gfx\\interface\\crisis_temperature_bar_frame.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_flashpoint_tension_icon"
+		texturefile = "gfx\\interface\\flashpoint_tension_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_close_province"
+		texturefile = "gfx\\interface\\close_province.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_rally_land_icon"
+		texturefile = "gfx\\interface\\rally_land_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_rally_naval_icon"
+		texturefile = "gfx\\interface\\rally_naval_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_rally_land_checkbox"
+		texturefile = "gfx\\interface\\rally_land_checkbox.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_rally_naval_checkbox"
+		texturefile = "gfx\\interface\\rally_naval_checkbox.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_rally_merge_small"
+		texturefile = "gfx\\interface\\rally_merge_small.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_province_natfocus_bg"
+		texturefile = "gfx\\interface\\province_natfocus_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_province_uncolonized_bg"
+		texturefile = "gfx\\interface\\province_uncolonized_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_open_popscreen"
+		texturefile = "gfx\\interface\\open_popscreen.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_crime_strip"
+		textureFile = "gfx\\interface\\crime_strip.dds"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_party_loyalty_strip"
+		textureFile = "gfx\\interface\\party_loyalty_strip.dds"
+		noOfFrames = 8
+	}
+	spriteType = {
+		name = "GFX_province_colony_icon"
+		textureFile = "gfx\\interface\\province_colony_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_province_natfocus_strip"
+		textureFile = "gfx\\interface\\province_natfocus_strip.dds"
+		noOfFrames = 40
+	}
+	spriteType = {
+		name = "GFX_province_natfocus_strip_small"
+		textureFile = "gfx\\interface\\province_natfocus_strip_small.dds"
+		noOfFrames = 40
+	}
+	spriteType = {
+		name = "GFX_province_fort_strip"
+		textureFile = "gfx\\interface\\province_fort_strip.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_province_navalbase_strip"
+		textureFile = "gfx\\interface\\province_navalbase_strip.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_province_infra_strip"
+		textureFile = "gfx\\interface\\province_infra_strip.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_province_expanding"
+		texturefile = "gfx\\interface\\province_expanding.dds"
+	}
+	spriteType = {
+		name = "GFX_province_revolt"
+		texturefile = "gfx\\interface\\province_revolt.dds"
+	}
+	spriteType = {
+		name = "GFX_province_crimefight"
+		texturefile = "gfx\\interface\\province_crimefight.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_province_pop"
+		texturefile = "gfx\\interface\\province_pop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_province_immi"
+		texturefile = "gfx\\interface\\province_immi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_province_growth"
+		texturefile = "gfx\\interface\\province_growth.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_provinceview_bg"
+		texturefile = "gfx\\interface\\province_bg.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_military_progress_overlay"
+		texturefile = "gfx\\interface\\military_progress_overlay.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_liferating_overlay"
+		texturefile = "gfx\\interface\\liferating_overlay.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_province_recruit_bg"
+		texturefile = "gfx\\interface\\province_recruit_bg.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_province_recruit_button"
+		texturefile = "gfx\\interface\\province_recruit_button.tga"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_province_recruit_group_button"
+		texturefile = "gfx\\interface\\province_recruit_group_button.tga"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_province_recruit_bg_wide"
+		texturefile = "gfx\\interface\\province_recruit_bg_wide.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_province_recruit_button_wide"
+		texturefile = "gfx\\interface\\province_recruit_button_wide.dds"
+		norefcount = yes
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_province_recruit_group_button_wide"
+		texturefile = "gfx\\interface\\province_recruit_group_button_wide.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_province_remove_recruit"
+		texturefile = "gfx\\interface\\province_remove_recruit.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_province_siege_icon"
+		texturefile = "gfx\\interface\\siege_icon.tga"
+	}
+
+	spriteType = {
+		name = "GFX_province_other_bg"
+		texturefile = "gfx\\interface\\province_other_bg.tga"
+	}
+
+	spriteType = {
+		name = "GFX_province_colony_bg"
+		texturefile = "gfx\\interface\\province_colony_bg.tga"
+	}
+
+	progressbartype = {
+		name = "GFX_occupation_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\occupation_progress1.tga"
+		textureFile2 = "gfx\\interface\\occupation_progress2.tga"
+		size = { x = 128 y = 16 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "GFX_building_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\expand_progress1.tga"
+		textureFile2 = "gfx\\interface\\expand_progress2.tga"
+		size = { x = 112 y = 16 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "GFX_military_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\military_progress1.tga"
+		textureFile2 = "gfx\\interface\\military_progress2.tga"
+		size = { x = 93 y = 18 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	progressbartype = {
+		name = "GFX_liferating_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\liferating_progress1.tga"
+		textureFile2 = "gfx\\interface\\liferating_progress2.tga"
+		size = { x = 52 y = 8 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	PieChartType = {
+		name = "GFX_province_chart"
+		size = 25
+	}
+	
+	PieChartType = {
+		name = "GFX_pop_distribution_chart_2"
+		size = 25
+	}
+	
+	PieChartType = {
+		name = "GFX_province_chart_small"
+		size = 14
+	}
+	
+	
+	spriteType = {
+		name = "GFX_terrainimg_mountain"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mountains.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_montane_tundra"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_montane_tundra.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_montane_forest"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_montane_forest.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_steppe"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_steppe.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_savanna"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_savanna.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_farmlands"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_farmlands.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_fredrikstad"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_fredrikstad.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_stavanger"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stavanger.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_perm"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_perm.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_astrakan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_astrakan.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_patna"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_patna.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_fuzhou"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_fuzhou.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_dali"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dali.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_guilin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_guilin.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_nompen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_nompen.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_ava"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ava.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_vientian"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_vientian.bmp"
+		norefcount = yes
+	}
+	
+	
+	spriteType = {
+		name = "GFX_terrainimg_christiansand"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_christiansand.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_drammen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_drammen.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_zacatecas"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zacatecas.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_alesund"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_alesund.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_bergen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bergen.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_trondheim"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_trondheim.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_forest"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_forest.bmp"
+		norefcount = yes
+	}
+	
+		
+	spriteType = {
+		name = "GFX_terrainimg_boreal"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_boreal.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_dryhills"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dryhills.bmp"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_terrainimg_dry_mountains"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dry_mountains.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_marsh"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_marsh.bmp"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_terrainimg_plains"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_plains.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_hills"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hills.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_floodplain_farmland"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_floodplain_farmland.bmp"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_terrainimg_jungle"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_jungle.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_jungle_hills"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_jungle_hills.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_jungle_farmland"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_jungle_farmland.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_jungle_mountains"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_jungle_mountains.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_desert"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_desert.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_semidesert"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_semidesert.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_semi_desert_mountains"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_semi_desert_mountains.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_himalayan_mountains"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_himalayan_mountains.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_coastal_desert"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_coastal_desert.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_small_island"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_small_island.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_coral_island"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_coral_island.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_urban"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_urban.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_arctic"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_arctic.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_ocean"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mountains.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_mining_district"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mining_district.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_berlin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_berlin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_paris"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_paris.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_london"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_london.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_stpetersburg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stpetersburg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_vienna"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_vienna.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_newyork"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_newyork.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_rome"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rome.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_madrid"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_madrid.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_stockholm"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stockholm.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_istanbul"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_istanbul.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_warsaw"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_warsaw.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_athens"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_athens.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_puertorico"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_puertorico.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lisbon"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lisbon.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_amsterdam"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_amsterdam.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_brussels"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_brussels.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_copenhagen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_copenhagen.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_oslo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_oslo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hammerfest"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hammerfest.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_skien"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_skien.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_bodo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bodo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_benin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_benin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sokoto"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sokoto.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_kano"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kano.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_zinder"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zinder.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lillehammer"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lillehammer.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hamar"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hamar.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_helsinki"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_helsinki.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_munich"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_munich.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hanover"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hanover.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_dublin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dublin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_belgrade"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_belgrade.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_turin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_turin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_naples"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_naples.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bern"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bern.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pest"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pest.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bukarest"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bukarest.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_cairo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_cairo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_luxor"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_luxor.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_giza"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_giza.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_aswan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_aswan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_prague"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_prague.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_cologne"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_cologne.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_mexicocity"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mexicocity.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_barcelona"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_barcelona.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_edinburgh"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_edinburgh.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_edo_province"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_edo_province.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hanseong"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hanseong.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_peking"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_peking.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_shanghai"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_shanghai.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hongkong"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hongkong.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_macao"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_macao.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kiev"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kiev.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_riga"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_riga.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_moscow"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_moscow.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_minsk"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_minsk.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_lyon"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lyon.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_dc"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dc.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_chicago"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_chicago.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sanfrancisco"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sanfrancisco.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hamburg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hamburg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_dresden"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dresden.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_boston"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_boston.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sofia"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sofia.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_tehran"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_tehran.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_rennes"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rennes.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_marseille"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_marseille.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bordeaux"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bordeaux.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_toulouse"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_toulouse.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bilbao"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bilbao.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pamplona"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pamplona.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_tabriz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tabriz.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_trebizond"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_trebizond.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_shiraz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_shiraz.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_erzurum"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_erzurum.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_van"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_van.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_milan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_milan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_luxemburg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_luxemburg.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_liechtenstein"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_liechtenstein.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_venice"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_venice.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_zagreb"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zagreb.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_salonika"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_salonika.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_ankara"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ankara.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_tblisi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tblisi.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_erivan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_erivan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_baku"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_baku.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_jerusalem"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_jerusalem.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_baghdad"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_baghdad.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_damascus"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_damascus.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lvov"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lvov.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_krakow"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_krakow.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_karlsruhe"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_karlsruhe.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_stuttgart"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stuttgart.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_konigsberg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_konigsberg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_dusseldorf"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dusseldorf.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_dortmund"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dortmund.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_magdeburg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_magdeburg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kiel"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kiel.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_stettin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stettin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_frankfurt"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_frankfurt.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_nuremberg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_nuremberg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_leipzig"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_leipzig.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_breslau"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_breslau.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_andorra"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_andorra.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_seville"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_seville.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_fez"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_fez.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_gibraltar"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_gibraltar.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_ceuta"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ceuta.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_melilla"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_melilla.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_tangier"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tangier.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_algiers"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_algiers.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_zurich"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zurich.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_strasburg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_strasburg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_liverpool"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_liverpool.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_manchester"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_manchester.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_cardiff"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_cardiff.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_birmingham"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_birmingham.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_glasgow"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_glasgow.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_southampton"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_southampton.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_newcastle"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_newcastle.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sheffield"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sheffield.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_leeds"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_leeds.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bristol"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bristol.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_belfast"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_belfast.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_goteborg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_goteborg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_vilnius"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_vilnius.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_reval"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_reval.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_montreal"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_montreal.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_ottawa"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ottawa.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_vancouver"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_vancouver.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_losangeles"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_losangeles.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_atlanta"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_atlanta.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_philadelphia"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_philadelphia.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_detroit"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_detroit.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_cleveland"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_cleveland.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pittsburgh"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pittsburgh.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_richmond"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_richmond.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_neworleans"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_neworleans.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_austin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_austin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_toronto"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_toronto.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_caen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_caen.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lille"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lille.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bogota"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bogota.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_caracas"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_caracas.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_rio"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rio.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_saopaulo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_saopaulo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_montevideo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_montevideo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_buenosaires"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_buenosaires.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_santiago"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_santiago.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_asuncion"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_asuncion.bmp"
+	#	norefcount = yes
+	#}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_lima"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_lima.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_quito"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_quito.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_guantanamo"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_guantanamo.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_lapaz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lapaz.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_havana"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_havana.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_capetown"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_capetown.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_zanzibar"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zanzibar.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_calcutta"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_calcutta.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pondicherry"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pondicherry.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bombay"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bombay.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_delhi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_delhi.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_madras"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_madras.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_goa"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_goa.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lahore"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lahore.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bangkok"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bangkok.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_saigon"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_saigon.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hue"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hue.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_singapore"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_singapore.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_batavia"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_batavia.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sydney"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sydney.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_melbourne"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_melbourne.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_perth"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_perth.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_auckland"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_auckland.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_manila"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_manila.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kwangchowan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kwangchowan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hainan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hainan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_ningbo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ningbo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_qingdao"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_qingdao.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_weihaiwei"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_weihaiwei.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_oldtianjin"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_oldtianjin.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_portarthur"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_portarthur.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kyoto"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kyoto.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_tashkent"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tashkent.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_samarkand"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_samarkand.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_isfahan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_isfahan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_alexandria"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_alexandria.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_tirana"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tirana.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_ljubljana"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ljubljana.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bratislava"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bratislava.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_cluj"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_cluj.bmp"
+	#	norefcount = yes
+	#}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_cetinje"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_cetinje.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_malta"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_malta.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_tunis"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tunis.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_florence"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_florence.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_danzig"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_danzig.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_nanjing"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_nanjing.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_mukden"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mukden.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_yokohama"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_yokohama.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kobe"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kobe.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_osaka"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_osaka.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_wuchang"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_wuchang.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_xian"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_xian.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pyongyang"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pyongyang.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pusan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pusan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_mecca"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mecca.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_cebu"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_cebu.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_brunei"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_brunei.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_malaka"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_malaka.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kabul"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kabul.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_aleppo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_aleppo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_beirut"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_beirut.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_calicut"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_calicut.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_cuttack"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_cuttack.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kerman"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kerman.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_luangprabang"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_luangprabang.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_mosul"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mosul.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_mysore"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_mysore.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_rangoon"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rangoon.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_vizgapatnam"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_vizgapatnam.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_yazd"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_yazd.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lagos"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lagos.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_imphal"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_imphal.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bandaaceh"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bandaaceh.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_yogyakarta"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_yogyakarta.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_bali"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_bali.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_dili"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dili.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_ternate"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ternate.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_makassar"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_makassar.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_menado"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_menado.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_pontianak"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pontianak.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_palembang"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_palembang.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_zamboanga"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zamboanga.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_taunggyi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_taunggyi.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_aden"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_aden.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_muscat"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_muscat.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_monaco"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_monaco.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_lodz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lodz.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_genoa"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_genoa.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_odessa"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_odessa.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_rostov"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rostov.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_vladivostok"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_vladivostok.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sevastopol"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sevastopol.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_nikolaev"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_nikolaev.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kerch"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kerch.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kharkov"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kharkov.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_saratov"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_saratov.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_chisinau"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_chisinau.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_kazan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kazan.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_ekaterinburg"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_ekaterinburg.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_irkutsk"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_irkutsk.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_omsk"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_omsk.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_sarajevo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sarajevo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_antwerp"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_antwerp.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_timbuktu"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_timbuktu.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_palermo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_palermo.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_xining"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_xining.bmp"
+	#	norefcount = yes
+	#}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_kashgar"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_kashgar.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_lhasa"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lhasa.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_agra"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_agra.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_katmandu"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_katmandu.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_thimpu"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_thimpu.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_tumlong"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tumlong.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_colombo"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_colombo.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_gonder"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_gonder.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_capecoast"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_capecoast.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_grandbassam"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_grandbassam.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_monrovia"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_monrovia.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_stlouis"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stlouis.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_bissau"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_bissau.bmp"
+	#	norefcount = yes
+	#}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_lagos"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_lagos.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_suez"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_suez.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_valencia"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_valencia.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_rotterdam"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rotterdam.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hyderabad"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hyderabad.bmp"
+		norefcount = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_terrainimg_nagpur"
+	#	texturefile = "gfx\\interface\\prov_pictures\\terrain_nagpur.bmp"
+	#	norefcount = yes
+	#}
+
+	spriteType = {
+		name = "GFX_terrainimg_jaipur"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_jaipur.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_karachi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_karachi.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_karachi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_karachi.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_dunkirk"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dunkirk.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_canton"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_canton.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_brest"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_brest.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_toulon"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_toulon.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_hanoi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_hanoi.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_larochelle"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_larochelle.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_pola"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pola.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_nice"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_nice.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_quebec"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_quebec.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_trieste"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_trieste.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_wilhelmshaven"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_wilhelmshaven.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_karachi"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_karachi.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_panama"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_panama.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_tripoli"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_tripoli.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_fort_william"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_fortwilliam.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_essen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_essen.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_zadar"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_zadar.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_dubrovnik"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_dubrovnik.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_sanmarino"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_sanmarino.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_portsmouth"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_portsmouth.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_plymouth"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_plymouth.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_liege"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_liege.bmp"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_namur"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_namur.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_chemnitz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_chemnitz.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_stjohn"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_stjohn.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_catania"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_catania.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_linz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_linz.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_rouen"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_rouen.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_lubeck"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_lubeck.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_braunschweig"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_braunschweig.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_pozan"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_pozan.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_nagasaki"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_nagasaki.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_koblenz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_koblenz.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_annecy"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_annecy.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_santacruz"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_santacruz.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_kassel"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_kassel.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_montane_tundra"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_montane_tundra.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_mountain"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_mountain.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_arctic"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_arctic.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_small_island"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_small_island.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_jungle"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_jungle.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_plains"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_plains.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_boreal"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_boreal.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_desert"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_desert.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_new_world_semidesert"
+		texturefile = "gfx\\interface\\prov_pictures\\terrain_new_world_semidesert.bmp"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_invest_rail_button"
+		texturefile = "gfx\\interface\\invest_rail_button.tga"
+	}
+	spriteType = {
+		name = "GFX_invest_factory_button"
+		texturefile = "gfx\\interface\\invest_factory_button.tga"
+	}
+	spriteType = {
+		name = "GFX_investrail_progress_overlay"
+		texturefile = "gfx\\interface\\investrail_progress_overlay.tga"
+		allwaystransparent = yes
+	}
+	
+	progressbartype = {
+		name = "GFX_colonist_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\occupation_progress1.tga"
+		textureFile2 = "gfx\\interface\\occupation_progress2.tga"
+		size = { x = 256 y = 16 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	progressbartype = {
+		name = "GFX_investrail_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\investrail_progress2.tga"
+		textureFile2 = "gfx\\interface\\investrail_progress1.tga"
+		size = { x = 66 y = 6 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_rally_point_flag"
+		texturefile = "gfx\\interface\\rally_point_flag.tga"
+	}
+	spriteType = {
+		name = "GFX_rally_point_merge"
+		texturefile = "gfx\\interface\\rally_point_merge.tga"
+	}
+
+	spriteType = {
+		name = "GFX_colony_invest_strip"
+		textureFile = "gfx\\interface\\colony_invest_strip.dds"
+		noOfFrames = 5
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_colony_invest_add_strip"
+		textureFile = "gfx\\interface\\colony_invest_add_strip.dds"
+		noOfFrames = 5
+		effectFile = "gfx\\FX\\buttonstate.fx"
+   		norefcount = yes
+	}
+	
+}

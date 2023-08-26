@@ -1,0 +1,289 @@
+political_decisions = {
+
+#haha_button = {
+#	picture = map_east_indies
+#	potential = {
+#		NOT = {	has_country_flag = melayu_raya	}
+#		tag = TUR
+#		ai = no
+#	}
+#
+#	allow = {
+#    }
+#	effect = {
+#	potential = { }
+#	allow = { }
+ #   effect = { capital = 219 }
+	#}
+#		set_country_flag = melayu_raya
+#		any_owned = {
+#				limit = {
+#					pop_majority_culture = greek 
+#				}
+#				secede_province = GRR
+#			}
+#		any_owned = {
+#				limit = {
+#					pop_majority_culture = bulgarian 
+#				}
+#				secede_province = BRR
+#			}			
+#		any_owned = {
+#				limit = {
+#					pop_majority_culture = serbian 
+#				}
+#				secede_province = SRR
+#			}
+#		any_owned = {
+#				limit = {
+#					pop_majority_culture = albanian 
+#				}
+#				secede_province = ARR
+#			}
+#		GRR = {
+#		war = {
+#			target = THIS
+#			attacker_goal = { casus_belli = liberate_country country = GRE }
+#			defender_goal = { casus_belli = conquest_any }
+#			call_ally = yes
+#		}
+#		}
+#		
+#		BRR = {
+#		war = {
+#			target = THIS
+#			attacker_goal = { casus_belli = liberate_country country = BUL }
+#			defender_goal = { casus_belli = conquest_any }
+#			call_ally = yes
+#		}
+#		}
+#		
+#		ARR = {
+#		war = {
+#			target = THIS
+#			attacker_goal = { casus_belli = liberate_country country = ALB }
+#			defender_goal = { casus_belli = conquest_any }
+#			call_ally = yes
+#		}
+#		}
+#		
+#	}
+#
+#	ai_will_do = { factor = 0 }
+#}#
+
+	amauldi_change_capital = {
+	picture = diplo_annex
+		potential = {
+			tag = USA
+			NOT = { has_country_flag = amauldi_change_capital}
+		}
+
+		allow = {		 
+			war = no
+			is_vassal = no
+			state_n_government = 1
+		}
+
+		effect = {
+			capital = 219
+			set_country_flag = amauldi_change_capital
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	###NEUTRAL###
+	
+	  reconsile_france = {
+		picture = knights_hospitaller_paul
+		potential = {
+			tag = USA
+			NOT = { has_country_flag = fra_friends }
+			exists = FRA
+		}
+
+		allow = {
+		ideological_thought = 1	  
+		}
+
+		effect = {
+		prestige = 10
+		badboy = -2
+		set_country_flag = fra_friends 
+		
+		create_alliance = FRA
+		relation = { who = FRA value = 100 }		
+		}
+   }
+	
+	reform_manace = {
+	picture = meeting
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = reform_frenzy
+			}
+		}
+
+		allow = {
+			average_militancy = 4			
+			idealism = 1
+		}
+
+		effect = {
+			set_country_flag = reform_frenzy
+			government = hms_government
+			political_reform = state_equal_weight
+			political_reform = universal_weighted_voting
+			political_reform = yes_meeting
+			political_reform = free_press
+			political_reform = all_trade_unions
+			political_reform = first_past_the_post
+			political_reform = gerrymandering
+			prestige = 25
+			any_pop = {
+				consciousness = 2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	###RACIST PATH###
+	
+	more_land_more_profit = {
+		picture = alsace_lorraine_mines
+		potential = {
+			tag = USA
+			NOT = { has_country_flag = racist_pt1 }
+			slavery = yes_slavery
+		}
+
+		allow = {
+			slavery = yes_slavery
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = racist_pt1
+			TEX = {
+				all_core = {
+					add_core = THIS
+					add_core = NAF
+				}
+			}
+			CUB = {
+				all_core = {
+					remove_core = THIS
+				}
+			}
+			badboy = 7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	crush_the_slaves = {
+		picture = alsace_lorraine_mines
+		potential = {
+			tag = USA
+			has_country_flag = racist_pt1
+			NOT = { has_country_flag = racist_pt2 }
+			slavery = yes_slavery
+		}
+
+		allow = {
+			slavery = yes_slavery
+			idealism = 1
+			owns = 133
+		}
+		effect = {
+			set_country_flag = racist_pt2
+			badboy = 10
+			TEX = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			147 = { add_core = THIS }	
+			148 = { add_core = THIS }	
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	secure_the_seas = {
+		picture = alsace_lorraine_mines
+		potential = {
+			tag = USA
+			has_country_flag = racist_pt2
+			NOT = { has_country_flag = racist_pt3 }
+			slavery = yes_slavery
+		}
+
+		allow = {
+			slavery = yes_slavery
+			idealism = 1
+			owns = 2209
+		}
+		effect = {
+			set_country_flag = racist_pt3
+			badboy = 10
+			PIR = {
+				all_core = {
+					add_core = THIS
+					add_core = NAF
+				}
+			}
+			GEN = {
+			any_owned = {
+				limit = {
+					continent = north_america
+				}
+				add_core = PIR
+				add_core = NAF
+				add_core = USA
+			}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+	emancipate_afros = {
+		picture = embrace_the_jews
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = emancipated_afros
+				accepted_culture = afro_french
+			}
+		}
+		allow = {
+			nationalism_n_imperialism  = 1
+			citizens_rights = all_voting_pops
+			citizenship_policy = full_citizenship
+			slavery = no_slavery
+			NOT = { debt_law = serfdom }
+		}
+		effect = {
+			add_accepted_culture = afro_french
+			prestige = 10
+			set_country_flag = emancipated_afros
+			any_pop = {
+				limit = {
+					has_pop_culture = afro_french
+
+				}
+				militancy = -4
+				consciousness = -2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,61 @@
+political_decisions = {
+	tangier_protocol = {
+	picture = tangier_harbor
+		potential = {
+			OR = {
+				is_greater_power = yes
+				owns = 517
+			}
+			capital_scope = { continent = europe }
+			NOT = { tag = RUS }
+			NOT = { tag = TUR }
+			MOR = { exists = no }
+			NOT = { has_global_flag = called_the_tangier_convention }
+			colonial_nation = yes
+			OR = {
+				any_owned_province = { is_core = MOR }
+				any_owned_province = { is_colonial = yes continent = africa }
+				owns = 517
+			}
+			NOT = { 517 = { owner = { civilized = yes capital_scope = { continent = africa } } } }
+			1686 = {
+				owner = {
+					OR = {
+						is_greater_power = no
+						primary_culture = spanish
+					}
+				}
+			}
+			NOT = { owns = 1686 }
+		}
+
+		allow = {
+			war = no
+			blue_and_brown_water_schools = 1
+		}
+
+		effect = {
+			badboy = -2
+			set_global_flag = called_the_tangier_convention
+			set_country_flag = called_the_tangier_protocol
+			set_variable = { which = yes_to_tangier value = 0 }
+			set_variable = { which = no_to_tangier value = 0 }
+			country_event = 81002215
+			any_country = {
+				limit = {
+					OR = {
+						AND = {
+							is_greater_power = yes
+							capital_scope = { continent = europe }
+							NOT = { tag = TUR tag = RUS }
+						}
+						owns = 1686
+					}
+				}
+				country_event = 81002215
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+}

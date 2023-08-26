@@ -1,0 +1,9 @@
+owner = PIR
+controller = PIR
+add_core = PIR
+trade_goods = sugar
+life_rating = 30
+1861.1.1 = {
+owner = DOM
+controller = DOM
+}

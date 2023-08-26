@@ -1,0 +1,7 @@
+owner = TKM
+controller = TKM
+add_core = TKM
+add_core = KHR
+life_rating = 28
+terrain = desert
+trade_goods = fish

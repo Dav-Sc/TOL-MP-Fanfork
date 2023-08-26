@@ -1,0 +1,8 @@
+owner = GNA
+controller = GNA
+add_core = GNA
+add_core = MOR
+add_core = IBR
+trade_goods = fish
+life_rating = 35
+naval_base = 1

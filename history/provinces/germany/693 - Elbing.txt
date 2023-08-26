@@ -1,0 +1,8 @@
+owner = SWE
+controller = SWE
+add_core = HNS
+add_core = UBD
+add_core = PRU
+trade_goods = cattle
+life_rating = 35
+1861.1.1 = { railroad = 3 }

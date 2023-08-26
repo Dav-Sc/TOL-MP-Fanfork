@@ -1,0 +1,108 @@
+VEL = { truce_until = 1839.1.1 }
+FRA = {
+	value = -100
+}
+
+PIR = {
+	value = -100
+}
+
+JES = {
+	value = -25
+}
+
+AKI = {
+	value = -200
+}
+
+USA = { 
+	value = -200
+}
+
+leader = {
+	name = "Alexander von Kluck"
+	type = land
+	date="1836.1.1"
+	personality = cautious
+	background = school_of_defense
+}
+
+leader = {
+	name = "Karl von Hausen"
+	type = sea
+	date="1836.1.1"
+	personality = audacious
+	background = nationalist
+}
+
+
+army = {
+	name = "Army of Freiland"
+	location = 133
+	regiment = {
+		name= "Erste Infanterie Division"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "Zweite infanterie Division"
+		type = infantry
+		home = 132
+	}
+	
+	regiment = {
+		name= "Dritte infanterie Division"
+		type = infantry
+		home = 132
+	}
+	regiment = {
+		name= "Vierte infanterie Division"
+		type = infantry
+		home = 132
+	}
+	regiment = {
+		name = "Burlesons Befehl"
+		type = artillery
+		home = 137
+	}
+
+}
+
+navy = {
+	name = "Freilandian Navy"
+	location = 133
+
+	ship = {
+		name= "Unbesiegbar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Brutus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Die Unabhängigkeit"
+		type = frigate
+	}
+
+	ship = {
+		name= "Freiheit"
+		type = clipper_transport
+	}
+		ship = {
+		name= "Republik"
+		type = clipper_transport
+	}
+		ship = {
+		name= "Frei"
+		type = clipper_transport
+	}
+		ship = {
+		name= "Freiland"
+		type = clipper_transport
+	}
+
+}

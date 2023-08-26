@@ -1,0 +1,225 @@
+#####################################################
+#Afghanistan#
+#####################################################
+
+#Centralizing Afghanistan
+province_event = {
+	id = 99301
+	title = "EVTNAME99301"
+	desc = "EVTDESC99301"
+
+	trigger = {
+		is_core = AFG
+		OR = {
+			is_core = HRT
+			is_core = KUN
+			is_core = BDK
+		}
+		owned_by = AFG
+	}
+
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = "EVTOPT99928"
+		state_scope = {
+			any_owned = {
+				remove_core = HRT
+				remove_core = KUN
+				remove_core = BDK
+			}
+		}
+		AFG = { plurality = 0.5 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+#####################################################
+#Persia#
+#####################################################
+
+#The Siege of Herat
+country_event = {
+	id = 99199
+	title = "herat_expedition_title"
+	desc = "herat_expedition_desc"
+	picture = "siege_of_herat"
+	fire_only_once = yes
+
+	trigger = {
+		tag = PER
+		war = no
+		1212 = {
+			owner = {
+				war = no
+				is_vassal = no
+				primary_culture = pashtun
+			}
+			NOT = { is_core = THIS }
+		}
+		owns = 1148
+		year = 1837
+		NOT = {
+			owns = 1212
+			truce_with = AFG
+			truce_with = ENG
+			has_global_flag = herat_expedition
+		}
+	}
+
+	mean_time_to_happen = { months = 5 }
+
+	option = {
+		name = "EVTOPTA99199"
+		set_global_flag = herat_expedition
+		military_reform = yes_foreign_officers
+		war_exhaustion = 2.5
+		1212 = { add_core = PER }
+		random_country = {
+			limit = {
+				tag = ENG
+				is_greater_power = yes
+				is_disarmed = no
+			}
+			country_event = 99200
+		}
+		random_country = {
+			limit = {
+				tag = RUS
+				is_greater_power = yes
+				is_disarmed = no
+			}
+			country_event = 992001
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+#####################################################
+#Goldsmid Arbitrations#
+#####################################################
+#Persia gets notified
+country_event = {
+	id = 99205
+	title = "HFM_GOLDSMID_ARBITRATION_TITLE"
+	desc = "HFM_GOLDSMID_ARBITRATION_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA992031"
+		prestige = -5
+		badboy = -5
+		relation = { who = FROM value = 50 }
+		#If Baluchistan Agency Exists
+		random_owned = {
+			limit = {
+				exists = BLC
+				BLC = { vassal_of = FROM }
+			}
+			owner = {
+				any_owned = {
+					limit = { is_core = HND }
+					secede_province = BLC
+				}
+			}
+		}
+		#If Baluchistan is directly owned by Britain
+		random_owned = {
+			limit = { NOT = { exists = BLC } }
+			owner = {
+				any_owned = {
+					limit = { is_core = HND }
+					secede_province = FROM
+				}
+			}
+		}
+		#If Baluchistan Agency Exists, secede_province 1144 to Persia
+		random_country = {
+			limit = {
+				tag = BLC
+				vassal_of = FROM
+			}
+			any_owned = {
+				limit = { province_id = 1144 }
+				secede_province = PER
+			}
+		}
+		#Britain secedes any Persian cores back to Persia
+		FROM = {
+			diplomatic_influence = { who = THIS value = 50 }
+			any_owned = {
+				limit = { is_core = PER }
+				secede_province = PER
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = "EVTOPTA992031"
+		prestige = 5
+		FROM = {
+			diplomatic_influence = { who = THIS value = -50 }
+			relation = { who = THIS value = -50 }
+		}
+		set_global_flag = no_goldsmid_arbitrations
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Centralizing Persia
+province_event = {
+	id = 99302
+	title = "EVTNAME99301"
+	desc = "EVTDESC99301"
+
+	trigger = {
+		OR = {
+			is_core = PER
+			is_core = KHR
+			is_core = KHZ
+			is_core = URM
+			is_core = RDL
+			is_core = MKN
+		}
+		OR = {
+			is_core = KHR #Khorasan
+			is_core = ZFN #Za'farnlu
+			is_core = MKN #Mukriyan
+			is_core = URM #Urmia
+			is_core = KHZ #Arabistan
+			is_core = OMA #Omani Coast
+			is_core = RDL #Ardalan
+			AND = {
+				province_id = 1136 #Bushire
+				is_core = BHR #Bahrain
+			}
+		}
+		owned_by = PER
+	}
+
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = "EVTOPT99928"
+		state_scope = {
+			any_owned = {
+				remove_core = KHR
+				remove_core = ZFN
+				remove_core = MKN
+				remove_core = URM
+				remove_core = KHZ
+				remove_core = OMA
+				remove_core = BHR
+				remove_core = RDL
+				add_core = PER
+			}
+		}
+		PER = { plurality = 0.5 }
+		ai_chance = { factor = 100 }
+	}
+}

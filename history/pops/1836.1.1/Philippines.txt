@@ -1,0 +1,1438 @@
+#Luzon Region (2176000)
+#Ruled by Woku-Ilocano mestizos and Venetian-Indian mestizos
+#Asian Minor pops are the Aeta and Mountain Austronesians (Manobo/Lumad and Igorot/Ifugao/Cordillerans)
+#Manila (780000/195000 POPS)
+1455 = {
+	aristocrats = {
+		culture = japanese
+		religion = kirishitan
+		size = 62
+	}
+
+	artisans = {
+		culture = japanese
+		religion = kirishitan
+		size = 1000
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = kirishitan
+		size = 375
+	}
+
+	officers = {
+		culture = japanese
+		religion = kirishitan
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 63
+	}
+
+	bureaucrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 450
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 1000
+	}
+	
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 375
+	}
+	
+	soldiers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 3000
+	}
+	
+	farmers = { 
+		culture = konketsu
+		religion = kirishitan
+		size = 10000
+	}
+	
+	officers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 500
+	}
+
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 7000
+	}
+
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 16550
+	}
+
+	slaves = {
+		culture = rusoni
+		religion = kirishitan
+		size = 5000
+	}
+
+	artisans = {
+		culture = min
+		religion = mahayana
+		size = 3200
+	}
+
+	farmers = {
+		culture = min
+		religion = mahayana
+		size = 10800
+	}
+}
+#Vigan (608000/152000 POPS)
+1456 = {
+	aristocrats = {
+		culture = japanese
+		religion = kirishitan
+		size = 650
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = kirishitan
+		size = 400
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = kirishitan
+		size = 437
+	}
+
+	artisans = {
+		culture = japanese
+		religion = kirishitan
+		size = 4200
+	}
+	
+	officers = {
+		culture = japanese  
+		religion = kirishitan
+		size = 350
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = kirishitan
+		size = 100
+	}
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 650
+	}
+
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 438
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 4200
+	}
+	
+	officers = {
+		culture = konketsu 
+		religion = kirishitan
+		size = 350
+	}
+
+	soldiers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 2500
+	}
+
+	farmers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 30000
+	}
+
+	farmers = {
+		culture = min
+		religion = mahayana
+		size = 35525
+	}
+}
+#Legazpi (564000/141000 POPS)
+1457 = {
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 550
+	}
+
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 312
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 1500
+	}
+	
+	soldiers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 1350
+	}
+
+	farmers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 3000
+	}
+
+	officers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 175
+	}
+	
+
+	aristocrats = {
+		culture = japanese
+		religion = kirishitan
+		size = 550
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = kirishitan
+		size = 313
+	}
+
+	artisans = {
+		culture = japanese
+		religion = kirishitan
+		size = 1500
+	}
+
+	officers = {
+		culture = japanese
+		religion = kirishitan
+		size = 175
+	}
+	
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 3500
+	}
+	
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 20525
+	}
+
+	farmers = {
+		culture = min 
+		religion = mahayana
+		size = 10000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = { 
+		culture = asian_minor
+		religion = animist
+		size = 7000
+	}
+		
+	slaves = {
+		culture = rusoni
+		religion = kirishitan
+		size = 5350
+	}
+}
+#Mindoro (224000/56000 POPS)
+1458 = {
+	aristocrats = {
+		culture = rusoni
+		religion = kirishitan
+		size = 400
+	}
+
+	clergymen = {
+		culture = rusoni
+		religion = kirishitan
+		size = 175
+	}
+
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 2100
+	}
+
+	soldiers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 1450
+	}
+
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 28875
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 750
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 11025
+	}
+
+}
+#Visayas Region (1044000 POPS)
+#under rule of Spain 1836
+#Palawan (80000/20000 POPS)
+1459 = {
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 3700
+	}
+
+	aristocrats = {
+		culture = moro
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = moro
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = moro
+		religion = sunni
+		size = 10500
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 450
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 4375
+	}
+}
+#Iloilo (312000/78000 POPS)
+1460 = {
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 650
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 750
+	}
+
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 58750
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 6000
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = moro
+		religion = sunni
+		size = 100
+	}
+
+	slaves = {
+		culture = moro
+		religion = sunni
+		size = 9325
+	}
+}
+#Tacloban (348000/87000 POPS)
+1461 = {
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 750
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 625
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 4250
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 850
+	}
+
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 50125
+	}
+
+	slaves = {
+		culture = filipino
+		religion = catholic
+		size = 10000
+	}
+}
+#Cebu (304000/76000 POPS)
+2565 = {
+	bureaucrats = {
+		culture = venetian
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = venetian
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = venetian
+		religion = catholic
+		size = 25
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 675
+	}
+
+	bureaucrats = {
+		culture = filipino
+		religion = catholic
+		size = 375
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 450
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 750
+	}
+
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 50050
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 500
+	}
+	
+	farmers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 4000
+	}
+	
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 500
+	}
+
+	slaves = {
+		culture = moro
+		religion = sunni
+		size = 7375
+	}
+
+}
+#Mindanao Region (496000)
+#Under venetian "Rule" 1836
+#Davao (152000/38000 POPS)
+1463 = {
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 25
+	}
+
+	aristocrats = {
+		culture = moro
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 850
+	}
+
+	soldiers = {
+		culture = moro
+		religion = sunni
+		size = 1100
+	}
+
+	labourers = {
+		culture = moro
+		religion = sunni
+		size = 6800
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 600
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 100
+	}
+
+	labourers = {
+		culture = filipino
+		religion = catholic
+		size = 7200
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	labourers = {
+		culture = asian_minor
+		religion = animist
+		size = 5375
+	}
+}
+#Under rule of Spain in 1836
+#Zamboanga (300000/75000 POPS)
+1462 = {
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 600
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 2200
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 500
+	}
+
+	labourers = {
+		culture = filipino
+		religion = catholic
+		size = 26900
+	}
+	
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 300
+	}
+	
+	labourers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 3000
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 750
+	}
+
+	labourers = {
+		culture = moro
+		religion = sunni
+		size = 7200
+	}
+
+	slaves = {
+		culture = moro
+		religion = sunni
+		size = 4000
+	}
+}
+#Jolo (44000/11000 POPS)
+1464 = {
+	aristocrats = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	officers = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = malay
+		religion = sunni
+		size = 12825
+	}
+
+	slaves = {
+		culture = malay
+		religion = sunni
+		size = 2000
+	}
+}
+
+3564 = {
+	aristocrats= {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 50
+	}
+
+	labourers = {
+		culture = asian_minor
+		religion = animist
+		size = 26650
+	}
+}
+
+3569 = {
+	aristocrats= {
+		culture = konketsu
+		religion = kirishitan
+		size = 100
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 17725
+	}
+	clergymen = {
+		culture = rusoni
+		religion = kirishitan
+		size = 75
+	}
+
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 1100
+	}
+
+	soldiers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 200
+	}
+
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 7725
+	}
+}
+
+3565 = {
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 150
+	}	
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 175
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 2100
+	}
+
+	soldiers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 1000
+	}
+
+	farmers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 28000
+	}
+}
+
+3566 = {
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 150
+	}
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 175
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 3100
+	}
+
+	soldiers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 2000
+	}
+
+	farmers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 39000
+	}
+}
+
+3567 = {
+	aristocrats= {
+		culture = konketsu
+		religion = kirishitan
+		size = 100
+	}
+	clergymen = {
+		culture = rusoni
+		religion = kirishitan
+		size = 75
+	}
+
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 1100
+	}
+
+	soldiers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 200
+	}
+
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 7725
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 17725
+	}
+}
+#Central Luzon (Pampanga-Tarlac-Nueva Ecija)
+3568 = {
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 150
+	}
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 175
+	}
+
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 3100
+	}
+
+	soldiers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 2000
+	}
+
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 36000
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 14000
+	}
+}
+
+3570 = {
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 150
+	}
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 175
+	}
+
+	artisans = {
+		culture = rusoni
+		religion = kirishitan
+		size = 3100
+	}
+
+	soldiers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 1500
+	}
+
+	farmers = {
+		culture = rusoni
+		religion = kirishitan
+		size = 43000
+	}
+}
+
+3571 = { 
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 8525
+	}
+}
+
+3573 = {
+	aristocrats = {
+		culture = moro
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 4500
+	}
+
+	soldiers = {
+		culture = moro
+		religion = sunni
+		size = 1000
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 29800
+	}
+	
+	labourers = {
+		culture = moro
+		religion = sunni
+		size = 50800
+	}
+}
+
+3574 = {
+	aristocrats = {
+		culture = moro
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 2500
+	}
+
+	soldiers = {
+		culture = moro
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = moro
+		religion = sunni
+		size = 19800
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 30800
+	}
+}
+
+3575 = {
+	aristocrats = {
+		culture = moro
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = moro
+		religion = sunni
+		size = 4500
+	}
+
+	soldiers = {
+		culture = moro
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = moro
+		religion = sunni
+		size = 10800
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 22800
+	}
+}
+
+3572 = { 
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 50
+	}
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 20000
+	}
+}
+
+3577 = {
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 150
+	}
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 100
+	}
+	
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 1100
+	}
+	
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 31000
+	}
+}
+
+3578 = {
+	aristocrats = {
+		culture = filipino
+		religion = catholic
+		size = 25
+	}
+	clergymen = {
+		culture = filipino
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 900
+	}
+
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 18000
+	}
+}
+
+3576 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 1000
+	}
+
+	labourers = {
+		culture = asian_minor
+		religion = animist
+		size = 15375
+	}
+}
+
+3310 = {
+	aristocrats = {
+		culture = konketsu
+		religion = kirishitan
+		size = 600
+	}
+
+	clergymen = {
+		culture = konketsu
+		religion = kirishitan
+		size = 175
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 1100
+	}
+
+	soldiers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 1425
+	}
+
+	farmers = {
+		culture = moro
+		religion = sunni
+		size = 2800
+	}
+
+	clergymen = {
+		culture = moro
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = konketsu
+		religion = kirishitan
+		size = 575
+	}
+
+	farmers = {
+		culture = konketsu
+		religion = kirishitan
+		size = 50
+	}
+
+	slaves = {
+		culture = moro
+		religion = sunni
+		size = 15300
+	}
+}

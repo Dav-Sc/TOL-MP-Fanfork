@@ -1,0 +1,9 @@
+owner = BEN
+controller = BEN
+add_core = BEN
+add_core = EGB
+add_core = IFE
+trade_goods = precious_goods
+life_rating = 45
+terrain = lagos
+

@@ -1,0 +1,12 @@
+owner = HAD
+controller = HAD
+add_core = HAD    
+trade_goods = timber
+terrain = plains
+life_rating = 20
+1861.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA
+	remove_core = COL
+}

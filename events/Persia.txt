@@ -1,0 +1,315 @@
+################## FOREIGN COUNTRIES ##################
+#A Silver Age
+country_event = {
+	id = 900020
+	title = "EVTNAME900020"
+	desc = "EVTDESC900020"
+	picture = "delhi_sultan"
+
+	trigger = {
+		tag = PER
+		year = 1848
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = absolute_empire
+			government = semi_constitutional_empire
+			government = constitutional_empire
+		}
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 6 }
+
+	option = {
+		name = "EVT900020OPTA"
+		prestige = 5
+		any_pop	= {
+			consciousness = -0.50
+			militancy = -0.50
+			}
+		add_country_modifier = {
+			name = "silver_age"
+			duration = -1
+			}
+		set_country_flag = silver_age
+		}
+
+	}
+
+
+#Assassination of the Shah
+country_event = {
+	id = 900021
+	title = "EVTNAME900021"
+	desc = "EVTDESC900021"
+	picture = "franz_ferdinand_assassination"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PER
+		year = 1896
+		OR = {
+			militancy = 2
+			consciousness = 4
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	option = {
+		name = "EVT900021OPTA"
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
+		prestige = -15
+		remove_country_modifier = silver_age
+		clr_country_flag = silver_age
+	}
+}
+
+#The Báb
+country_event = {
+	id = 900022
+	title = "EVTNAME900022"
+	desc = "EVTDESC900022"
+	picture = "siyyid"
+
+	trigger = {
+		owns = 1135
+		year = 1844
+		month = 5
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 8 }
+
+	option = {
+		name = "EVT900022OPTA"
+		1135 = { random_pop = { limit = { has_pop_religion = shiite } militancy = 1 } }
+		set_global_flag = the_bab
+	}
+}
+
+# The Báb's Execution
+country_event = {
+	id = 900023
+	title = "EVTNAME900023"
+	desc = "EVTDESC900023"
+	picture = "martyrdomofthebab"
+
+	trigger = {
+		owns = 1135
+		has_global_flag = the_bab
+		has_country_flag = amir_kabir
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 8 }
+
+	option = {
+		name = "EVT900023OPTA"
+		random_list = {
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = clergymen } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = bureaucrats } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = aristocrats } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = soldiers } militancy = 1 } } }
+			}
+		random_list = {
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = artisans } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = farmers } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = officers } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = clergymen } militancy = 1 } } }
+			}
+		random_list = {
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = aristocrats } militancy = 1 } } }
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = bureaucrats } militancy = 1 } } }
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = officers } militancy = 1 } } }
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = clergymen } militancy = 1 } } }
+			}
+		clr_global_flag = the_bab
+		ai_chance = { factor = 0.95 }
+	}
+
+	option = {
+		name = "EVT900023OPTB"
+		any_pop = { limit = { type = clergymen has_pop_religion = shiite } militancy = 1 }
+		ai_chance = { factor = 0.05 }
+	}
+}
+
+# A Rise To Power
+country_event = {
+	id = 110085
+	title = "EVTNAME110085"
+	desc = "EVTDESC110085"
+	picture = "PER_amir_kabir_execution"
+
+	trigger = {
+		tag = PER
+		OR = {
+			year = 1852
+			average_militancy = 5
+		}
+		has_country_modifier = amir_kabir
+	}
+
+	mean_time_to_happen = { months = 48 }
+	fire_only_once = yes
+
+	option = {
+		name = "EVT110085OPTA" #The Shah demands his head.
+		remove_country_modifier = amir_kabir
+		prestige = 5
+		PER = {
+			relation = {
+				who = ENG
+				value = 25
+			}
+			relation = {
+				who = RUS
+				value = 25
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -3
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+
+	option = {
+		name = "EVT110085OPTB" #His life is safe: exile him.
+		remove_country_modifier = amir_kabir
+		set_global_flag = amir_kabir_exiled
+
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -3
+			}
+		}
+
+		ai_chance = { factor = 25 }
+	}
+
+	option = {
+		name = "EVT110085OPTC" #He is our friend and advisor.
+		set_country_flag = amir_kabir_remain
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+
+		ai_chance = { factor = 25 }
+	}
+}
+
+# Assassination of Amir Kabir
+country_event = {
+	id = 110086
+	title = "EVTNAME110086"
+	desc = "EVTDESC110086"
+	picture = "PER_amir_kabir_assassination"
+
+	trigger = {
+		tag = PER
+		year = 1852
+		has_country_modifier = amir_kabir
+		has_country_flag = amir_kabir_remain
+	}
+
+	mean_time_to_happen = { months = 12 }
+	fire_only_once = yes
+
+	option = {
+		name = "EVT110086OPTA" #We mourn his loss.
+		remove_country_modifier = amir_kabir
+		prestige = -5
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -1
+			}
+		}
+
+		ai_chance = { factor = 90 }
+	}
+
+	option = {
+		name = "EVT110086OPTB" #We shall find whoever is guilty!
+		remove_country_modifier = amir_kabir
+		set_global_flag = amir_kabir_exiled
+		prestige = -3
+
+		clergymen = {
+			reduce_pop = 0.99
+		}
+		bureaucrats = {
+			reduce_pop = 0.99
+		}
+		aristocrats = {
+			reduce_pop = 0.99
+		}
+		officers = {
+			reduce_pop = 0.99
+		}
+
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+
+		PER = {
+			relation = {
+				who = ENG
+				value = -25
+			}
+			relation = {
+				who = RUS
+				value = -25
+			}
+		}
+
+		ai_chance = { factor = 10 }
+	}
+}

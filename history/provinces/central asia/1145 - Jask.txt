@@ -1,0 +1,7 @@
+owner = MAK
+controller = MAK
+add_core = MAK
+add_core = BLC
+trade_goods = fruit
+terrain = semidesert
+life_rating = 35

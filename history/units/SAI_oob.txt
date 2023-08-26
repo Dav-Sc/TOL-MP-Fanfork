@@ -1,0 +1,99 @@
+
+leader = {
+	name = "Hidenobu Ryo"
+	type = land
+	date = 1836.1.1
+	personality = efficient
+	background = old_school
+}
+
+
+leader = {
+	name = "Yoshinori Ga-toppatan"
+	type = sea
+	date = 1836.1.1
+	personality = cautious
+	background = elderly
+}
+
+army = {
+	name = "Wardens of the Southern Tael"
+	location = 1456
+	regiment = {
+		name= "Chu Daiho"
+		type = artillery
+		home = 1455
+	}
+	
+	regiment = {
+		name= "Nanbu Daiho"
+		type = artillery
+		home = 1457
+	}
+	
+	regiment = {
+		name= "Chu Hohei"
+		type = infantry
+		home = 1455
+	}
+	regiment = {
+		name= "Kita Kihei"
+		type = cavalry
+		home = 1456
+	}
+}
+
+navy = {
+	name = "Woku Merchant Fleet"
+	location = 1456
+	ship = {
+		name= "Mamiya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nosaki"
+		type = frigate
+	}
+
+	ship = {
+		name= "Irako"
+		type = frigate
+	}
+
+	ship = {
+		name= "Muroto"
+		type = frigate
+	}
+
+	ship = {
+		name= "Kurasaki"
+		type = frigate
+	}
+
+	ship = {
+		name= "Asahi"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Tsugaru"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Yaeyama"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Akashi"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Tsukushi"
+		type = clipper_transport
+	}
+
+}

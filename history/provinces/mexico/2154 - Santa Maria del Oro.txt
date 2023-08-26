@@ -1,0 +1,6 @@
+owner = ZAC
+controller = ZAC
+add_core = ZAC
+trade_goods = coal
+terrain = montane_forest
+life_rating = 35

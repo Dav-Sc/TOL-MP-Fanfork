@@ -1,0 +1,7 @@
+owner = BKY
+controller = BKY
+add_core = BKY
+add_core = KMK
+trade_goods = wool
+life_rating = 35
+terrain = steppe #marsh

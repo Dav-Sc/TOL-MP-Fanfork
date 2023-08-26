@@ -1,0 +1,155 @@
+political_decisions = {
+	danmarks_riges_grundlov = {
+		picture = danmarks_riges_grundlov
+		potential = {
+			tag = DEN
+			OR = {
+				government = absolute_monarchy
+				government = absolute_empire
+			}
+			NOT = { has_country_flag = danish_constitutionalism }
+		}
+
+		allow = {
+			state_n_government = 1
+			NOT = { average_militancy = 3 }
+		}
+
+		effect = {
+			political_reform = landed_voting
+			government = hms_government
+			prestige = 5
+			set_country_flag = danish_constitutionalism
+		}
+	}
+
+	claim_schleswig = {
+	picture = claim_schleswig
+		potential = {
+			tag = DEN
+			SWH = {
+				exists = yes
+				owns = 370
+				owns = 371
+				is_vassal = no
+			}
+			is_vassal = no
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+				government = absolute_empire
+				government = semi_constitutional_empire
+				government = constitutional_empire
+			}
+			NOT = {
+				has_country_flag = annex_schleswig_holstein
+				num_of_revolts = 1
+			}
+		}
+
+		allow = {
+			war = no
+			SWH = {
+				war = no
+				OR = {
+					part_of_sphere = no
+					sphere_owner = { NOT = { is_sphere_leader_of = THIS } }
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = annex_schleswig_holstein
+			370 = { add_core = DEN }
+			371 = { add_core = DEN }
+			SWH = { country_event = 90051 }
+			any_pop = {
+				limit = { has_pop_culture = danish }
+				militancy = -2
+				dominant_issue = {
+					factor = 0.05
+					value = jingoism
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war_exhaustion = 10
+			}
+			modifier = {
+				factor = 0
+				has_recently_lost_war = yes
+			}
+		}
+	}
+	copenhagen_convention = {
+		picture = sound_dues
+		potential = {
+			is_greater_power = yes
+			capital_scope = { continent = europe }
+			372 = { trade_goods = precious_goods NOT = { owned_by = THIS } }
+			NOT = {
+				has_global_flag = sound_dues_abolished
+				has_global_flag = sound_dues_resisted
+				has_global_flag = copenhagen_convention_called
+				tag = TUR
+				check_variable = { which = owed_cash_money value = 1 }
+			}
+		}
+
+		allow = {
+			war = no
+			raider_group_doctrine = 1
+			OR = {
+				money = 100000
+				ai = yes
+			}
+		}
+
+		effect = {
+			set_global_flag = copenhagen_convention_called
+			372 = { owner = { country_event = { id = 810003 days = 7 } } }
+			set_variable = { which = owed_cash_money value = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	abolish_sound_dues = {
+		picture = sound_dues
+		potential = {
+			is_greater_power = yes
+			capital_scope = { continent = europe }
+			372 = { trade_goods = precious_goods NOT = { owned_by = THIS } }
+			has_global_flag = sound_dues_resisted
+		}
+
+		allow = {
+			OR = {
+				AND = {
+					is_canal_enabled = 1
+					owns = 369
+				}
+				372 = { owner = { is_disarmed = yes truce_with = THIS } }
+			}
+		}
+
+		effect = {
+			prestige = 30
+			372 = { trade_goods = grain remove_province_modifier = sound_dues_toll }
+			DEN = { prestige = -40 }
+			set_global_flag = sound_dues_abolished
+			clr_global_flag = sound_dues_resisted
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

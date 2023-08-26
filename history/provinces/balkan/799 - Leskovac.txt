@@ -1,0 +1,8 @@
+owner = BUL
+controller = BUL
+add_core = TUR
+add_core = SER
+add_core = BUL
+fort = 1
+trade_goods = coal
+life_rating = 35

@@ -1,0 +1,29 @@
+
+
+# Missionaries in Beirut
+country_event = {
+	id = 168030
+	title = "EVTNAME168030"
+	desc = "EVTDESC168030"
+	picture = "missionaries"
+
+	trigger = {
+		year = 1836
+		owns = 913
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "EVT168030OPTA"
+		913 = {
+			add_province_modifier = {
+				name = reading
+				duration = -1
+			}
+		}
+	}
+}

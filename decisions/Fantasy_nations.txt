@@ -1,0 +1,66 @@
+political_decisions = {
+	build_the_tower_of_babylon = {
+		potential = {
+ #		   has_global_flag = fantasy_countries_enabled
+			tag = IRQ
+			is_greater_power = yes
+		}
+
+		allow = {
+			mechanized_mining = 1
+			the_historical_theory = 1
+		}
+
+		effect = {
+			IRQ = {
+				all_core = {
+					add_core = BAB
+				}
+			}
+			926 = {
+				change_province_name = "Babylon"
+			}
+			change_tag = BAB
+			prestige = 20
+		}
+	}
+   
+	reclaim_jerusalem  = {
+		picture = constantinople
+		potential = {
+			tag = KNI
+			NOT = {
+				tag = JER
+			}
+			NOT = { has_country_flag = tempfix }
+#			has_global_flag = fantasy_countries_enabled
+		}
+		allow = {
+			owns = 917
+		}
+		effect = {
+			PLS = {
+				all_core = {
+					add_core = JER
+				}
+			}
+			LBN = {
+				all_core = {
+					add_core = JER
+				}
+			}
+			change_tag = JER
+			add_accepted_culture = syriac
+			random_pop = {
+				limit = {
+					has_pop_culture = french
+					type = soldiers
+					location = { continent = europe }
+				}
+				move_pop = 917
+			}
+
+			set_country_flag = tempfix
+		}
+	}
+}

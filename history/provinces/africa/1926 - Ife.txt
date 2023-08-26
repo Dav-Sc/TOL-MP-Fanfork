@@ -1,0 +1,7 @@
+owner = EGB
+controller = EGB
+add_core = EGB
+add_core = IBD
+add_core = IFE
+trade_goods = fruit
+life_rating = 35

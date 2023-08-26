@@ -1,0 +1,645 @@
+political_decisions = {
+	unciv_balance_qng = {
+		picture = reichstag
+		potential = {
+			tag = QNG
+			civilized = no
+			ai = yes
+			NOT = { has_country_flag = unciv_balance_flag }
+		}
+
+		allow = { }
+
+		effect = {
+			add_country_modifier = {
+				name = unciv_balance_qng
+				duration = 3650
+			}
+			set_country_flag = unciv_balance_flag
+		}
+	}
+
+	viet_remove_sphere = {
+		picture = reichstag
+		potential = {
+			ai = yes
+			OR = {
+				tag = DAI
+				tag = CHK
+				tag = CAM
+				tag = LUA
+				tag = PGG
+				tag = NIA
+			}
+			civilized = no
+			USA = {
+				ai = yes
+				is_sphere_leader_of = THIS
+			}
+			OR = {
+				FRR = { exists = yes ai = yes }
+				FRZ = { exists = yes ai = yes }
+				BOR = { exists = yes ai = yes }
+				VIC = { exists = yes ai = yes }
+			}
+		}
+
+		allow = {
+		}
+
+		effect = { USA = { diplomatic_influence = { who = THIS value = -400 } } }
+	}
+
+	japan_ai_dye = {
+		picture = reichstag
+		potential = {
+			owns = 1652
+			OR = {
+				tag = TKG
+				tag = JAP
+			}
+			civilized = no
+			NOT = { has_global_flag = japan_ai_dye }
+			JAP = { ai = yes }
+			TKG = { ai = yes }
+			UTS = { ai = yes }
+			SAT = { ai = yes }
+			SEN = { ai = yes }
+			KAG = { ai = yes }
+			TOS = { ai = yes }
+			ai = yes
+		}
+
+		allow = {
+		}
+
+		effect = {
+			1652 = { trade_goods = dye }
+			set_global_flag = japan_ai_dye
+		}
+	}
+
+	
+
+	cleanup_ant = {
+		potential = {
+			tag = ANT
+			exists = yes
+			GRE = { exists = yes }
+			NOT = { has_global_flag = sw_set }
+		}
+		allow = {
+		}
+		effect = {
+			ANT = { all_core = { remove_core = ANT } }
+			annex_to = GRE
+		}
+	}
+
+	cleanup_morocco = {
+		potential = {
+			OR = {
+				owns = 1683 #Taza
+				owns = 1680 #Fez
+				owns = 1690 #Marrakesh
+				owns = 1694 #Agadir
+			}
+			is_greater_power = yes
+			capital_scope = { continent = europe }
+			has_global_flag = tangier_protocol_succeeded
+			NOT = { primary_culture = french }
+			NOT = { primary_culture = occitan }
+			NOT = { tag = SPA }
+			NOT = { tag = IBR }
+			NOT = { tag = SPC }
+			ai = yes
+			NOT = { has_global_flag = cleanup_morocco }
+			OR = {
+				SPA = {
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+				SPC = {
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+				FRR = {
+					exists = yes
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+				FRZ = {
+					exists = yes
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+				BOR = {
+					exists = yes
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+				VIC = {
+					exists = yes
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+			}
+		}
+
+		allow = {
+		}
+
+		effect = {
+			any_owned = {
+				limit = {  is_core = MOR }
+				secede_province = UTI
+			}
+
+			random_country = {
+				limit = {
+					OR = {
+						AND = { tag = FRR exists = yes }
+						AND = { tag = FRZ exists = yes }
+						AND = { tag = BOR exists = yes }
+						AND = { tag = VIC exists = yes }
+						tag = SPA
+						tag = SPC
+					}
+					OR = {
+						owns = 1683 #Taza
+						owns = 1680 #Fez
+						owns = 1690 #Marrakesh
+						owns = 1694 #Agadir
+					}
+				}
+				inherit = UTI
+				#treasury = -75000
+			}
+			#treasury = 75000
+		}
+	}
+
+	ai_give_warships_steamer = {
+		potential = {
+			OR = {
+				is_greater_power = yes
+				tag = EIC
+			}
+			is_disarmed = no
+			OR = {
+				tag = ENG
+				tag = EIC
+				tag = FRR
+				tag = FRZ
+				tag = BOR
+				tag = VIC
+				tag = ITA
+				tag = ITS
+				AND = {
+					OR = {
+						tag = GER
+						tag = GCF
+					}
+					year = 1875
+				}
+				AND = {
+					OR = {
+						tag = JAP
+						tag = TKG
+					}
+					is_greater_power = yes
+				}
+				AND = {
+					tag = USA
+					year = 1890
+				}
+			}
+			ai = yes
+			invention = steamer_transports
+			total_amount_of_ships = 5
+			OR = {
+				#Before 1885
+				AND = {
+					NOT = { steel_steamers = 1 }
+					NOT = { total_amount_of_ships = 150 }
+					NOT = { tag = EIC }
+					NOT = { tag = ENG }
+				}
+				AND = {
+					NOT = { year = 1860 }
+					NOT = { total_amount_of_ships = 200 }
+					tag = ENG
+				}
+				AND = {
+					year = 1860
+					NOT = { steel_steamers = 1 }
+					NOT = { total_amount_of_ships = 250 }
+					tag = ENG
+				}
+				#After 1885
+				AND = {
+					steel_steamers = 1
+					NOT = { total_amount_of_ships = 50 }
+					NOT = {
+						tag = EIC
+						tag = ENG
+						tag = GER
+						tag = FRR
+						tag = FRZ
+						tag = BOR
+						tag = VIC
+					}
+				}
+				AND = {
+					steel_steamers = 1
+					NOT = { year = 1905 }
+					NOT = { total_amount_of_ships = 100 }
+					tag = ENG
+					owns = 1251
+				}
+				AND = {
+					steel_steamers = 1
+					NOT = { total_amount_of_ships = 80 }
+					OR = {
+						tag = GER
+						tag = FRR
+						tag = FRZ
+						tag = JAP
+					}
+				}
+				AND = {
+					tag = EIC
+					NOT = { total_amount_of_ships = 50 }
+				}
+				AND = {
+					year = 1905
+					NOT = { total_amount_of_ships = 120 }
+					tag = ENG
+					owns = 1251
+				}
+			}
+			NOT = { has_country_modifier = ai_warships_cooldown }
+			war = no
+			NOT = { war_exhaustion = 1 }
+			money = 25000
+			NOT = { num_of_revolts = 1 }
+		}
+
+		allow = {
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = ai_warships_cooldown
+				duration = 545
+			}
+			#Bonus for British
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = yes
+					is_colonial = yes
+					controlled_by = THIS
+					owner = { NOT = { invention = ironclads } is_culture_group = british }
+				}
+				sub_unit = { type = manowar value = current }
+				sub_unit = { type = manowar value = current }
+				sub_unit = { type = manowar value = current }
+				sub_unit = { type = frigate value = current }
+				sub_unit = { type = frigate value = current }
+			}
+
+			#Steamers Before Dreadnoughts
+			random_owned = {
+				limit = {
+					port = yes
+					#is_core = yes
+					is_overseas = no
+					controlled_by = THIS
+					owner = { NOT = { invention = pre_dreadnought } }
+				}
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				owner = { treasury = -3500 }
+			}
+
+			#Steamers After Dreadnoughts
+			random_owned = {
+				limit = {
+					port = yes
+					#is_core = yes
+					is_overseas = no
+					controlled_by = THIS
+					owner = { invention = pre_dreadnought }
+				}
+				sub_unit = { type = steam_transport value = current }
+				owner = { treasury = -1500 }
+			}
+
+			#Commerce Raiders
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = commerce_raiders NOT = { invention = protected_cruisers } }
+				}
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+			}
+
+			#Ironclads
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = ironclads NOT = { invention = pre_dreadnought } }
+				}
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+			}
+
+			#Bonus for British
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = ironclads NOT = { invention = pre_dreadnought } is_culture_group = british }
+				}
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				owner = { treasury = -25000 }
+			}
+
+			#Bonus for Japan
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = ironclads NOT = { invention = pre_dreadnought } primary_culture = japanese }
+				}
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = commerce_raider value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				owner = { treasury = -15000 }
+			}
+
+			#Cruisers
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = protected_cruisers }
+				}
+				sub_unit = { type = cruiser value = current }
+			}
+
+			#Bonus for British
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = protected_cruisers is_culture_group = british }
+				}
+				sub_unit = { type = cruiser value = current }
+				sub_unit = { type = steam_transport value = current }
+				owner = { treasury = -15000 }
+			}
+		}
+	}
+
+	ai_give_warships_steamer_secondary_power = {
+		potential = {
+			OR = {
+				tag = NET
+				tag = SAR
+				tag = SWE
+				tag = SPA
+				tag = POR
+				tag = RUS
+				AND = {
+					tag = ITA
+					is_greater_power = no
+				}
+				AND = {
+					tag = ITS
+					is_greater_power = no
+				}
+			}
+			OR = {
+				AND = {
+					NOT = { raider_group_doctrine = 1 }
+					NOT = { total_amount_of_ships = 30 }
+				}
+				#Before 1885
+				AND = {
+					raider_group_doctrine = 1
+					NOT = { steel_steamers = 1 }
+					NOT = { total_amount_of_ships = 55 }
+				}
+				#After 1885
+				AND = {
+					steel_steamers = 1
+					NOT = { total_amount_of_ships = 40 }
+				}
+			}
+			year = 1837
+			ai = yes
+			is_disarmed = no
+			NOT = { has_country_modifier = ai_warships_cooldown }
+			money = 3501
+			war = no
+			NOT = { war_exhaustion = 1 }
+			NOT = { num_of_revolts = 1 }
+		}
+
+		allow = {
+		}
+
+		effect = {
+
+			#Before Steamers
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					controlled_by = THIS
+					owner = { NOT = { invention = steamer_transports } }
+				}
+				sub_unit = { type = clipper_transport value = current }
+				sub_unit = { type = clipper_transport value = current }
+				owner = {
+					treasury = -250
+					add_country_modifier = {
+						name = ai_warships_cooldown
+						duration = 720
+					}
+				}
+			}
+
+
+			#Steamers Before Dreadnoughts
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					controlled_by = THIS
+					owner = { invention = steamer_transports NOT = { invention = ironclads } }
+				}
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = manowar value = current }
+				sub_unit = { type = frigate value = current }
+				owner = {
+					treasury = -750
+					add_country_modifier = {
+						name = ai_warships_cooldown
+						duration = 720
+					}
+				}
+			}
+
+			#Commerce Raiders
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = commerce_raiders NOT = { invention = protected_cruisers } }
+				}
+				sub_unit = { type = commerce_raider value = current }
+				owner = { treasury = -550 }
+			}
+
+			#Ironclads
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = ironclads NOT = { invention = protected_cruisers } }
+				}
+				sub_unit = { type = ironclad value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				owner = {
+					treasury = -1500
+					add_country_modifier = {
+						name = ai_warships_cooldown
+						duration = 545
+					}
+				}
+			}
+
+			#Cruisers
+			random_owned = {
+				limit = {
+					port = yes
+					is_overseas = no
+					is_colonial = no
+					controlled_by = THIS
+					owner = { invention = protected_cruisers }
+				}
+				sub_unit = { type = cruiser value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				sub_unit = { type = steam_transport value = current }
+				owner = {
+					treasury = -3500
+					add_country_modifier = {
+						name = ai_warships_cooldown
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+
+	end_war_lan_kor_eng = {
+		potential = {
+			OR = {
+				tag = KOR
+				tag = LAN
+			}
+			civilized = no
+			vassal_of = QNG
+			war_with = ENG
+			war = yes
+			ai = yes
+		}
+
+		allow = {
+		}
+
+		effect = {
+			any_country = {
+				limit = {
+					war_with = THIS
+				}
+				end_war = THIS
+			}
+		}
+	}
+}

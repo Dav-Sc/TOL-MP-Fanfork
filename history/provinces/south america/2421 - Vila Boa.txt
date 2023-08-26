@@ -1,0 +1,4 @@
+trade_goods = cattle
+terrain = hills
+life_rating = 30
+

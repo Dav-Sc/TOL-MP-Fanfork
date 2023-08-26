@@ -1,0 +1,66 @@
+
+FRA = {value = -100}
+
+army = {
+	name = "Army of Provence"
+	location = 467
+	regiment = {
+		name= "1. Infanteriedivision"
+		type = infantry
+		home = 467
+	}
+
+	regiment = {
+		name= "2. Infanteriedivision"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "3. Infanteriedivision"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "4. Infanteriedivision"
+		type = hussar
+		home = 472
+	}
+
+	regiment = {
+		name= "5. Infanteriedivision"
+		type = artillery
+		home = 723
+	}
+
+	regiment = {
+		name= "6. Infanteriedivision"
+		type = artillery
+		home = 720
+	}
+	
+	regiment = {
+		name= "7. Infanteriedivision"
+		type = artillery
+		home = 720
+	}
+	
+	regiment = {
+		name= "8. Infanteriedivision"
+		type = artillery
+		home = 472
+	}
+	
+	regiment = {
+		name= "9. Infanteriedivision"
+		type = artillery
+		home = 470
+	}
+	
+	regiment = {
+		name= "10. Infanteriedivision"
+		type = artillery
+		home = 470
+	}
+}

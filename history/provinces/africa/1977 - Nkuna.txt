@@ -1,0 +1,6 @@
+owner = GAB
+controller = GAB
+add_core = LOA
+add_core = GAB
+trade_goods = iron
+life_rating = 35

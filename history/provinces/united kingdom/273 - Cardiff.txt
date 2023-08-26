@@ -1,0 +1,34 @@
+owner = WHA
+controller = WHA
+add_core = WHA
+add_core = ENG
+add_core = CLT 
+trade_goods = coal
+naval_base = 2
+fort = 2
+life_rating = 35
+terrain = cardiff
+railroad = 1
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 12
+}
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 17
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}

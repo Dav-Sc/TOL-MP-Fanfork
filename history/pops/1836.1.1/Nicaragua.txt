@@ -1,0 +1,298 @@
+#Nicaragua Region (292000)
+#Ruled by Central America 1836
+#Managua (192000/48000 POPS)
+2197 = {
+	aristocrats = {
+		culture = central_american
+		religion = animist
+		size = 215
+	}
+
+	aristocrats = {
+		culture = miskito
+		religion = animist
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = central_american
+		religion = animist
+		size = 30
+	}
+
+	officers = {
+		culture = central_american
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = animist
+		size = 100
+
+	}
+
+	clergymen = {
+		culture = miskito
+		religion = animist
+		size = 40
+
+	}
+
+	artisans = {
+		culture = central_american
+		religion = animist
+		size = 520
+	}
+
+	artisans = {
+		culture = miskito
+		religion = animist
+		size = 200
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = animist
+		size = 440
+
+	}
+
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 10025
+	}
+	
+	farmers = {
+		culture = miskito
+		religion = animist
+		size = 3000
+	}
+}
+#Rivas (40000/10000 POPS)
+2198 = {
+	aristocrats = {
+		culture = central_american
+		religion = animist
+		size = 100
+	}
+
+	aristocrats = {
+		culture = miskito
+		religion = animist
+		size = 30
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = central_american
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = animist
+		size = 50
+
+	}
+
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 3000
+	}
+	
+	farmers = {
+		culture = miskito
+		religion = animist
+		size = 1500
+	}
+}
+#Esteli (48000/12000 POPS)
+2199 = {
+	aristocrats = {
+		culture = central_american
+		religion = animist
+		size = 300
+	}
+
+	aristocrats = {
+		culture = miskito
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = central_american
+		religion = animist
+		size = 600
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 10000
+	}
+	
+	farmers = {
+		culture = miskito
+		religion = animist
+		size = 1825
+	}
+}
+#Bluefields (12000/3000 POPS)
+2200 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 600
+	}
+
+	clergymen = {
+		culture = miskito
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = miskito
+		religion = animist
+		size = 15
+	}
+
+	soldiers = {
+		culture = pipil
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = pipil
+		religion = catholic
+		size = 120
+	}
+
+	soldiers = {
+		culture = afro_italian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = miskito
+		religion = animist
+		size = 270
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 1900
+	}
+
+	farmers = {
+		culture = miskito #native_american_minor
+		religion = animist
+		size = 2200
+	}
+
+}
+
+# San Carlos
+3491 = {
+	aristocrats = {
+		culture = miskito
+		religion = animist
+		size = 420
+	}
+
+	clergymen = {
+		culture = miskito
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = miskito
+		religion = animist
+		size = 750
+	}
+
+	soldiers = {
+		culture = miskito
+		religion = animist
+		size = 150
+
+	}
+
+	farmers = {
+		culture = miskito
+		religion = animist
+		size = 13500
+	}
+}
+
+# Juigalpa
+3492 = {
+	aristocrats = {
+		culture = miskito
+		religion = animist
+		size = 2070
+	}
+
+	bureaucrats = {
+		culture = miskito
+		religion = animist
+		size = 210
+	}
+
+	officers = {
+		culture = miskito
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = miskito
+		religion = animist
+		size = 900
+	}
+
+	artisans = {
+		culture = miskito
+		religion = animist
+		size = 4740
+	}
+
+	soldiers = {
+		culture = miskito
+		religion = animist
+		size = 2910
+	}
+
+	farmers = {
+		culture = miskito
+		religion = animist
+		size = 85800
+	}
+}

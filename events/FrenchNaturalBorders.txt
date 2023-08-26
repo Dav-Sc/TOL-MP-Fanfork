@@ -1,0 +1,333 @@
+#Siezing Catalonia
+country_event = {
+	id = 7790006
+	title = "EVTNAME7790006" #The Fall of Madrid
+	desc = "EVTDESC7790006"
+	picture = "carlists"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			tag = SPA
+			tag = SPC
+			tag = ARN
+			tag = IBR
+		}
+		OR = {
+			national_provinces_occupied = 0.75
+			truce_with = FRR
+			truce_with = FRZ
+			truce_with = BOR
+			truce_with = VIC
+		}
+		OR = {
+			FRR = { war_with = THIS has_country_flag = siezing_catalonia }
+			FRZ = { war_with = THIS has_country_flag = siezing_catalonia }
+			BOR = { war_with = THIS has_country_flag = siezing_catalonia }
+			VIC = { war_with = THIS has_country_flag = siezing_catalonia }
+			FRR = { truce_with = THIS owns = 495 }
+			FRZ = { truce_with = THIS owns = 495 }
+			BOR = { truce_with = THIS owns = 495 }
+			VIC = { truce_with = THIS owns = 495 }
+		}
+		OR = {
+			487 = {
+				OR = {
+					controlled_by = FRR
+					controller = { alliance_with = FRR }
+					controlled_by = FRZ
+					controller = { alliance_with = FRZ }
+					controlled_by = BOR
+					controller = { alliance_with = BOR }
+					controlled_by = VIC
+					controller = { alliance_with = VIC }
+				}
+				province_control_days = 90
+			}
+			truce_with = FRR
+			truce_with = FRZ
+			truce_with = BOR
+			truce_with = VIC
+		}
+		NOT = {
+			has_country_flag = signed_treay_of_madrid
+			has_country_flag = fall_of_madrid
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 10
+		modifier = {
+			factor = 0.1
+			has_country_flag = fall_of_madrid_no_surrender
+		}
+	}
+
+	option = {
+		name = "EVT7790006OPTA"
+		set_country_flag = fall_of_madrid
+		prestige = -25
+		random_country = {
+			limit = {
+				OR = {
+					primary_culture = french
+					primary_culture = occitan
+				}
+				capital = 425
+			}
+			country_event = 7790007
+		}
+		ai_chance = { factor = 99 }
+	}
+
+	option = {
+		name = "EVT7790006OPTB"
+		set_country_flag = fall_of_madrid_no_surrender
+		war_exhaustion = 10
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+
+	id = 7790007
+	title = "EVTNAME7790007" #The Spanish Surrender
+	desc = "EVTDESC7790007"
+	major = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FRR = { set_country_flag = signed_treay_of_madrid }
+		FRZ = { set_country_flag = signed_treay_of_madrid }
+		BOR = { set_country_flag = signed_treay_of_madrid }
+		VIC = { set_country_flag = signed_treay_of_madrid }
+		SPC = { set_country_flag = signed_treay_of_madrid }
+		SPA = { set_country_flag = signed_treay_of_madrid }
+	}
+
+	option = {
+		name = "EVT7790007OPTA"
+		badboy = -8
+		prestige = 40
+		war_exhaustion = -20
+		end_war = FROM
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = FROM
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = FROM
+				alliance_with = THIS
+			}
+			end_war = FROM
+		}
+		relation = { who = FROM value = 50 }
+		FROM = { all_core = { remove_core = THIS } }
+		THIS = {
+			any_owned = {
+				limit = { is_core = FROM }
+				secede_province = FROM
+			}
+		}
+		FROM = {
+			prestige = -50
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = spanish
+						has_pop_culture = catalan
+					}
+				}
+				consciousness = 7
+				militancy = 7
+			}
+		}
+		add_country_modifier = {
+			name = no_more_war
+			duration = 365
+		}
+		ai_chance = { factor = 80 }
+	}
+
+	option = {
+		name = "EVT7790007OPTB"
+		prestige = 30
+		badboy = 10
+		end_war = FROM
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = FROM
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = FROM
+				alliance_with = THIS
+			}
+			end_war = FROM
+		}
+		relation = { who = FROM value = -100 }
+		FROM = { all_core = { remove_core = THIS } }
+		THIS = {
+			any_owned = {
+				limit = { is_core = FROM }
+				secede_province = FROM
+			}
+		}
+		FROM = {
+			prestige = -40
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = spanish
+						has_pop_culture = catalan
+					}
+				}
+				consciousness = 5
+				militancy = 5
+			}
+			any_owned = {
+				limit = { is_core = PHL }
+				secede_province = THIS
+				PHL = { government = democracy }
+			}
+		}
+		any_greater_power = {
+			relation = { who = THIS value = -100 }
+		}
+
+		add_country_modifier = {
+			name = no_more_war
+			duration = 365
+		}
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_greater_power = no
+				is_secondary_power = no
+			}
+		}
+	}
+
+	option = {
+		name = "EVT7790007OPTC"
+		relation = { who = FROM value = -400 }
+		badboy = 12
+		war_exhaustion = 10
+		end_war = FROM
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = FROM
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = FROM
+				alliance_with = THIS
+			}
+			end_war = FROM
+		}
+		FROM = {
+			any_owned = {
+				limit = { region = SPA_498 NOT = { province_id = 502 } }
+				secede_province = THIS
+			}
+		}
+		FROM = {
+			prestige = -70
+			any_pop = {
+				limit = {
+					has_pop_culture = spanish
+				}
+				consciousness = 5
+				militancy = 5
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = catalan
+				}
+				consciousness = 10
+				militancy = 10
+			}
+		}
+		add_country_modifier = {
+			name = no_more_war
+			duration = 365
+		}
+		any_greater_power = {
+			relation = { who = THIS value = -100 }
+		}
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = "EVT7790007OPTD"
+		relation = { who = FROM value = -400 }
+		badboy = 22
+		war_exhaustion = 15
+		end_war = FROM
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = FROM
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = FROM
+				alliance_with = THIS
+			}
+			end_war = FROM
+		}
+		FROM = {
+			any_owned = {
+				limit = { region = SPA_498 NOT = { province_id = 502 } }
+				secede_province = THIS
+			}
+			prestige = -70
+			any_pop = {
+				limit = {
+					has_pop_culture = spanish
+				}
+				consciousness = 5
+				militancy = 5
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = catalan
+				}
+				consciousness = 10
+				militancy = 10
+			}
+			any_owned = {
+				limit = { is_core = PHL }
+				secede_province = THIS
+			}
+		}
+		any_greater_power = {
+			relation = { who = THIS value = -200 }
+		}
+		add_country_modifier = {
+			name = no_more_war
+			duration = 730
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+

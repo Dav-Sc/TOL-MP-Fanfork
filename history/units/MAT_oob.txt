@@ -1,0 +1,39 @@
+GAZ = {
+	value = -200
+}
+
+XHO = {
+	value = -50
+}
+
+BSH = {
+	value = -50
+}
+
+SUA = {
+	value = 50
+}
+
+leader = {
+   name = "Mzilikazi"
+   type = land
+   date = 1836.1.1
+   background = cursed_luck
+   personality = merciless
+   prestige = 0.2
+}
+
+army = {
+	name = "Royal Army of Matabele"
+	location = 2071
+	regiment = {
+		name= "Chief's First Warriors"
+		type = irregular
+		home = 2071
+	}
+	regiment = {
+		name= "Chief's Second Warriors"
+		type = irregular
+		home = 2071
+	}
+}

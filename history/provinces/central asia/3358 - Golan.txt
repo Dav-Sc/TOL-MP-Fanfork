@@ -1,0 +1,11 @@
+owner = OYO
+controller = OYO
+add_core = OYO
+add_core = EGB
+add_core = IFE
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+	controller = TUR
+	owner = TUR
+}

@@ -1,0 +1,100 @@
+
+FRA = {value = -70}
+ENL = { value = -50}
+UOW = { value = -100}
+
+army = {
+	name = "Byddin Frenhinol"
+	location = 273
+	regiment = {
+		name= "Yr Marchogion Trwm 1af"
+		type = cuirassier
+		home = 273
+	}
+	regiment = {
+		name= "2il Marchogion Trwm"
+		type = cuirassier
+		home = 273
+	}
+
+	regiment = {
+		name= "Yr Adran y Troedfilwyr 1af"
+		type = infantry
+		home = 275
+	}
+
+	regiment = {
+		name= "2il Adran y Troedfilwyr"
+		type = infantry
+		home = 275
+	}
+	
+	regiment = {
+		name= "3ed Adran y Troedfilwyr"
+		type = infantry
+		home = 274
+	}
+	regiment = {
+		name= "4ed Adran y Troedfilwyr"
+		type = infantry
+		home = 274
+	}
+	regiment = {
+		name= "5ed Adran y Troedfilwyr"
+		type = infantry
+		home = 286
+	}
+	regiment = {
+		name= "Yr Adran Magnelau 1af"
+		type = artillery
+		home = 276
+	}
+
+	regiment = {
+		name= "2il Adran Magnelau"
+		type = artillery
+		home = 286
+	}
+}
+navy = {
+	name = "Welsh Navy"
+	location = 273
+
+	ship = {
+		name= "Llong frwydr 1"
+		type = manowar
+	}
+
+	ship = {
+		name= "Llong frwydr 2"
+		type = manowar
+	}
+
+	ship = {
+		name= "Llong frwydr 3"
+		type = manowar
+	}
+
+	ship = {
+		name= "Llong Drafnidiaeth 1"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Llong Drafnidiaeth 2"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Llong Drafnidiaeth 3"
+		type = clipper_transport
+	}
+}
+
+leader = {
+   name = "Owain Caradoc"
+   type = land
+   date = 1836.1.1
+   background = aristocrat
+   personality = implacable
+}

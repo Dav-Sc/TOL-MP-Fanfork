@@ -1,0 +1,14 @@
+# France-Naples (Frederick VI, Christian VIII, Frederick VII)
+union = {
+	first = FRA
+	second = NAP
+	start_date = 1460.3.2
+	end_date = 1963.11.15
+}
+
+union = {
+	first = FRA
+	second = ADO 
+	start_date = 1814.10.12
+	end_date = 1937.6.20
+}

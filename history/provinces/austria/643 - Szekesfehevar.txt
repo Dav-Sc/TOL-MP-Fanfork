@@ -1,0 +1,12 @@
+owner = HUN
+controller = HUN
+add_core = HUN
+trade_goods = grain
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
+railroad = 1

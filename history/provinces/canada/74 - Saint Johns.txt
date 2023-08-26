@@ -1,0 +1,7 @@
+owner = AKI
+controller = AKI
+add_core = AKI
+trade_goods = fish
+terrain = stjohn
+life_rating = 35
+   

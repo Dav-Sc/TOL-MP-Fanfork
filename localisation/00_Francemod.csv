@@ -1,0 +1,14 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+claim_catalonia_title;Claim Catalonia;;;;;;;;;;;;;
+claim_catalonia_desc;Originally annexed from Napoleonic Spain by France in 1812, It would be easy to take advantage of Spain's weakened state. While the other Greater Powers will protest, Annexing Catalonia will put us one step closer to restoring the territory of the 1st French Empire.;;;;;;;;;;;;;
+OCC;Occitania;Occitanie;Occitania;;Occitania;;;;;;;;;
+OCC_ADJ;Occitan;Occitain;Occitanisch;;Occitano;;;;;;;;;
+OCC_reactionary;Partit Reiau-Alo;Partit Reiau-Alo;Partit Reiau-Alo;;Partit Reiau-Alo;;;;;;;;;
+OCC_liberal;Partit de lo Nacioun Óucitano;Partit de lo Nacioun Óucitano;Partit de lo Nacioun Óucitano;;;;;;;;;;;
+OCC_conservative;Partit Counservadouro;Partit Counservadouro;Partit Counservadouro;;Partit Counservadouro;;;;;;;;;
+OCC_socialist;Partit Soucialisto;Partit Soucialisto;Partit Soucialisto;;Partit Soucialisto;;;;;;;;;
+OCC_radical;Partit Anarquisto;Partit Anarquisto;Partit Anarquisto;;Partit Anarquisto;;;;;;;;;
+OCC_communist;Partit Comunisto;Partit Comunisto;Partit Comunisto;;Partit Comunisto;;;;;;;;;
+OCC_fascist;Partit Faissisto;Partit Faissisto;Partit Faissisto;;Partit Faissisto;;;;;;;;;
+end_war_nec_title;End Wars with Non-Existent Countries;;;;;;;;;;;;;
+end_war_nec_desc;This decision serves to end wars with non-existent nations should you find yourself at war with one.;;;;;;;;;;;;;

@@ -1,0 +1,11 @@
+owner = SAL
+controller = SAL
+add_core = SAL
+add_core = RHI
+add_core = TER
+add_core = PAL
+add_core = GER
+trade_goods = iron
+life_rating = 35
+terrain = koblenz
+1861.1.1 = { railroad = 3 }

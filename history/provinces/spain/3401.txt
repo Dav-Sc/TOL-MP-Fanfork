@@ -1,0 +1,8 @@
+owner = GEN
+controller = GEN
+add_core = GEN
+add_core = SRD
+add_core = ITA
+trade_goods = wool
+life_rating = 35
+1861.1.1 = { railroad = 3 }

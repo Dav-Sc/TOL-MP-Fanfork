@@ -1,0 +1,5 @@
+owner = BKY
+controller = BKY
+add_core = BKY
+trade_goods = wool
+life_rating = 35

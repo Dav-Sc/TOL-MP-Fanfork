@@ -1,0 +1,8 @@
+owner = SCO
+controller = SCO
+add_core = GBU
+add_core = WOL
+add_core = TOO
+trade_goods = fruit
+life_rating = 35
+colonial = 2

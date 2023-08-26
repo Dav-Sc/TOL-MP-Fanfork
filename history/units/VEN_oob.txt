@@ -1,0 +1,337 @@
+#Relations
+FRA = {value = -180}
+BAV = {
+	value = 185
+}
+LOM = {
+	value = -125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+MOD = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+PAP = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+GEN = {
+	value = 1	#relation
+	level = 0	#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+leader = {
+	name = "Joseppe Alberto"
+	picture = aus_gen_radetzky
+	date = 1835.1.1
+	type = land
+	personality = implacable
+	background = school_of_the_bayonet
+	prestige = 0.8
+}
+
+
+leader = {
+	name = "Carlo Alberto"
+	date = 1831.1.1
+	type = land
+	personality = openminded
+	background = aristocrat
+	prestige = 0.5
+}
+
+leader = {
+	name = "Emanuele Pes"
+	date = 1820.1.1
+	type = land
+	personality = diplomatic
+	background = politician
+	prestige = 0.2
+}
+
+leader = {
+	name = "Eusebio Bava"
+	date = 1832.1.1
+	type = land
+	personality = cautious
+	background = war_college
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ettore Gerbaix"
+	date = 1834.1.1
+	type = land
+	personality = scared
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Giuseppe Albini"
+	date = 1836.1.1
+	type = sea
+	personality = indifferent
+	background = war_college
+	prestige = 0.0
+}
+
+leader = {
+	name = "La Marmora-Masserano"
+	date = 1836.1.1
+	type = land
+	personality = mediocre
+	background = cavalry_school
+	prestige = 0.0
+}
+
+leader = {
+	name = "Agostino Chiodo"
+	date = 1836.1.1
+	type = land
+	personality = careful
+	background = engineer
+	prestige = 0.0
+}
+
+army = {
+	name = "IV. Armee"
+	location = 729
+	regiment = {
+		name= "3.4. Infanteriedivision"
+		type = infantry
+		home = 726
+	}
+	regiment = {
+		name= "3.5. Infanteriedivision"
+		type = infantry
+		home = 714
+	}
+}
+
+
+army = {
+	name = "Esercito de San Marco"
+	location = 729
+	regiment = {
+		name= "1.Moschettoni"
+		type = dragoon
+		home = 730
+	}
+	regiment = {
+		name= "1.Fuciliere"
+		type = infantry
+		home = 729
+	}
+
+	regiment = {
+		name= "2.Fuciliere"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name= "1.Artigliere"
+		type = artillery
+		home = 731
+	}
+
+	regiment = {
+		name= "2.Artigliere"
+		type = artillery
+		home = 728
+	}
+}
+
+army = {
+	name = "The Magellanica Garrison"
+	location = 2505
+	regiment = {
+		name= "56th  Regiment"
+		type = infantry
+		home = 299
+	}
+
+	regiment = {
+		name= "2nd Regiment"
+		type = infantry
+		home = 283
+	}
+
+	regiment = {
+		name= "The San MArino Regiment"
+		type = infantry
+		home = 285
+	}
+
+}
+
+navy = {
+	name = "Agostinian Squadron"
+	location = 1291 #Ahmedabad
+	ship = {
+		name= "HMS Warspite"
+		type = manowar
+	}
+
+		ship = {
+		name= "HMS Minden"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Poictiers"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Briton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Bacchante"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Belvidera"
+		type = frigate
+	}
+	ship = {
+		name= "17th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "18th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+
+navy = {
+	name = "St. Mark's Home Fleet"
+	location = 729 #Venice city proper
+	ship = {
+		name= "HMS Ajax"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Armada"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Caledonia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Edinburgh"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Egmont"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Impregnable"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Invincible"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Crescent"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Galatea"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Havannah"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Maidstone"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Menelaus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Nymphe"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Tenedos"
+		type = frigate
+	}
+	ship = {
+		name= "11th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "12th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "13th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "14th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "15th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "16th Transport Flotilla"
+		type = clipper_transport
+	}
+}
+
+
+navy = {
+	name = "Leonardian Trade Fleet"
+	location = 1462
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}

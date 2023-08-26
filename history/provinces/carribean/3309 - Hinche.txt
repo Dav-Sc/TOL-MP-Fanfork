@@ -1,0 +1,6 @@
+owner = PIR
+controller = PIR
+add_core = PIR
+add_core = DOM
+trade_goods = sugar
+life_rating = 30

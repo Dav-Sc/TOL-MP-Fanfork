@@ -1,0 +1,7 @@
+owner = MAD
+controller = MAD
+add_core = MAD
+add_core = CMS
+trade_goods = grain
+life_rating = 30
+terrain = small_island

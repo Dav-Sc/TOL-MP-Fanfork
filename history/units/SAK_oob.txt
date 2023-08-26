@@ -1,0 +1,43 @@
+JOH = {
+	value = -200
+}
+
+RIA = {
+	value = -150
+}
+
+DJA = {
+	value = -50
+}
+
+ATJ = {
+	value = -100
+}
+
+army = {
+
+	name = "Army of the Padri"
+
+	location = 10
+
+	regiment = {
+
+		name= "Jihadis"
+
+		type = irregular
+		home = 10
+
+	}
+
+
+	regiment = {
+
+		name= "Jihadis"
+
+		type = irregular
+		home = 10
+
+	}
+
+
+}

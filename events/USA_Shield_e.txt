@@ -1,0 +1,48 @@
+
+country_event = {
+	id = 8016634
+	title = "Caribbean Federation"
+	desc = EVTDESC8016634
+	picture = annexation_santo_domingo
+	is_triggered_only = yes
+
+	option = {
+		name = "Jamaica will do nicely"
+		CRB = {
+			capital = 2217
+			primary_culture = afro_caribbean
+			add_accepted_culture = afro_italian
+			add_accepted_culture = afro_french
+			add_accepted_culture = caribeno
+		}
+		ai_chance = {
+			factor = 35
+		}
+	}
+	option = {
+		name = "Havana, the oldest and the grandest"
+		CRB = {
+			capital = 2209
+			primary_culture = caribeno
+			add_accepted_culture = afro_italian
+			add_accepted_culture = afro_french
+			add_accepted_culture = afro_caribbean
+		}
+		ai_chance = {
+			factor = 35
+		}
+	}
+	option = {
+		name = "To the Revolution in Haiti!"
+		CRB = {
+			capital = 2213
+			primary_culture = afro_french
+			add_accepted_culture = caribeno
+			add_accepted_culture = afro_italian
+			add_accepted_culture = afro_caribbean
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}

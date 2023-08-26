@@ -1,0 +1,51 @@
+political_decisions = {
+	#Become England
+	end_of_the_UK = {
+		potential = {
+			tag = ENG
+			NOT = { has_global_flag = united_kingdom_no_more }
+			NOT = { has_country_flag = dismantling_treaty }
+			SCO = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+			IRE = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+		}
+
+		allow = {
+			war = no
+			SCO = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+			IRE = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+		}
+
+		effect = {
+			set_global_flag = united_kingdom_no_more
+			remove_accepted_culture = australian
+			remove_accepted_culture = akino_german
+			ENG_300 = { add_core = ENL }
+			ENG_277 = { add_core = ENL }
+			ENG_281 = { add_core = ENL }
+			ENG_284 = { add_core = ENL }
+			ENG_291 = { add_core = ENL }
+			ENG_296 = { add_core = ENL }
+			517 = { add_core = ENL }
+			ENG = {
+				all_core = { remove_core = ENG }
+			}
+			change_tag = ENL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

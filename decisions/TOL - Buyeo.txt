@@ -1,0 +1,518 @@
+#Consolidation of Buyeo decisions-including but not limited to HFM and HPM
+
+political_decisions = {
+	#####################################################
+	#Leased Territories#
+	#####################################################
+
+	qingdao_treaty_port_ger = {
+		picture = qingdao_treaty_port_ger
+		potential = {
+			OR = {
+				tag = GER
+				tag = GCF
+			}
+			is_greater_power = yes
+			1566 = { owner = { civilized = no NOT = { war_with = THIS } } }
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+				government = absolute_empire
+				government = semi_constitutional_empire
+				government = constitutional_empire
+			}
+			NOT = { has_country_flag = qingdao_treaty_port_ger }
+		}
+
+		allow = {
+			steel_steamers = 1
+			1566 = { owner = { civilized = no } }
+			2531 = { owned_by = THIS } #NewGuinea
+		}
+
+		effect = {
+			set_country_flag = qingdao_treaty_port_ger
+			1566 = { secede_province = THIS change_controller = THIS }
+			add_country_modifier = { name = chinese_treaty_port duration = 1095 }
+			prestige = 10
+			random_country = {
+				limit = { tag = QNG exists = yes }
+				set_variable = { which = china_destablization value = 1 }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	kwangchowan_treaty_port_fra = {
+		picture = kwangchowan_china
+		potential = {
+			is_greater_power = yes
+			1369 = { owned_by = THIS } #Hanoi
+			1496 = { owned_by = ENG } #HongKong
+			NOT = { tag = ENG }
+			2632 = { owner = { civilized = no NOT = { war_with = THIS }  } }
+			NOT = { has_country_flag = kwangchowan_treaty_port_fra }
+		}
+
+		allow = {
+			OR = {
+				year = 1890
+				truce_with = QNG
+				truce_with = TPG
+			}
+			2632 = { owner = { civilized = no } }
+		}
+
+		effect = {
+			set_country_flag = kwangchowan_treaty_port_fra
+			2632 = { secede_province = THIS change_controller = THIS }
+			add_country_modifier = { name = chinese_treaty_port duration = 1095 }
+			prestige = 10
+			random_country = {
+				limit = { tag = QNG exists = yes }
+				set_variable = { which = china_destablization value = 1 }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	weihaiwei_treaty_port_eng = {
+		picture = weihaiwei_china
+		potential = {
+			tag = ENG
+			is_greater_power = yes
+			owns = 1251 #Calcutta
+			owns = 1496 #Hong Kong
+			1569 = { owner = { civilized = no NOT = { war_with = THIS } } }
+			NOT = { has_country_flag = weihaiwei_treaty_port_eng }
+		}
+
+		allow = {
+			steel_steamers = 1
+			1569 = { owner = { civilized = no } }
+			OR = {
+				1481 = { owned_by = RUS }
+				1481 = { owned_by = JAP }
+			}
+		}
+
+		effect = {
+			set_country_flag = weihaiwei_treaty_port_eng
+			1569 = { secede_province = THIS change_controller = THIS }
+			add_country_modifier = { name = chinese_treaty_port duration = 1095 }
+			prestige = 10
+			random_country = { limit = { tag = QNG exists = yes } set_variable = { which = china_destablization value = 1 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#####################################################
+	#Opium Wars & British Meddling#
+	#####################################################
+
+	appoint_lin_zexu = {
+		picture = lin_zexu
+		potential = {
+			tag = QNG
+			any_owned_province = { has_province_modifier = local_opium_habit }
+			owns = 1493
+			owns = 1496
+			has_country_flag = opium_addiction
+			TAI = { has_country_flag = opium_in_shanghai }
+			NOT = { has_country_flag = appoint_lin_zexu }
+		}
+
+		allow = {
+			war = no
+			OR = {
+				1493 = { has_province_modifier = canton_system }
+				1493 = {
+					owned_by = THIS
+					NOT = { has_province_modifier = local_opium_habit }
+				}
+			}
+		}
+
+		effect = {
+			prestige = 15
+			set_country_flag = appoint_lin_zexu
+			add_country_modifier = { name = lin_zexu duration = 4015 }
+			1493 = { remove_province_modifier = local_opium_habit remove_province_modifier = foreign_smugglers }
+			set_variable = { which = china_destablization value = -1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				NOT = { year = 1839 }
+			}
+		}
+	}
+
+	#Normal Treaty of Nanking#
+	treaty_of_nanking = {
+	picture = treaty_of_nanking
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			exists = QNG
+			has_global_flag = kowloon_incident
+			NOT = { has_country_flag = treaty_of_nanking }
+		}
+
+		allow = {
+			is_greater_power = yes
+			OR = {
+				is_sphere_leader_of = QNG
+				owns = 1496
+			}
+		}
+
+		effect = {
+			set_country_flag = treaty_of_nanking
+			badboy = 1
+			prestige_factor = 0.05
+			1496 = { remove_core = QNG }
+			random_country = {
+				limit = {
+					tag = QNG
+					owns = 1496
+				}
+				1496 = { secede_province = THIS }
+			}
+			1496 = { add_province_modifier = { name = colonial_recruitment duration = 365 } }
+			QNG = { country_event = 13067 }
+			diplomatic_influence = { who = QNG value = 50 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#Alternate Ending to the 1st Opium War#
+	treaty_of_macao = {
+		picture = treaty_of_nanking
+		potential = {
+			tag = QNG
+			has_global_flag = kowloon_incident
+			owns = 1496
+			truce_with = ENG
+			NOT = {
+				has_recently_lost_war = yes
+				has_country_flag = treaty_of_macao
+			}
+		}
+
+		allow = {
+			truce_with = ENG
+			war = no
+		}
+
+		effect = {
+			set_country_flag = treaty_of_macao
+			prestige_factor = 0.05
+			any_pop = {
+				limit = { is_culture_group = east_asian }
+				scaled_consciousness = { factor = -2 }
+				scaled_militancy = { factor = -2 }
+			}
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+				remove_province_modifier = extraterritoriality_granted
+			}
+			ENG = { prestige = -15 }
+			set_variable = { which = china_destablization value = -5 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Second Opium War Ending#
+	treaty_of_tientsin = {
+		picture = treaty_of_nanking
+		potential = {
+			tag = ENG
+			has_global_flag = second_opium_war
+			has_country_modifier = negotiating_treaty
+			NOT = { owns = 1538 }
+			1538 = { owner  = { has_country_modifier = negotiating_unequal_treaty tag = QNG } }
+			QNG = { exists = yes truce_with = THIS }
+			NOT = { has_country_modifier = chinese_treaty_port }
+			NOT = { has_global_flag = second_opium_war_treaty }
+		}
+
+		allow = { NOT = { war_with = QNG } }
+
+		effect = {
+			prestige = 10
+			badboy = -3
+			remove_country_modifier = negotiating_treaty
+			set_global_flag = second_opium_war_treaty
+			relation = { who = QNG value = 150 }
+			1538 = {
+				life_rating = 3
+				secede_province = QNG
+				remove_core = TPG
+				trade_goods = precious_goods
+				add_province_modifier = { name = western_presence duration = -1 }
+				add_province_modifier = { name = foreign_trading_post duration = -1 }
+				add_province_modifier = { name = baby_boom duration = 720 }
+			}
+			QNG = {
+				any_pop = {
+					limit = { is_state_religion = yes }
+					scaled_consciousness = { factor = 2 issue = moralism }
+					scaled_militancy = { factor = 5 issue = moralism }
+				}
+				remove_country_modifier = negotiating_unequal_treaty
+				plurality = -5
+				religion = protestant
+				set_country_flag = protestant_country
+				set_country_flag = gave_up_2nd_opium
+				clr_country_flag = change_to_protestant
+				set_country_flag = missionary_activity
+				set_variable = { which = china_destablization value = 1 }
+				add_country_modifier = { name = missionary_activity duration = -1 }
+			}
+			add_country_modifier = { name = chinese_treaty_port duration = 1095 }
+		}
+
+		ai_will_do = {
+			factor = 1
+				modifier = {
+					factor = 0
+					tag = ENG
+					NOT = { owns = 1496 }
+				}
+		}
+	}
+
+	#####################################################
+	#Westernized China#
+	#####################################################
+
+	three_principles_of_the_people = {
+		picture = sun_yat_sen
+		potential = {
+			tag = CHI
+			civilized = yes
+			NOT = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = absolute_empire
+				government = semi_constitutional_empire
+				tech_school = chinese_tech_school
+			}
+		}
+
+		allow = {
+			war = no
+			civilized = yes
+		}
+
+		effect = {
+			tech_school = chinese_tech_school
+			plurality = 5
+			prestige = 5
+			any_pop = {
+				limit = {
+					is_culture_group = east_asian
+				}
+				militancy = -1
+				consciousness = -1
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+	#####################################################
+	#South East Asia#
+	#####################################################
+
+	clean_up_ai_fengtian = {
+		picture = weihaiwei_china
+		potential = {
+			owns = 1479 #Mukden
+			is_greater_power = yes
+			ai = yes
+			capital_scope = { continent = europe }
+			NOT = { tag = RUS }
+			NOT = { has_country_flag = clean_up_ai_fengtian }
+		}
+
+		allow = {
+			OR = {
+				QNG = {
+					exists = yes
+					civilized = no
+					truce_with = THIS
+				}
+				TPG = {
+					exists = yes
+					civilized = no
+					truce_with = THIS
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = clean_up_ai_fengtian
+			random_owned = {
+				limit = {
+					region = CHI_1479
+					QNG = {
+						exists = yes
+						civilized = no
+					}
+				}
+				state_scope = {
+					any_owned = {
+						secede_province = QNG
+					}
+				}
+				QNG = {
+					add_country_modifier = {
+						name = negotiating_unequal_treaty
+						duration = 30
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					region = CHI_1479
+					TPG = {
+						exists = yes
+						civilized = no
+					}
+				}
+				state_scope = {
+					any_owned = {
+						secede_province = TPG
+					}
+				}
+				TPG = {
+					add_country_modifier = {
+						name = negotiating_unequal_treaty
+						duration = 30
+					}
+				}
+			}
+			THIS = {
+				add_country_modifier = {
+					name = negotiating_treaty
+					duration = -1
+				}
+				remove_country_modifier = chinese_treaty_port
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	torching_of_the_summer_palace = {
+		potential = {
+			QNG = { owns = 1616 }
+			civilized = yes
+			is_greater_power = yes
+			state_n_government = 1
+			NOT = { tag = QNG }
+			war_with = QNG
+			NOT = { has_global_flag = summer_palace_torched }
+		}
+		allow = {
+			controls = 1616
+		}
+		effect = {
+			set_global_flag = summer_palace_torched
+			badboy = 3
+			QNG = {
+				country_event = 13355
+				set_variable = { which = china_destablization value = 1 }
+			}
+		}
+	}
+
+	abolish_forced_work = { #Revise
+		alert = no
+		picture = form_china
+		potential = {
+			is_culture_group = east_asian
+			year = 1910
+			NOT = { has_country_flag = abolish_forced_work }
+			OR = {
+				NOT = { slavery = no_slavery }
+				debt_law = serfdom
+			}
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+		}
+
+		effect = {
+			set_country_flag = abolish_forced_work
+			any_pop = { militancy = 2 consciousness = 4 }
+			random_owned = { limit = { owner = { NOT = { slavery = no_slavery } } } owner = { political_reform = no_slavery } }
+			random_owned = { limit = { owner = { debt_law = serfdom } } owner = { political_reform = peonage country_event = 6016804 } }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	opium_trade = {
+		picture = shanghai_china
+		potential = {
+			tag = TAI
+			QNG = { owns = 1538 }
+			year = 1850
+			NOT = { has_country_flag = opium_in_shanghai }
+			war = no
+		}
+		
+		allow = {
+			is_vassal = no
+			owns = 1485
+		}
+		
+		effect = {
+			set_country_flag = opium_in_shanghai
+			CHI_1545 = { add_province_modifier = { name = local_opium_habit duration = -1 } }
+			CHI_1610 = { add_province_modifier = { name = local_opium_habit duration = -1 } } 
+			CHI_1604 = { add_province_modifier = { name = local_opium_habit duration = -1 } }
+			CHI_2221 = { add_province_modifier = { name = local_opium_habit duration = -1 } }
+			CHI_1470 = { add_province_modifier = { name = local_opium_habit duration = -1 } }
+			CHI_1493 = { add_province_modifier = { name = local_opium_habit duration = -1 } }
+			QNG = {
+				prestige = -2
+				any_pop = { 
+					limit = { OR = { pop_type = farmers pop_type = labourers } }
+					money = 5
+					consciousness = 1
+					militancy = -2
+				}
+				country_event = {
+					id = 320000
+					days = 360
+				}
+			}
+			money = 50000
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+add_core = BRZ
+trade_goods = coal
+terrain = hills
+life_rating = 15

@@ -1,0 +1,109 @@
+political_decisions = {
+	enable_options = {
+		alert = yes
+		picture = starting_options
+		potential = {
+			ai = no
+			NOT = { has_global_flag = looking_through_options }
+			NOT = { year = 1837 }
+		}
+
+		allow = {
+		}
+
+		effect = {
+			set_global_flag = looking_through_options
+			set_country_flag = country_looking_through_options
+		}
+	}
+
+	disable_options = {
+		alert = no
+		picture = starting_options
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+		}
+
+		allow = {
+		}
+
+		effect = {
+			clr_global_flag = looking_through_options
+			clr_country_flag = country_looking_through_options
+		}
+	}
+	turn_on_government_decisions = {
+		picture = government_decisions
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = government_decisions_on }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = government_decisions_on
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	turn_off_government_decisions = {
+		picture = government_decisions
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = government_decisions_on
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = government_decisions_on
+		}
+	}
+	
+	vassal_interactions = {
+		picture = gtfo
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = government_decisions_on
+			num_of_vassals_no_substates = 1
+			is_vassal = no
+		}
+		allow = { civilized = yes }
+		effect = {
+			random_country = {
+				limit = {
+					exists = yes
+					vassal_of = THIS
+				}
+				country_event = 477877793
+			}
+		}
+	}
+	#stolen from GFM
+		one_point_five_infamy = {
+		alert = no
+        picture = starting_options
+        potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+            NOT = { year = 1837 }
+            NOT = { has_global_flag = one_point_five_infamy_reduction }
+        }
+        allow = {
+        }
+        effect = {
+            set_global_flag = one_point_five_infamy_reduction
+            country_event = 123641
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+
+}

@@ -1,0 +1,11 @@
+owner = CRI
+controller = CRI
+add_core = CRI
+add_core = DAN
+add_core = MOL
+add_core = TNR
+add_core = ROM
+add_core = UKR
+add_core = RUT
+trade_goods = fruit
+life_rating = 35

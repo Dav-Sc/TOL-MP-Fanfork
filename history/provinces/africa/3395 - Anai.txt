@@ -1,0 +1,8 @@
+owner = IBD
+controller = IBD
+add_core = IBD
+add_core = DAH
+add_core = IFE
+trade_goods = wool
+life_rating = 25
+

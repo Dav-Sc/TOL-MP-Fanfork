@@ -1,0 +1,4 @@
+
+TEX = { value = 100 }
+PIR = { value = -100 }
+

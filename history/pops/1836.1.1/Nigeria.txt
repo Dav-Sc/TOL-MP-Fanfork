@@ -1,0 +1,2897 @@
+#songhailand Region (1824000)
+#ruled by Oyo in 1836
+#Lagos (336000/84000 POPS)
+1923 = {
+    aristocrats = {
+        culture = songhai
+        religion = jesuite
+        size = 1550
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = jesuite
+        size = 800
+    }
+	
+	clergymen = {
+		culture = north_andean
+		religion = jesuite
+		size = 525
+	}
+
+    artisans = {
+        culture = songhai
+        religion = jesuite
+        size = 3200
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1050
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 37400
+    }
+
+    slaves = {
+        culture = songhai
+        religion = jesuite
+        size = 36000
+    }
+
+    aristocrats = {
+        culture = fon
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = fon
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = fon
+        religion = fetishist
+        size = 200
+    }
+
+    soldiers = {
+        culture = fon
+        religion = fetishist
+        size = 50
+    }
+
+    farmers = {
+        culture = fon
+        religion = fetishist
+        size = 3600
+    }
+	
+		slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 43100
+	}
+}
+#Abeokuta (784000/196000 POPS)
+1924 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 3650
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 1850
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 7500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 2000
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 118000
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 38000
+    }
+
+    aristocrats = {
+        culture = fon
+        religion = fetishist
+        size = 200
+    }
+
+    clergymen = {
+        culture = fon
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = fon
+        religion = fetishist
+        size = 500
+    }
+
+    soldiers = {
+        culture = fon
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = fon
+        religion = fetishist
+        size = 9100
+    }
+	
+	farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 15100
+    }
+}
+#Oyo Ile (1160000/290000 POPS)
+1925 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 5800
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    officers = {
+        culture = songhai
+        religion = fetishist
+        size = 900
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 2900
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 10000
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1700
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 3000
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 103400
+    }
+	
+	farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 103400
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 62000
+    }
+}
+#Ife (872000/218000 POPS)
+1926 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 4250
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 2150
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 50000
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 800
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 22200
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 190600
+    }
+	
+	farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 18600
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 40000
+    }
+}
+#Ilorin (248000/62000 POPS) african_Minor includes Nupe
+1927 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 950
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 525
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 39025
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 6000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 250
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 175
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 9050
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 2000
+    }
+}
+#Edo Region (1676000)
+#ruled by Benin in 1836
+#Benin (1144000/286000 POPS)
+1928 = {
+    aristocrats = {
+        culture = songhai
+        religion = jesuite
+        size = 4250
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = jesuite
+        size = 200
+    }
+
+    officers = {
+        culture = songhai
+        religion = jesuite
+        size = 700
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = jesuite
+        size = 2150
+    }
+	
+	clergymen = {
+		culture = north_andean
+		religion = jesuite
+		size = 525
+	}
+
+    artisans = {
+        culture = songhai
+        religion = jesuite
+        size = 8600
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 3000
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = jesuite
+        size = 2000
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 173100
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 20000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = jesuite
+        size = 1400
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = jesuite
+        size = 700
+    }
+
+    artisans = {
+        culture = songhai
+        religion = jesuite
+        size = 2900
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = jesuite
+        size = 750
+    }
+
+    farmers = {
+        culture = songhai
+        religion = jesuite
+        size = 44250
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 42000
+    }
+}
+#Lokoja (332000/83000 POPS)
+1930 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 575
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1175
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 18650
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 8000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 550
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2250
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 575
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 35525
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 16000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1550
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 775
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 3125
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 800
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 45750
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 26000
+    }
+}
+#Warri (1232000/308000 POPS) songhai includes Ijaw
+1931 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 6150
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 600
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 3100
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 10000
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2350
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 3000
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 205300
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 78000
+    }
+}
+#ruled by Benin in 1836
+#Akure (312000/78000 POPS) african_Minor includes Nupe
+1929 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 850
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2200
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 34050
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 6000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 600
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1150
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 9950
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 400
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 900
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 250
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 14250
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 6000
+    }
+}
+#Oil Rivers Region (1580000)
+#uncolonized in 1836/ruled by Calabar and the songhai States
+#Bonny (224000/56000 POPS) afrcan_minor includes Ijaw
+1932 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 550
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2250
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 50000
+    }
+
+    slaves = {
+        culture = ibibio
+        religion = fetishist
+        size = 14000
+    }
+}
+#Awka (1264000/316000 POPS)
+1933 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 6300
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 3150
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 10000
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2650
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 3000
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 900
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 210250
+    }
+	
+	farmers = {
+        culture = songhai
+        religion = jewish
+        size = 3750
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 76000
+    }
+}
+#Calabar (840000/210000 POPS)
+1934 = {
+    aristocrats = {
+        culture = ibibio
+        religion = fetishist
+        size = 4150
+    }
+
+    bureaucrats = {
+        culture = ibibio
+        religion = fetishist
+        size = 450
+    }
+
+    clergymen = {
+        culture = ibibio
+        religion = fetishist
+        size = 2100
+    }
+
+    artisans = {
+        culture = ibibio
+        religion = fetishist
+        size = 8400
+    }
+
+    soldiers = {
+        culture = ibibio
+        religion = fetishist
+        size = 2100
+    }
+
+    farmers = {
+        culture = ibibio
+        religion = fetishist
+        size = 149250
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 44000
+    }
+}
+#Aruchukwu (832000/208000 POPS)
+1935 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 4150
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 2100
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 8350
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 2400
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 157000
+    }
+
+    slaves = {
+        culture = ibibio
+        religion = fetishist
+        size = 34000
+    }
+}
+#Kwararafa Region (548000)
+#uncolonized in 1836
+#Makurdi (372000/93000 POPS)
+1936 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1850
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 925
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 3725
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 950
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 62550
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 23000
+    }
+}
+#Tukari (176000/44000 POPS)
+1937 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 875
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1775
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 56250
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 8000
+    }
+}
+#Borgu Region (56000) #see Benin.txt for balance of region
+#ruled by Sokoto in 1836
+#Bussa (56000/14000 POPS) #now part of Nigeria
+1938 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 1800
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 2000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 225
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 9025
+    }
+}
+#Nupe-Jos Region (600000)
+#under rule of Sokoto in 1836
+#Zaria (216000/54000 POPS) #african_Minor includes Gwari
+1939 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 375
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    officers = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 41150
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 3650
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 375
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    officers = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 400
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 775
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 10375
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 550
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 10025
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 3000
+    }
+}
+#Bida (68000/17000 POPS) #african_Minor includes Gwari
+1940 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 325
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 175
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 700
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 175
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 10625
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 5000
+    }
+}
+#Abuja (64000/16000 POPS) #african_Minor includes Gwari and Chamba
+1941 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 150
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 650
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 175
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 10725
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 4000
+    }
+}
+#Bauchi (152000/38000 POPS) #african_Minor includes Chamba
+1942 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 150
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 8200
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 375
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 775
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 12600
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 150
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 2700
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 2000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 350
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 6375
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 2000
+    }
+}
+#Jos (52000/13000 POPS) #african_Minor includes Chamba
+1943 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 4425
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 5475
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 2000
+    }
+}
+#Gombe (48000/12000 POPS)
+1944 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 175
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 400
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 41225
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 13800
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 10000
+    }
+}
+#songhailand Region (3056000)
+#under rule of Sokoto in 1836
+#Kano (852000/213000 POPS)
+1945 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 2625
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 1325
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 6600
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1325
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 180125
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 550
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 325
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 47325
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 74000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 500
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2050
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 525
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 102925
+    }
+}
+#Kebbi (252000/63000 POPS)
+1946 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 800
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 400
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2050
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 425
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 37325
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 1800
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 375
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 800
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 16625
+    }
+}
+#Katsina (656000/164000 POPS)
+1947 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1925
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 975
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 4900
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 150100
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 525
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 275
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1400
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 45500
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 54000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 725
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 375
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 375
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 100025
+    }
+}
+#Sokoto (888000/220000 POPS)
+1948 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 2325
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    officers = {
+        culture = songhai
+        religion = fetishist
+        size = 250
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 1175
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 5850
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1175
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 106025
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 575
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1500
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 27325
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 13000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1325
+    }
+
+    bureaucrats = {
+        culture = songhai
+        religion = fetishist
+        size = 150
+    }
+
+    officers = {
+        culture = songhai
+        religion = fetishist
+        size = 450
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 675
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2700
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 675
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 48025
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 75
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 5475
+    }
+}
+#Hadejia (416000/104000 POPS)
+1949 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1150
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 600
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 2950
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 600
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 83700
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 225
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 600
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 35925
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 47000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 650
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 325
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 1325
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 350
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 78350
+    }
+}
+#Adamawa Region (140000) #see Cameroun.txt for balance of region
+#under rule of Sokoto in 1836
+#Yola (140000/35000 POPS)
+1950 = {
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 200
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 3650
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 50
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 100
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 25
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 1800
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 225
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 125
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 525
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 10125
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 300
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 150
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 650
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 175
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 10725
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 4000
+    }
+}
+#Borno Region (2544000)
+#under rule of Kanem-Borno in 1836
+#Kuka (960000/240000 POPS)
+1951 = {
+    aristocrats = {
+        culture = neo_roman
+        religion = fetishist
+        size = 4600
+    }
+
+    bureaucrats = {
+        culture = neo_roman
+        religion = fetishist
+        size = 800
+    }
+
+    officers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 700
+    }
+
+    clergymen = {
+        culture = neo_roman
+        religion = fetishist
+        size = 2500
+    }
+
+    artisans = {
+        culture = neo_roman
+        religion = fetishist
+        size = 9600
+    }
+
+    soldiers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 2400
+    }
+
+    farmers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 160000
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 60000
+    }
+}
+#Nguru (768000/192000 POPS)
+1952 = {
+    aristocrats = {
+        culture = neo_roman
+        religion = fetishist
+        size = 2200
+    }
+
+    clergymen = {
+        culture = neo_roman
+        religion = fetishist
+        size = 1300
+    }
+
+    artisans = {
+        culture = neo_roman
+        religion = fetishist
+        size = 4800
+    }
+
+    soldiers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 1200
+    }
+
+    farmers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 74500
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 36000
+    }
+
+    aristocrats = {
+        culture = songhai
+        religion = fetishist
+        size = 1300
+    }
+
+    clergymen = {
+        culture = songhai
+        religion = fetishist
+        size = 700
+    }
+
+    artisans = {
+        culture = songhai
+        religion = fetishist
+        size = 3600
+    }
+
+    soldiers = {
+        culture = songhai
+        religion = fetishist
+        size = 800
+    }
+
+    farmers = {
+        culture = songhai
+        religion = fetishist
+        size = 65600
+    }
+}
+#Dikoa (816000/204000 POPS)
+1953 = {
+    aristocrats = {
+        culture = neo_roman
+        religion = fetishist
+        size = 3900
+    }
+
+    clergymen = {
+        culture = neo_roman
+        religion = fetishist
+        size = 2000
+    }
+
+    artisans = {
+        culture = neo_roman
+        religion = fetishist
+        size = 7900
+    }
+
+    soldiers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 2000
+    }
+
+    farmers = {
+        culture = neo_roman
+        religion = fetishist
+        size = 144200
+    }
+
+    slaves = {
+        culture = songhai
+        religion = fetishist
+        size = 36000
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = fetishist
+        size = 100
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = fetishist
+        size = 400
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = fetishist
+        size = 7200
+    }
+
+}
+
+####NEW ONES####
+
+#Igboho (14000/3500 POPS)
+1742 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 15
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 25
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 50
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 10
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 2900
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 125
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 325
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 5100
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 2325
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 401875
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 15500
+	}
+}
+
+#Ayetoro
+3395 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 65
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 745
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 200
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 1100
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 2650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 6150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 7120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 31800
+	}
+
+	slaves = {
+		culture = fon
+		religion = fetishist
+		size = 33100
+	}
+
+}
+
+#Oyo Ile
+912 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 265
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 745
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 7200
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 1100
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 2650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 16150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 7120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 98800
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 23100
+	}
+
+}
+
+
+#Pategi
+3358 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 65
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 2650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 16150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 2120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 48800
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 23100
+	}
+
+}
+
+#Auchi
+3361 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 65
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 12650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 16150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 2120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 58800
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 3100
+	}
+
+}
+
+
+#Lokoja
+608 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 65
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 32650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 16150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 2120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 78800
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 3100
+	}
+
+}
+
+
+
+#Nsukka
+2690 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 65
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 32650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 4150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 2120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 48800
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 3100
+	}
+
+}
+
+#Ibudo Ero
+3287 = {
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 65
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 32650
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = fetishist
+		size = 240
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = fetishist
+		size = 2350
+	}
+
+	artisans = {
+		culture = songhai
+		religion = fetishist
+		size = 4150
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = fetishist
+		size = 2120
+	}
+
+	farmers = {
+		culture = songhai
+		religion = fetishist
+		size = 88800
+	}
+
+	slaves = {
+		culture = songhai
+		religion = fetishist
+		size = 43100
+	}
+
+}

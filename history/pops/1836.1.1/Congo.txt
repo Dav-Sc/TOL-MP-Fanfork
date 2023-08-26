@@ -1,0 +1,569 @@
+#Middle Congo Region (148000)
+#under the rule of Loango in 1836
+#Nkuna (400000/100000 POPS)
+1977 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 16125
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 15725
+	}
+
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 8000
+	}
+}
+#Nkuna (400000/100000 POPS)
+3539 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 175
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = animist
+		size = 1000
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 24000
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 1500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 28250
+	}
+
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 10000
+	}
+}
+#Madingou (160000/40000 POPS)
+1978 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 750
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 500
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 1750
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 37775
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 8725
+	}
+
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 12000
+	}
+}
+#Madingou (160000/40000 POPS)
+3541 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 750
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 500
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 1750
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 12500
+	}
+	
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 12500
+	}
+	
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 3000
+	}
+	
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 3000
+	}
+
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 10000
+	}
+}
+#Loango (320000/80000 POPS)
+2624 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 625
+	}
+
+	bureaucrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 400
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 200
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 1250
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 7750
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 15725
+	}
+
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 8000
+	}
+}
+#Loango (320000/80000 POPS)
+3538 = {
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 3400
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 3000
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 29725
+	}
+
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 9000
+	}
+}
+#uncolonized in 1836
+#Djambala (28000/7000 POPS)
+1980 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 15650
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 8725
+	}
+	
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 5000
+	}
+}
+#Djambala (28000/7000 POPS)
+3542 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 125
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 4350
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = animist
+		size = 1375
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 26175
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 19925
+	}
+	
+	slaves = {
+		culture = christ_bantu
+		religion = animist
+		size = 5000
+	}
+}
+#Impfondo (32000/8000 POPS)
+1981 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 20600
+	}
+	
+	aristocrats = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 875
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 550
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 2000
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 500
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 16725
+	}
+
+	slaves = {
+		culture = azande
+		religion = animist
+		size = 3500
+	}
+}
+#Impfondo (32000/8000 POPS)
+3543 = {
+	aristocrats = {
+		culture = christ_bantu
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = christ_bantu
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = christ_bantu
+		religion = animist
+		size = 400
+	}
+
+	soldiers = {
+		culture = christ_bantu
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = christ_bantu
+		religion = animist
+		size = 15000
+	}
+	
+	farmers = {
+		culture = christ_bantu
+		religion = jesuite
+		size = 12390
+	}
+
+	slaves = {
+		culture = azande
+		religion = animist
+		size = 7500
+	}
+}

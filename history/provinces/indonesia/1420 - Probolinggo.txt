@@ -1,0 +1,8 @@
+owner = BAL
+controller = BAL
+add_core = BAL
+add_core = JAV
+trade_goods = sulphur
+life_rating = 40
+colonial = 2
+terrain = jungle_mountains

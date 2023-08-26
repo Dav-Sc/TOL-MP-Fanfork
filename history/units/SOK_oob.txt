@@ -1,0 +1,70 @@
+MAS = {
+	value = 100
+}
+
+JAL = {
+	value = 100
+}
+
+TOO = {
+	value = 100
+}
+
+DAM = {
+	value = 100
+}
+
+DND = {
+	value = 5
+}
+
+WAD = {
+	value = 20
+}
+
+DAR = {
+	value = 10
+}
+
+DAH = {
+	value = 130
+}
+
+OYO = {
+	value = -30
+}
+
+BEN = {
+	value = -30
+}
+
+WRI = {
+	value = -15
+}
+
+ARO = {
+	value = -20
+}
+
+CLA = {
+	value = -15
+}
+
+ADW = {
+	value = 100
+}
+
+#BUS = {
+#	value = 100
+#}
+
+USA = {
+	value = -200
+}
+
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
+
+

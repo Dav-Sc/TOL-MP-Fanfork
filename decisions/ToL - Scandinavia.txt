@@ -1,0 +1,192 @@
+political_decisions = {
+
+
+
+	accept_east_germans = {
+		potential = {
+			OR = {
+				tag = SWE
+				tag = SCA
+				tag = RUS
+			}
+			NOT = { has_country_flag = accepted_germans }
+			NOT = { slavery = no_slavery }
+		}
+
+		allow = {
+			NOT = { month = 5 }
+			state_n_government = 1
+			invention = national_fraternity
+			realism = 1
+		}
+
+		effect = {
+			set_country_flag = accepted_germans
+			badboy = -1
+			add_accepted_culture = volga_german
+		}
+	}
+
+
+	swedish_pomerania = {
+		picture = map_brandeburg
+		potential = {
+			OR = {
+				tag = SWE
+				tag = SCA
+			}
+			NOT = {
+				has_global_flag = scandi_pomerania
+			}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {			
+			PRU_546 = {
+				add_core = SWE
+			}			
+			badboy = 5
+			prestige = 15
+			set_global_flag = scandi_pomerania
+		}
+		ai_will_do = {					
+			factor = 1
+		}
+		
+	}
+	
+	swedish_karelia = {
+		picture = map_pomorye
+		potential = {
+			tag = SWE
+			NOT = {
+				has_global_flag = karelia
+			}
+		}
+		allow = {
+		is_greater_power = yes
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			
+			RUS_339 = {
+				add_core = SWE
+			}
+			
+			badboy = 5
+			prestige = 15
+			set_global_flag = karelia
+		}
+		ai_will_do = {					
+			factor = 1
+		}
+		
+	}
+
+	danish_holstein = {
+		picture = map_brandeburg
+		potential = {
+			OR = {
+				tag = DEN
+				tag = DNN
+				tag = SCA
+			}
+			NOT = {
+				has_global_flag = danish_holstein
+			}
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			HOL_369 = {
+				add_core = THIS
+			}
+			
+			badboy = 5
+			prestige = 15
+			set_global_flag = danish_holstein
+		}
+		ai_will_do = {					
+			factor = 1
+		}
+	}
+
+	danish_north_germany = {
+		picture = map_brandeburg
+		potential = {
+			OR = {
+				tag = DEN
+				tag = DNN
+				tag = SCA
+			}
+			has_global_flag = danish_holstein
+			NOT = {
+				has_global_flag = danish_north_germany
+			}
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			PRU_544 = {
+				add_core = THIS
+			}
+			HAN_528 = {
+				add_core = THIS
+			}
+			badboy = 10
+			prestige = 15
+			set_global_flag = danish_north_germany
+		}
+		ai_will_do = {					
+			factor = 1
+		}
+	}
+
+	danish_pomerania = {
+		picture = map_brandeburg
+		potential = {
+			OR = {
+				tag = DEN
+				tag = DNN
+				tag = SCA
+			}
+			has_global_flag = north_germany
+			NOT = {
+				has_global_flag = scandi_pomerania
+			}
+		}
+		allow = {
+			543 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			PRU_546 = {
+				add_core = THIS
+			}			
+			badboy = 5
+			prestige = 15
+			set_global_flag = scandi_pomerania
+		}
+		ai_will_do = {					
+			factor = 1
+		}
+
+
+
+	}
+	
+
+
+   
+
+}

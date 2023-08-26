@@ -1,0 +1,469 @@
+political_decisions = {
+	enlist_coloured_troops = {
+		picture = coloured_troops
+		potential = {
+			OR = {
+				tag = USA
+				tag = BRZ
+			}
+			war = yes
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = coloured_troops
+			}
+		}
+		allow = {
+			war_exhaustion = 25
+		}
+		effect = {
+			random_pop = {
+				limit = {
+					pop_type = slaves
+					has_pop_culture = afro_french
+				}
+				pop_type = soldiers
+			}
+			random_pop = {
+				limit = {
+					pop_type = slaves
+					has_pop_culture = afro_french
+				}
+				pop_type = soldiers
+			}
+			war_exhaustion = -5
+			set_country_flag = coloured_troops
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	join_slave_trade = {
+		picture = slave_ship
+		potential = {
+			slavery = yes_slavery
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = africa
+				}
+			}
+			has_global_flag = slave_trade_reinstated
+			NOT = { has_country_flag = slave_trade_leader }
+			NOT = { tag = USA }
+			NOT = { tag = EGY }
+			NOT = { has_country_flag = slave_trader }
+		}
+		allow = {
+			slavery = yes_slavery
+			total_num_of_ports = 1
+			war = no
+			NOT = {
+				has_country_modifier = national_confusion
+			}
+		}
+		effect = {
+			badboy = 5
+			remove_country_modifier = the_slavery_debate
+			set_country_flag = the_slavery_debate
+			add_country_modifier = {
+				name = atlantic_slave_trade
+				duration = -1
+			}
+			set_country_flag = slave_trader
+			add_country_modifier = {
+				name = national_confusion
+				duration = 365
+			}
+			any_greater_power = {
+				limit = {
+					slavery = no_slavery
+				}
+				relation = {
+					who = THIS
+					value = -50
+				}
+			}
+			any_country = {
+				limit = {
+					OR = {
+						has_country_flag = slave_trade_leader
+						has_country_flag = slave_trader
+					}
+				}
+				relation = {
+					who = THIS
+					value = 80
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = berlin_conference
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						ruling_party_ideology = reactionary
+						ruling_party_ideology = conservative
+						ruling_party_ideology = fascist
+					}
+				}
+			}
+		}
+	}
+	leave_slave_trade = {
+		picture = slaves_freed
+		alert = no
+		potential = {
+			has_country_flag = slave_trader
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = national_confusion
+			}
+			upper_house = {
+				ideology = liberal
+				value = 0.38
+			}
+		}
+		effect = {
+			remove_country_modifier = the_slavery_debate
+			clr_country_flag = the_slavery_debate
+			remove_country_modifier = atlantic_slave_trade
+			add_country_modifier = {
+				name = national_confusion
+				duration = 365
+			}
+			clr_country_flag = slave_trader
+			any_country = {
+				limit = {
+					OR = {
+						has_country_flag = slave_trader
+						has_country_flag = slave_trade_leader
+					}
+					relation = {
+						who = THIS
+						value = -60
+					}
+				}
+			}
+			any_pop = {
+				militancy = -3
+				consciousness = 1
+			}
+			badboy = -4
+		}
+		ai_will_do = {
+			factor = 0.4
+			modifier = {
+				factor = 0
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+					ruling_party_ideology = reactionary
+					NOT = {
+						OR = {
+						  government = democracy			   
+						  government = hms_government
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					ruling_party_ideology = liberal
+					ruling_party_ideology = radical
+				}
+			}
+			modifier = { # When the Scramble for Africa begins and European powers move in, the Slave Trade should naturally fall apart
+				factor = 100
+				has_global_flag = berlin_conference
+			}
+		}
+	}
+	end_slave_trade = {
+		picture = slaves_freed
+		alert = no
+		potential = {
+			has_country_flag = slave_trade_leader
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = national_confusion
+			}
+			upper_house = {
+				ideology = liberal
+				value = 0.51
+			}
+		}
+		effect = {
+			clr_global_flag = slave_trade_reinstated
+			clr_country_flag = slave_trade_leader
+			clr_country_flag = the_slavery_debate
+			remove_country_modifier = the_slavery_debate
+			remove_country_modifier = atlantic_slave_trade
+			add_country_modifier = {
+				name = national_confusion
+				duration = 365
+			}
+			any_country = {
+				limit = {
+					has_country_flag = slave_trader
+				}
+				set_country_flag = slave_trade_ended
+			}
+			badboy = -7
+			prestige = 10
+			any_pop = {
+				militancy = -4
+			}
+			any_greater_power = {
+				limit = {
+					NOT = {
+						tag = THIS
+					}
+				}
+				relation = {
+					who = THIS
+					value = 50
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+				modifier = {
+					factor = 0
+					is_greater_power = yes
+				}
+				modifier = {
+					factor = 100
+					is_greater_power = no
+					is_secondary_power = no
+				}
+		}
+	}
+
+	#Mulatto-African tension
+	mulatto_african_tension = {
+		picture = coloured_troops
+		potential = {
+			tag = BRZ
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = mulatto_tensions_flag
+			}
+		}
+		allow = {
+			war = no
+			year = 1836
+		}
+		effect = {
+			add_country_modifier = {
+				name = mulatto_modifier
+				duration = 18000
+			}
+			set_country_flag = mulatto_tensions_flag
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = {
+					limit = {
+						type = slaves
+					}
+					militancy = -5
+				}
+			}
+		}
+	}
+
+	pro_slavery_propaganda = {
+		picture = slavery_propaganda
+		alert = no
+		potential = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			OR = {
+				NOT = { tag = USA }
+				year = 1860
+			}
+			slavery = yes_slavery
+			has_country_flag = government_decisions_on
+			civilized = yes
+			NOT = {
+				has_country_modifier = slavery_propaganda
+			}
+		}
+		allow = {
+			prestige = 100
+			war = no
+			money = 25000
+		}
+
+		effect = {
+			any_pop = {
+				militancy = -1
+				consciousness = -2
+				dominant_issue = {
+					value = yes_slavery
+					factor = 0.1
+				}
+			}
+			add_country_modifier = {
+				name = slavery_propaganda
+				duration = 5475
+			}
+			prestige = -15
+			badboy = 2
+			plurality = -5
+			treasury = -25000
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					war = yes
+					tag = USA
+					capital_scope = {
+						continent = europe
+					}
+				}
+			}
+		}
+	}
+
+	enslave_the_free = {
+		picture = slaves_cotton
+		alert = no
+		potential = {
+			any_pop = {
+				OR = {
+					has_pop_culture = afro_french
+					has_pop_culture = afro_brazilian
+					has_pop_culture = afro_caribbean
+					has_pop_culture = asian_minor
+				}
+				OR = {
+					pop_type = farmers
+					pop_type = labourers
+					pop_type = craftsmen
+				}
+				NOT = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+			}
+			slavery = yes_slavery
+			civilized = yes
+			has_global_flag = american_civil_war_has_happened
+			NOT = {
+				has_country_modifier = enslaved_freedom
+			}
+		}
+		allow = {
+			money = 50000
+			NOT = {
+				militancy = 6
+				badboy = 1
+			}
+			war = no
+		}
+		effect = {
+			badboy = 5
+			treasury = -50000
+			any_pop = {
+				militancy = 2
+				consciousness = 3
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						is_culture_group = african_diaspora_cultures
+						has_pop_culture = asian_minor
+					}
+					OR = {
+						pop_type = farmers
+						pop_type = labourers
+					}
+					NOT = {
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					location = {
+						state_scope = {
+							is_slave = yes
+						}
+					}
+				}
+				pop_type = slaves
+				militancy = 7
+				consciousness = 7
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						is_culture_group = african_diaspora_cultures
+						has_pop_culture = asian_minor
+					}
+					pop_type = craftsmen
+					NOT = {
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					location = {
+						state_scope = {
+							is_slave = yes
+						}
+					}
+				}
+				#pop_type = slaves_factory
+				militancy = 7
+				consciousness = 7
+			}
+			add_country_modifier = {
+				name = enslaved_freedom
+				duration = 5475
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+			modifier = {
+				factor = 0
+				OR = {
+					war = yes
+					tag = USA
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					ruling_party_ideology = socialist
+					ruling_party_ideology = communist
+					ruling_party_ideology = liberal
+					ruling_party_ideology = radical
+				}
+			}
+		}
+	}
+
+}

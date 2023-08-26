@@ -1,0 +1,9 @@
+owner = UNB
+controller = UNB
+add_core = UNB
+add_core = BKY
+add_core = DAG
+add_core = PER
+trade_goods = fruit
+life_rating = 35
+
