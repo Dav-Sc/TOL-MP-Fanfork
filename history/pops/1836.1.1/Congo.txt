@@ -518,7 +518,7 @@
 	}
 
 	slaves = {
-		culture = azande
+		culture = songhai
 		religion = animist
 		size = 3500
 	}
@@ -562,8 +562,10 @@
 	}
 
 	slaves = {
-		culture = azande
+		culture = songhai
 		religion = animist
 		size = 7500
 	}
 }
+
+

@@ -45,31 +45,31 @@
     }
 
     aristocrats = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 50
     }
 
     clergymen = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 100
     }
 
     artisans = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 200
     }
 
     soldiers = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 50
     }
 
     farmers = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 3600
     }
@@ -119,31 +119,31 @@
     }
 
     aristocrats = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 200
     }
 
     clergymen = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 100
     }
 
     artisans = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 500
     }
 
     soldiers = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 100
     }
 
     farmers = {
-        culture = fon
+        culture = songhai
         religion = fetishist
         size = 9100
     }
@@ -746,7 +746,7 @@
     }
 
     slaves = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 14000
     }
@@ -810,37 +810,37 @@
 #Calabar (840000/210000 POPS)
 1934 = {
     aristocrats = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 4150
     }
 
     bureaucrats = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 450
     }
 
     clergymen = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 2100
     }
 
     artisans = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 8400
     }
 
     soldiers = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 2100
     }
 
     farmers = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 149250
     }
@@ -890,7 +890,7 @@
     }
 
     slaves = {
-        culture = ibibio
+        culture = songhai
         religion = fetishist
         size = 34000
     }
@@ -2555,7 +2555,7 @@
 	}
 
 	slaves = {
-		culture = fon
+		culture = songhai
 		religion = fetishist
 		size = 33100
 	}

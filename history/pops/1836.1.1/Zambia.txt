@@ -3,67 +3,67 @@
 #Kitwe (88000/22000 POPS)
 790 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1000
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 600
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 2600
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1520
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 51000
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 600
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 21600
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 8000
 	}
@@ -71,73 +71,73 @@
 #Kazembe (168000/42000 POPS)
 2016 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 450
 	}
 
 	bureaucrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 120
 	}
 
 	officers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 480
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1000
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 4400
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 4600
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 60000
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 800
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 3600
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 800
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 65600
 	}
@@ -151,31 +151,31 @@
 #Kasema (136000/34000 POPS)
 2017 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 800
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 600
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 22200
 	}
@@ -219,97 +219,97 @@
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 14600
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 4000
 	}
 
 	aristocrats = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 175
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 437
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 175
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 8006
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 260
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 260
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 520
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 260
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 9490
 	}
@@ -319,43 +319,43 @@
 #Kabwe (28000/7000 POPS)
 2012 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1000
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 6300
 	}
 
 	aristocrats = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 62
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
@@ -367,19 +367,19 @@
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 62
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 4500
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 7500
 	}
@@ -429,31 +429,31 @@
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 15
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 37
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 22
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 10350
 	}
@@ -467,31 +467,31 @@
 #Kasempa (40000/10000 POPS)
 2014 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 225
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 112
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 487
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 6525
 	}
@@ -565,31 +565,31 @@
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 32
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 65
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 130
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1032
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 20540
 	}

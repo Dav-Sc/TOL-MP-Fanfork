@@ -1516,31 +1516,31 @@
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 5525
 	}
 
 	slaves = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 4000
 	}
@@ -1721,31 +1721,31 @@
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 450
 	}
 
 	artisans = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 325
 	}
 
 	farmers = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 21100
 	}
 
 	slaves = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 8000
 	}
@@ -1759,25 +1759,25 @@
 #Lado (244000/61000 POPS)
 1846 = {
 	aristocrats = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 450
 	}
 
 	artisans = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 1200
 	}
 
 	soldiers = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = azande
+		culture = nubian
 		religion = animist
 		size = 22100
 	}

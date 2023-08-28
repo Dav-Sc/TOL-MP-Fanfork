@@ -219,7 +219,7 @@
 #Kuala Lumpur (68000/17000 POPS)
 1387 = {
 	aristocrats = {
-		culture = sumatran
+		culture = malay
 		religion = sunni
 		size = 15
 	}
@@ -237,7 +237,7 @@
 	}
 
 	soldiers = {
-		culture = sumatran
+		culture = malay
 		religion = sunni
 		size = 315
 	}
@@ -255,25 +255,25 @@
 	}
 
 	clergymen = {
-		culture = sumatran
+		culture = malay
 		religion = sunni
 		size = 5
 	}
 
 	labourers = {
-		culture = sumatran
+		culture = malay
 		religion = sunni
 		size = 1230
 	}
 	
 	artisans = {
-		culture = sumatran
+		culture = malay
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = sumatran
+		culture = malay
 		religion = mahayana
 		size = 820
 	}
@@ -551,7 +551,7 @@
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = sunni
 		size = 500
 	}
@@ -590,55 +590,55 @@
 	}
 
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 125
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3000
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = protestant
 		size = 10
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3000
 	}
@@ -742,55 +742,55 @@
 	}
 
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 2500
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 2000
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = protestant
 		size = 75
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = protestant
 		size = 150
 	}
@@ -834,31 +834,31 @@
 #Api (56000/14000 POPS)
 1396 = {
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 5000
 	}
@@ -939,37 +939,37 @@
 #Sandakan (40000/10000 POPS)
 1397 = {
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3475
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3000
 	}
@@ -1005,31 +1005,31 @@
 	}
 
 	aristocrats = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 12
 	}
 
 	clergymen = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 475
 	}
 
 	soldiers = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 13
 	}
 
 	farmers = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 1875
 	}
@@ -1039,31 +1039,31 @@
 
 3580 = {
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 5000
 	}
@@ -1104,67 +1104,67 @@
 3581 = {
 	
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3475
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3000
 	}
 
 	aristocrats = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 950
 	}
 
 	soldiers = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 3750
 	}
@@ -1173,37 +1173,37 @@
 3582 = {
 	
 	aristocrats = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3475
 	}
 
 	slaves = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 3000
 	}
@@ -1239,31 +1239,31 @@
 	}
 	
 	aristocrats = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 13
 	}
 
 	clergymen = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 475
 	}
 
 	soldiers = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 13
 	}
 
 	farmers = {
-		culture = moro
+		culture = malay
 		religion = sunni
 		size = 1875
 	}
@@ -1271,7 +1271,7 @@
 
 3579 = {
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 900
 	}
@@ -1279,7 +1279,7 @@
 
 3583 = {
 	farmers = {
-		culture = dayak
+		culture = malay
 		religion = animist
 		size = 2700
 	}

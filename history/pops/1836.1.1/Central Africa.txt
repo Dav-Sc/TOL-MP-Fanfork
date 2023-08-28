@@ -3,31 +3,31 @@
 #Bangui (104000/26000 POPS)
 1965 = {
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 500
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 250
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1300
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 275
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 23675
 	}
@@ -35,37 +35,37 @@
 #Nola (40000/10000 POPS)
 1966 = {
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 500
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 9125
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 500
 	}
@@ -75,67 +75,67 @@
 #Bouar (28000/7000 POPS)
 1967 = {
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 125
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 350
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 6375
 	}
 	
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1000
 	}
 
 	aristocrats = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 900
 	}
@@ -143,155 +143,155 @@
 #Bossangoa (56000/14000 POPS)
 1968 = {
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 500
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 9125
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 900
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 150
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 100
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 2700
 	}
 }
 #Dar Banda Region (128000)
-#uncolonized in 1836/under influence of Azande
+#uncolonized in 1836/under influence of christ_bantu
 #Zemio (44000/11000 POPS)
 1969 = {
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 50
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 300
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 5475
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 50
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 250
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 50
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 4575
 	}
@@ -299,61 +299,61 @@
 #Bangassou (56000/14000 POPS)
 1970 = {
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 900
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 225
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 150
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 650
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 150
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 11875
 	}
@@ -362,61 +362,61 @@
 #Ndele (28000/7000 POPS)
 1971 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 900
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 100
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 50
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 300
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 75
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 5475
 	}

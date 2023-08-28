@@ -134,7 +134,7 @@
 	}
 
 	slaves = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 6000
 	}
@@ -172,7 +172,7 @@
 	}
 
 	slaves = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 3000
 	}

@@ -1,5 +1,5 @@
 capital = 1920
-primary_culture = yoruba
+primary_culture = songhai
 culture = fon
 culture = east_kwa
 religion = fetishist

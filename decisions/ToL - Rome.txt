@@ -231,7 +231,7 @@ political_decisions = {
 				any_country = {
 				limit = {
 					OR = {
-						primary_culture = forest_bantu
+						primary_culture = christ_bantu
 						primary_culture = yoruba
 					}
 				}

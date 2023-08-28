@@ -4,121 +4,121 @@
 #Massenya (320000/80000 POPS)
 1818 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	officers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 10000
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	bureaucrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	officers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 13458
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 9000
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 700
 	}
@@ -126,109 +126,109 @@
 #Moundou (48000/12000 POPS)
 1819 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 8000
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 11000
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 600
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 300
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 200
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 3000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 30566
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 4000
 	}
 
 	slaves = {
-		culture = azande
+		culture = nubian
 		religion = fetishist
 		size = 2000
 	}
@@ -236,91 +236,91 @@
 #Bongor (36000/9000 POPS)
 1820 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 300
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 200
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 1000
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 2000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 30000
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 1000
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 3000
 	}
 
 	farmers = {
-		culture = azande
+		culture = nubian
 		religion = fetishist
 		size = 2000
 	}
@@ -330,157 +330,157 @@
 #Abeche (136000/34000 POPS)
 1821 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 50
 	}
 
 	officers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 550
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	officers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 550
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 300
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 20183
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 300
 	}
 
 	bureaucrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 7000
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 300
 	}
@@ -490,43 +490,43 @@
 1822 = {
 
 	slaves = {
-		culture = azande
+		culture = nubian
 		religion = fetishist
 		size = 1900
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 350
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 7300
 	}
@@ -534,104 +534,104 @@
 #Mongo (184000/46000 POPS)
 1823 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 350
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 5000
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 300
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 7269
 	}
 
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 1500
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 7246
 	}
 
 	slaves = {
-		culture = azande
+		culture = nubian
 		religion = fetishist
 		size = 2000
 	}
@@ -641,79 +641,79 @@
 #Mao (149453/37362 POPS)
 1824 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 300
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 9216
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	officers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 15010
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = nubian
 		religion = fetishist
 		size = 1300
 	}
@@ -771,37 +771,37 @@
 #Faya (56000/14000 POPS)
 1826 = {
 	aristocrats = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 1080
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = nubian
 		religion = sunni
 		size = 300
 	}

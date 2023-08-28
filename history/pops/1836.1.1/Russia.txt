@@ -445,13 +445,13 @@ slaves	= {
 	}
 
 	officers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 100
 	}
@@ -719,7 +719,7 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 10325
 	}
@@ -737,7 +737,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 48250
 	}
@@ -779,7 +779,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 17450
 	}
@@ -797,19 +797,19 @@ slaves	= {
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1775
 	}
@@ -939,31 +939,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 100
 	}
 
 	clergymen = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 50
 	}
 
 	artisans = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 250
 	}
 
 	soldiers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 50
 	}
 
 	farmers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 4550
 	}
@@ -971,7 +971,7 @@ slaves	= {
 #Azov (172000/43000 POPS)
 1047 = {
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 33500
 	}
@@ -983,25 +983,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 3000
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1650
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 44700
 	}
@@ -1031,37 +1031,37 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 17750
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 850
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1075
 	}
@@ -1073,7 +1073,7 @@ slaves	= {
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 7500
 	}
@@ -3477,25 +3477,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1775
 	}
@@ -3545,25 +3545,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 16775
 	}
@@ -3757,25 +3757,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1775
 	}
@@ -3839,25 +3839,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 8775
 	}
@@ -3957,13 +3957,13 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 75
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1025
 	}
@@ -4071,79 +4071,79 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1350
 	}
 
 	bureaucrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 300
 	}
 
 	officers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 750
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 6000
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 750
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 35400
 	}
 
 	farmers = {   #former serfs
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 30000
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 500
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 275
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 2850
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 31025
 	}
@@ -4211,25 +4211,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1825
 	}
@@ -4303,37 +4303,37 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1200
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 750
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 3800
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 750
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 39500
 	}
 
 	farmers = {   #former serfs
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 30000
 	}
@@ -4363,31 +4363,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 225
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 750
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 13750
 	}
@@ -4425,61 +4425,61 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 7275
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 75
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 250
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 4550
 	}
@@ -4517,31 +4517,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 7275
 	}
@@ -4667,31 +4667,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 5500
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 5000
 	}
@@ -4783,25 +4783,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 3425
 	}
@@ -4987,31 +4987,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 2250
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 4550
 	}
@@ -5073,31 +5073,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 650
 	}
 
 	clergymen = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 275
 	}
 
 	artisans = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 1450
 	}
 
 	soldiers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 300
 	}
 
 	farmers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 26325
 	}
@@ -5155,73 +5155,73 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1750
 	}
 
 	officers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 750
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 4000
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 800
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25600
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 250
 	}
 
 	officers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 25
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 750
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 7700
 	}
@@ -5320,37 +5320,37 @@ slaves	= {
 #Ekaterinodar (136000/34000 POPS)
 1048 = {
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 400
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 300
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 1400
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 325
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 30625
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 20000
 	}
@@ -5374,7 +5374,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = orthodox
 		size = 600
 	}
@@ -5395,7 +5395,7 @@ slaves	= {
 
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 6600
 	}
@@ -5419,7 +5419,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 6525
 	}
@@ -5431,7 +5431,7 @@ slaves	= {
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1000
 	}
@@ -5487,49 +5487,49 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 250
 		militancy = 3
 	}
 
 	officers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 		militancy = 3
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 125
 		militancy = 3
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 650
 		militancy = 3
 	}
 
 	farmers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 11650
 		militancy = 3
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1150
 		militancy = 3
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 9775
 		militancy = 3
@@ -5566,7 +5566,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 4500
 	}
@@ -5611,7 +5611,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 65175
 	}
@@ -5833,31 +5833,31 @@ slaves	= {
 }
 3388 = {
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 650
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 350
 	}
 
 	officers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1800
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25000
 	}
@@ -6107,31 +6107,31 @@ slaves	= {
 }
 3389 = {
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 650
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 350
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1750
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 2350
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 22200
 	}
@@ -6387,7 +6387,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 55875
 	}
@@ -6395,61 +6395,61 @@ slaves	= {
 #Kizylyar (68000/17000 POPS)
 1057 = {
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 600
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 13175
 	}
 
 	aristocrats = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 125
 	}
 
 	clergymen = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 75
 	}
 
 	artisans = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 2350
 	}
 
 	soldiers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 2075
 	}
 
 	farmers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 3375
 	}
 
 	farmers = {
-		culture = oirat
+		culture = mongol
 		religion = gelugpa
 		size = 6000
 	}
@@ -6541,25 +6541,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 2750
 	}
@@ -6655,25 +6655,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 75
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 1375
 	}
@@ -6711,25 +6711,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 10
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 10
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 2200
 	}
@@ -6794,7 +6794,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 5000
 	}
@@ -7146,31 +7146,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 75
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 300
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 5500
 	}
@@ -7266,7 +7266,7 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
@@ -7278,7 +7278,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 4300
 	}
@@ -7554,25 +7554,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 2775
 	}
@@ -7654,25 +7654,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 4000
 	}
@@ -7711,25 +7711,25 @@ slaves	= {
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 150
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 4000
 	}
@@ -7779,13 +7779,13 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 100
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 1400
 	}
@@ -7817,31 +7817,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 100
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 300
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 75
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 6975
 	}
@@ -8410,19 +8410,19 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 450
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 3000
 	}
@@ -8487,31 +8487,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 100
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 300
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 75
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 6000
 	}
@@ -9936,31 +9936,31 @@ slaves	= {
 	}
 
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 75
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 300
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 50
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 2125
 	}
@@ -10083,7 +10083,7 @@ slaves	= {
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = tengri
 		size = 400
 	}
@@ -11217,7 +11217,7 @@ slaves	= {
 	}
 	
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = sunni
 		size = 2750
 	}

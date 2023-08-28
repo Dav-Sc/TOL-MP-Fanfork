@@ -99,31 +99,31 @@
 #Madang (300000/75000 POPS)
 2531 = {
 	aristocrats = {
-		culture = melanesian
+		culture = asian_minor
 		religion = animist
 		size = 1475
 	}
 
 	clergymen = {
-		culture = melanesian
+		culture = asian_minor
 		religion = animist
 		size = 750
 	}
 
 	artisans = {
-		culture = melanesian
+		culture = asian_minor
 		religion = animist
 		size = 3750
 	}
 
 	soldiers = {
-		culture = melanesian
+		culture = asian_minor
 		religion = animist
 		size = 750
 	}
 
 	farmers = {
-		culture = melanesian
+		culture = asian_minor
 		religion = animist
 		size = 68375
 	}

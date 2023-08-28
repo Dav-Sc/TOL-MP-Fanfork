@@ -1,5 +1,5 @@
 capital = 1977
-primary_culture = south_forest_bantu
+primary_culture = christ_bantu
 religion = catholic
 government = democracy
 plurality = 0.0

@@ -3,31 +3,31 @@
 #Libreville (48000/12000 POPS)
 1972 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 12700
 	}
@@ -65,31 +65,31 @@
 #Mayumbe (32000/8000 POPS)
 1974 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 6000
 	}
@@ -133,31 +133,31 @@
 #Moanda (28000/7000 POPS)
 1975 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 350
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 10000
 	}
@@ -195,31 +195,31 @@
 #Moanda (28000/7000 POPS)
 3540 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 350
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 16375
 	}
@@ -264,31 +264,31 @@
 	}
 
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 23125
 	}

@@ -33,79 +33,79 @@
 	}
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 400
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 350
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1600
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 16250
 	}
 	
     farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 6250
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 3000
 	}
 
 	aristocrats = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 250
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 1750
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 11525
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 2000
 	}
@@ -113,73 +113,73 @@
 #Chaimate (280000/70000 POPS)
 2050 = {
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 2400
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 350
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1600
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 53250
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 5000
 	}
 
 	aristocrats = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1300
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 375
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 1850
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 39075
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 17000
 	}
@@ -187,73 +187,73 @@
 #Inhambane (176000/44000 POPS)
 2051 = {
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 600
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 10975
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 2000
 	}
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 1400
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 25600
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 5000
 	}
@@ -261,67 +261,67 @@
 #Massekisse (172000/43000 POPS)
 2052 = {
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 500
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 18650
 	}
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 350
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 375
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1800
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 24375
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 22700
 	}
@@ -333,43 +333,43 @@
 2053 = {
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 700
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 6850
 	}
 	
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 4850
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 3000
 	}
@@ -380,7 +380,7 @@
 	}
 	
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1525
 	}
@@ -422,25 +422,25 @@
 	}
 
 	clergymen = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 250
 	}
 
 	artisans = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 975
 	}
 
 	farmers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 3000
 	}
@@ -455,13 +455,13 @@
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 650
 	}
@@ -473,7 +473,7 @@
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 3000
 	}
@@ -491,13 +491,13 @@
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 975
 	}
@@ -542,43 +542,43 @@
 #Tete (104000/26000 POPS)
 2054 = {
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 4125
 	}
 	
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 3125
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 3000
 	}
@@ -689,43 +689,43 @@
 	}
 
 	aristocrats = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 550
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 650
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1750
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 26920
 	}
 	
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 2005
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 3000
 	}
@@ -764,7 +764,7 @@
 2057 = {
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 70
 	}
@@ -776,7 +776,7 @@
 	}	
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 50
 	}
@@ -788,25 +788,25 @@
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 400
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 17800
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 2500
 	}
@@ -842,61 +842,61 @@
 	}
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 700
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 10850
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 3000
 	}
 
 	clergymen = {
-		culture =  mifangaro
+		culture =  nyasa
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture =  mifangaro
+		culture =  nyasa
 		religion = animist
 		size = 975
 	}
 
 	soldiers = {
-		culture =  mifangaro
+		culture =  nyasa
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture =  mifangaro
+		culture =  nyasa
 		religion = animist
 		size = 5000
 	}
@@ -904,43 +904,43 @@
 #Mossurize (136000/34000 POPS)
 2058 = {
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 3350
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 375
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 1750
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1250
 	}
 
 	farmers = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 30200
 	}
 	
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 20075
 	}
 
 	slaves = {
-		culture = southern_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 3000
 	}
@@ -970,19 +970,19 @@
 	}
 	
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 3000
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 10300
 	}
@@ -994,7 +994,7 @@
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 6000
 	}
@@ -1021,43 +1021,43 @@
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 32900
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 2000
 	}
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 750
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 200
 	}
@@ -1069,25 +1069,25 @@
 	}
 
 	clergymen = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 2925
 	}
 
 	farmers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 5000
 	}
@@ -1113,13 +1113,13 @@
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 500
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 45000
 	}
@@ -1131,31 +1131,31 @@
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 2000
 	}
 
 	clergymen = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 1950
 	}
 
 	farmers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 3000
 	}
@@ -1199,37 +1199,37 @@
 	}
 
 	aristocrats = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 40500
 	}
 
 	slaves = {
-		culture = mifangaro
+		culture = nyasa
 		religion = animist
 		size = 1000
 	}

@@ -27,67 +27,67 @@
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 3000
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 41550
 	}
 	
 	farmers = {
-		culture = christ_bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 6550
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 30200
 	}
@@ -99,31 +99,31 @@
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 8600
 	}
@@ -137,31 +137,31 @@
 
 3562 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 72450
 	}
@@ -175,31 +175,31 @@
 
 3548 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 122450
 	}
@@ -213,31 +213,31 @@
 
 3549 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 72450
 	}
@@ -252,61 +252,61 @@
 #2001 - Mbanza (180000/45000 POPS)
 2001 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = catholic
 		size = 400
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 7350
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 12450
 	}
@@ -318,31 +318,31 @@
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 700
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 16250
 	}
@@ -362,31 +362,31 @@
 #Quibala (120000/30000 POPS)
 2002 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 31950
 	}
@@ -399,31 +399,31 @@
 }
 3550 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 62450
 	}
@@ -445,7 +445,7 @@
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
@@ -457,13 +457,13 @@
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 6375
 	}
@@ -475,7 +475,7 @@
 	}
 
 	aristocrats = {
-		culture = christ_bakongo
+		culture = christ_bantu
 		religion = catholic
 		size = 225
 	}
@@ -487,7 +487,7 @@
 	}
 
 	artisans = {
-		culture = christ_bakongo
+		culture = christ_bantu
 		religion = catholic
 		size = 900
 	}
@@ -499,7 +499,7 @@
 	}
 
 	farmers = {
-		culture = christ_bakongo
+		culture = christ_bantu
 		religion = catholic
 		size = 35225
 	}
@@ -511,31 +511,31 @@
 #Benguela (116000/29000 POPS)
 2003 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1500
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 3000
 	}
@@ -547,31 +547,31 @@
 	}
 	
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1500
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 22800
 	}
@@ -585,31 +585,31 @@
 
 3563 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 32450
 	}
@@ -623,31 +623,31 @@
 #Mocamedes (116000/29000 POPS)
 2004 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 500
 	}
@@ -756,7 +756,7 @@
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 22700
 	}
@@ -769,19 +769,19 @@
 }
 3551 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
@@ -793,7 +793,7 @@
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 30250
 	}
@@ -806,31 +806,31 @@
 }
 3552 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 12450
 	}
@@ -849,37 +849,37 @@
 }
 3553 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 1200
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 13450
 	}
 	
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 14450
 	}
@@ -941,7 +941,7 @@
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 10800
 	}
@@ -959,7 +959,7 @@
 	}
 
 	slaves = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 3200
 	}
@@ -1033,7 +1033,7 @@
 	}
 
 	slaves = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 250
 	}
@@ -1044,31 +1044,31 @@
 #Malanje (44000/11000 POPS)
 2009 = {
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 4350
 	}
@@ -1080,31 +1080,31 @@
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 30
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 60
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 60
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 12175
 	}
@@ -1116,31 +1116,31 @@
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = christ_bantu
 		religion = animist
 		size = 21400
 	}

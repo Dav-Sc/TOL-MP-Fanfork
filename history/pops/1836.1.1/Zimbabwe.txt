@@ -183,13 +183,13 @@
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 5525
 	}
 	
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1750
 	}
@@ -395,31 +395,31 @@
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = lacustrine_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 9150
 	}

@@ -3,37 +3,37 @@
 #Douala (328000/82000 POPS)
 1956 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1675
 	}
 
 	officers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 150
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 825
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 3300
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 825
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 38000
 	}
@@ -45,13 +45,13 @@
 	}
 	
 	farmers = {
-		culture = yoruba
+		culture = songhai
 		religion = sunni
 		size = 17575
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 14000
 	}
@@ -59,43 +59,43 @@
 #Buea (224000/56000 POPS)
 1957 = {
 	aristocrats = {
-		culture = yoruba
+		culture = songhai
 		religion = fetishist
 		size = 1075
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 550
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 2250
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 550
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 20575
 	}
 	
 	farmers = {
-		culture = yoruba
+		culture = songhai
 		religion = sunni
 		size = 17575
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 12000
 	}
@@ -103,31 +103,31 @@
 #Kribi (176000/44000 POPS)
 1958 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 500
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 250
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1050
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 275
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 10925
 	}
@@ -139,43 +139,43 @@
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 3000
 	}
 
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 325
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 175
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 725
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 175
 	}
 
 	farmers = {
-		culture = yoruba
+		culture = songhai
 		religion = sunni
 		size = 5600
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 5000
 	}
@@ -185,73 +185,73 @@
 #Yaounde (344000/86000 POPS)
 1959 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 525
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 275
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1125
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 275
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 16800
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 9000
 	}
 
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1150
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 575
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 2325
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 600
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 39350
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 14000
 	}
@@ -259,37 +259,37 @@
 #Bafoussam (276000/69000 POPS)
 1960 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = sunni
 		size = 1375
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = sunni
 		size = 700
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = sunni
 		size = 2775
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = sunni
 		size = 700
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = sunni
 		size = 44450
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 19000
 	}
@@ -297,73 +297,73 @@
 #Bertoua (320000/80000 POPS)
 1962 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1225
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 625
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 2500
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 625
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 34025
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 17000
 	}
 
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 325
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 175
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 725
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 175
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 10600
 	}
 
 	slaves = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 6000
 	}
@@ -373,37 +373,37 @@
 #Bamenda (372000/93000 POPS) #now part of Cameroun
 1961 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 1850
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 950
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 3725
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 950
 	}
 
 	farmers = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 75575
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 10000
 	}
@@ -413,79 +413,79 @@
 #Ngaoundere (160000/40000 POPS) #now part of Cameroun
 1963 = {
 	aristocrats = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 500
 	}
 
 	bureaucrats = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 25
 	}
 
 	officers = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 250
 	}
 
 	artisans = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 1050
 	}
 
 	soldiers = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 275
 	}
 
 	farmers = {
-		culture = fulbe
+		culture = songhai
 		religion = sunni
 		size = 19825
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 275
 	}
 
 	clergymen = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 150
 	}
 
 	artisans = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 575
 	}
 
 	soldiers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 150
 	}
 
 	farmers = {
-		culture = azande
+		culture = christ_bantu
 		religion = fetishist
 		size = 12850
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 4000
 	}
@@ -620,13 +620,13 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 6000
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = nubian
 		religion = sunni
 		size = 6000
 	}

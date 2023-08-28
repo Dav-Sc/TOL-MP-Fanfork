@@ -1,4 +1,4 @@
-#Khwarazm Region (40000) #see Uzbekistan.txt and Kazakhstan.txt for balance of region
+#Khwarazm Region (40000) #see kazakistan.txt and Kazakhstan.txt for balance of region
 #under the rule of Khiva in 1836
 #Dashhowuz (40000/10000 POPS) #now part of Turkmenistan
 1196 = {
@@ -33,31 +33,31 @@
 	}
 
 	aristocrats = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 6825
 	}
@@ -291,55 +291,55 @@
 #Chardzhou (132000/33000 POPS)
 1206 = {
 	aristocrats = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
 		size = 11825
 	}
 	
 	clergymen = {
-		culture = tajik
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = tajik
+		culture = kazak
 		religion = sunni
 		size = 10
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tajik
+		culture = kazak
 		religion = sunni
 		size = 1825
 	}
@@ -375,13 +375,13 @@
 	}
 	
 	clergymen = {
-		culture = tajik
+		culture = kazak
 		religion = zoroastrian
 		size = 48
 	}
 
 	farmers = {
-		culture = tajik
+		culture = kazak
 		religion = zoroastrian
 		size = 1100
 	}

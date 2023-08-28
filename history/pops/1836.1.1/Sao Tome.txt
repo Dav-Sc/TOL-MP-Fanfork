@@ -57,7 +57,7 @@
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = christ_bantu
 		religion = fetishist
 		size = 3450
 	}

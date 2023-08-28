@@ -259,7 +259,7 @@
 	}
 
 	farmers = {
-		culture = pamiri
+		culture = kashmiri
 		religion = sunni
 		size = 11000
 	}
@@ -4235,43 +4235,43 @@
 #Cuttack (944000/236000 POPS)
 1261 = {
 	aristocrats = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 2500
 	}
 
 	clergymen = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 2500
 	}
 
 	bureaucrats = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 250
 	}
 
 	artisans = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 10000
 	}
 
 	artisans = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 2000
 	}
 
 	soldiers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 2250
 	}
 
 	farmers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 215500
 	}
@@ -4292,43 +4292,43 @@
 #Keunjahr (436000/109000 POPS)
 1262 = {
 	aristocrats = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 900
 	}
 
 	bureaucrats = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 100
 	}
 
 	clergymen = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 850
 	}
 
 	artisans = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 4000
 	}
 
 	soldiers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 3000
 	}
 
 	soldiers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 1000
 	}
 
 	farmers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 75150
 	}
@@ -4378,37 +4378,37 @@
 #Sambalpur (208000/52000 POPS)
 1263 = {
 	aristocrats = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 300
 	}
 
 	bureaucrats = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 50
 	}
 
 	clergymen = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 300
 	}
 
 	artisans = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 1450
 	}
 
 	soldiers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 1100
 	}
 
 	farmers = {
-		culture = oriya
+		culture = bangala
 		religion = hindu
 		size = 25900
 	}

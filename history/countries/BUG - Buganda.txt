@@ -1,5 +1,6 @@
 capital = 2011
-primary_culture = lacus_bantu
+primary_culture = christ_bantu
+culture = lacus_bantu
 culture = nilotic
 religion = animist
 government = absolute_monarchy
