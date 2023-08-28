@@ -1,6 +1,6 @@
-owner = BHU
-controller = BHU
-add_core = BHU
+owner = TIB
+controller = TIB
+add_core = TIB
 add_core = HND
 trade_goods = timber
 life_rating = 25
