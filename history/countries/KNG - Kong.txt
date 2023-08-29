@@ -1,5 +1,5 @@
 capital = 1898
-primary_culture = mande
+primary_culture = songhai
 culture = senufo
 culture = east_kwa
 culture = western_nigritic

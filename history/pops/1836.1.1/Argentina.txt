@@ -297,13 +297,13 @@
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 22750
 	}
@@ -373,19 +373,19 @@
 	}
 
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2700
 	}
@@ -443,7 +443,7 @@
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 500
 	}
@@ -570,25 +570,25 @@
 #Resistencia (16000/4000 POPS)
 2364 = {
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2700
 	}
@@ -620,25 +620,25 @@
 #Villa Angela (16000/4000 POPS)
 2365 = {
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2700
 	}
@@ -665,31 +665,31 @@
 #Formosa (24000/6000 POPS) #now part of Argentina
 2366 = {
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 75
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 500
 	}
 
 	labourers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2300
 	}
 
 	labourers = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 1075
 	}
@@ -719,7 +719,7 @@
 	}
 
 	slaves = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 800
 	}
@@ -727,25 +727,25 @@
 #Xolotas (20000/5000 POPS) #now part of Argentina
 2367 = {
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 75
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = reformed #hugenott
 		size = 550
 	}
 
 	labourers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 4075
 	}
@@ -1140,19 +1140,19 @@
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2700
 	}
@@ -1929,25 +1929,25 @@
 	}
 
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 175
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2700
 	}

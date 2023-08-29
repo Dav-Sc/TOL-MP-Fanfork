@@ -816,25 +816,25 @@
 #Dourados (44000/11000 POPS)
 2416 = {
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 7650
 	}
@@ -947,31 +947,31 @@
 	}
 
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 4575
 	}
@@ -1009,7 +1009,7 @@
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 1200
 	}
@@ -1019,31 +1019,31 @@
 #Igautemi (20000/5000 POPS) #now part of Brazil
 2420 = {
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 600
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 8000
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 10300
 	}
@@ -1298,25 +1298,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 2750
 	}
@@ -1416,25 +1416,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 930
 	}
@@ -3204,31 +3204,31 @@
 	}
 
 	aristocrats = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 900
 	}
@@ -3328,31 +3328,31 @@
 	}
 
 	aristocrats = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 900
 	}
@@ -3496,25 +3496,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 910
 	}
@@ -3582,31 +3582,31 @@
 	}
 
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 4575
 	}
@@ -3674,25 +3674,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 910
 	}
@@ -4041,25 +4041,25 @@
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 4650
 	}
@@ -4153,31 +4153,31 @@
 	}
 
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 4575
 	}

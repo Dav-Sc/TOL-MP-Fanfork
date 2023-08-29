@@ -256,7 +256,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 500
 	}

@@ -1,6 +1,7 @@
 capital = 1326
 primary_culture = nepali
 culture = tibetan
+culture = pahari
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0

@@ -301,37 +301,37 @@
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 1470
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 170
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 3150
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 770
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 15840
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 5600
 	}
@@ -517,7 +517,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 1400
 	}
@@ -1060,31 +1060,31 @@
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 1300
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 500
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 2000
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 42500
 	}

@@ -1,5 +1,5 @@
 capital = 1982
-primary_culture = cushitic
+primary_culture = christ_bantu
 culture = mongo
 culture = nilotic
 culture = south_forest_bantu

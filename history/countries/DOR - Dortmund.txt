@@ -1,5 +1,6 @@
 capital = 580
 primary_culture = north_german
+culture = ashkenazi
 culture = rhinelander
 religion = catholic
 government = theocracy

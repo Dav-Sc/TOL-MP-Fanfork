@@ -693,7 +693,7 @@
 	}
 
 	artisans = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 500
 	}
@@ -705,7 +705,7 @@
 	}
 
 	farmers = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 9150
 	}
@@ -781,7 +781,7 @@
 	}
 
 	aristocrats = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 850
 	}
@@ -805,13 +805,13 @@
 	}
 
 	farmers = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 20400
 	}
 
 	slaves = {
-		culture = gur
+		culture = songhai
 		religion = fetishist
 		size = 10000
 	}
@@ -1070,7 +1070,7 @@
 	}
 
 	slaves = {
-		culture = gur
+		culture = songhai
 		religion = fetishist
 		size = 10000
 	}
@@ -1106,31 +1106,31 @@
 	}
 
 	aristocrats = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 300
 	}
 
 	clergymen = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 150
 	}
 
 	artisans = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 800
 	}
 
 	soldiers = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 150
 	}
 
 	farmers = {
-		culture = senufo
+		culture = songhai
 		religion = fetishist
 		size = 14600
 	}

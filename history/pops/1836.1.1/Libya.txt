@@ -75,7 +75,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 6500
 	}
@@ -155,7 +155,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 2000
 	}
@@ -387,7 +387,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 4000
 	}
@@ -469,7 +469,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 6000
 	}
@@ -549,7 +549,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 2000
 	}
@@ -617,7 +617,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 3000
 	}
@@ -783,25 +783,25 @@
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 1310
 	}
@@ -962,67 +962,67 @@
 }
 3394 = {
 	aristocrats = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 65
 	}
 
 	clergymen = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 1100
 	}
 
 	farmers = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 2650
 	}
 
 	aristocrats = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 40
 	}
 
 	clergymen = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 1120
 	}
 
 	farmers = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 9800
 	}
 
 	slaves = {
-		culture = east_kwa
+		culture = songhai
 		religion = animist
 		size = 3100
 	}

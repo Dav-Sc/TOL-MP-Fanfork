@@ -1,5 +1,5 @@
 capital = 2039
-primary_culture = lacus_bantu
+primary_culture = christ_bantu
 religion = animist
 government = absolute_monarchy
 plurality = 0

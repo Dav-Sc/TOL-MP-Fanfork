@@ -1,5 +1,5 @@
 capital = 1892
-primary_culture = mande
+primary_culture = songhai
 culture = east_kwa
 culture = senufo
 culture = kru

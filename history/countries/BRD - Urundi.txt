@@ -1,5 +1,5 @@
 capital = 2035
-primary_culture = rundi_ganda
+primary_culture = christ_bantu
 culture = lacus_bantu
 religion = animist
 government = absolute_monarchy

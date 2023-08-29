@@ -1735,42 +1735,42 @@ culture = otomi
 #Veracruz (140000/70000 POPS)
 2162 = {
 	aristocrats = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 1025
 		militancy = 5
 	}
 
 	bureaucrats = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 175
 		militancy = 5
 	}
 
 	officers = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 50
 		militancy = 5
 	}
 
 	clergymen = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 500
 		militancy = 5
 	}
 
 	artisans = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 200
 		militancy = 5
 	}
 
 	soldiers = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 50
 
@@ -1778,28 +1778,28 @@ culture = otomi
 	}
 
 	farmers = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 1600
 		militancy = 5
 	}
 
 	clergymen = {
-culture = mangue 
+culture = mayan 
 		religion = animist
 		size = 100
 		militancy = 5
 	}
 
 	artisans = {
-culture = mangue 
+culture = mayan 
 		religion = animist
 		size = 1050
 		militancy = 5
 	}
 
 	soldiers = {
-culture = mangue 
+culture = mayan 
 		religion = animist
 		size = 225
 
@@ -1807,7 +1807,7 @@ culture = mangue
 	}
 
 	farmers = {
-culture = mangue 
+culture = mayan 
 		religion = animist
 		size = 20025
 		militancy = 5
@@ -1939,31 +1939,31 @@ culture = mangue
 	}
 
 	aristocrats = {
-		culture = mangue
+		culture = mayan
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-culture = mangue 
+		culture = mayan 
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-culture = mangue 
+		culture = mayan 
 		religion = animist
 		size = 550
 	}
 
 	soldiers = {
-culture = mangue 
+		culture = mayan 
 		religion = animist
 		size = 125
 	}
 
 	farmers = {
-culture = mangue 
+		culture = mayan 
 		religion = animist
 		size = 10275
 	}

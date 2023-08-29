@@ -33,61 +33,61 @@
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 550
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 125
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 7025
 	}
 
 	aristocrats = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 650
 	}
@@ -95,31 +95,31 @@
 #Lodwar (36000/9000 POPS)
 2026 = {
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 6625
 	}
@@ -155,7 +155,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 1100
 	}
@@ -253,7 +253,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 3000
 	}
@@ -262,61 +262,61 @@
 #Kisumu (196000/49000POPS)
 2028 = {
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 375
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 775
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 20350
 	}
 
 	aristocrats = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 375
 	}
 
 	clergymen = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 12225
 	}
@@ -368,7 +368,7 @@
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 3875
 	}
@@ -516,7 +516,7 @@
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 150
 	}
@@ -539,7 +539,7 @@
 		size = 4650
 	}
 }
-#Upper Swahili Coast Region (304000)
+#Upper nyasa Coast Region (304000)
 #ruled by kingdom of Oman in 1836
 #Mombasa (100000/25000 POPS)
 2029 = {
@@ -574,61 +574,61 @@
 	}
 
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 500
 	}
 
 	aristocrats = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 19125
 	}
@@ -642,25 +642,25 @@
 #Lamu (100000/25000 POPS)
 2030 = {
 	aristocrats = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 225
 	}
 
 	clergymen = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 125
 	}
@@ -672,7 +672,7 @@
 	}
 	
 	farmers = {
-		culture = swahili
+		culture = nyasa
 		religion = sunni
 		size = 8025
 	}
@@ -729,7 +729,7 @@
 	}
 
 	artisans = {
-		culture = swahili
+		culture = nyasa
 		religion = animist
 		size = 1300
 	}
@@ -750,61 +750,61 @@
 #Kubanda (76000/19000 POPS)
 2011 = {
 	aristocrats = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 750
 	}
 
 	soldiers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = lacus_bantu
+		culture = christ_bantu
 		religion = animist
 		size = 7125
 	}
 	
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 8600
 	}

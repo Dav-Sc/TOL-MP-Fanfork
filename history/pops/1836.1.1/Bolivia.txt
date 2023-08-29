@@ -3,67 +3,67 @@
 #La Paz (392000/98000 POPS)
 2310 = {
 	aristocrats = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 1100
 	}
 
 	bureaucrats = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 400
 	}
 
 	officers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 325
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 650
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 5825
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 3000
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 100
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 19000
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 300
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 2525
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 64175
 	}
@@ -175,19 +175,19 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 75
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 350
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 6575
 	}
@@ -295,19 +295,19 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 125
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 1350
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 25525
 	}
@@ -415,25 +415,25 @@
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2775
 	}
@@ -497,31 +497,31 @@
 #Robore (12000/3000 POPS)
 2318 = {
 	aristocrats = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
+		culture = amazonian
 		religion = animist
 		size = 2700
 	}

@@ -581,7 +581,7 @@
 	}
 
 	farmers = {
-		culture = ibo
+		culture = songhai
 		religion = catholic
 		size = 7525
 	}

@@ -1,7 +1,7 @@
 capital = 1923
 primary_culture = yoruba
 culture = hausa
-culture = ibo
+culture = songhai
 culture = fulbe
 culture = nilotic
 culture = edo

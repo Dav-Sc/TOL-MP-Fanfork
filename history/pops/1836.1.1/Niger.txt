@@ -565,7 +565,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = fetishist
 		size = 2000
 	}
@@ -604,7 +604,7 @@
 	}
 
 	slaves = {
-		culture = nilotic
+		culture = african_minor
 		religion = sunni
 		size = 1000
 	}

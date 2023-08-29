@@ -1,5 +1,5 @@
 capital = 1948
-primary_culture = fulbe
+primary_culture = songhai
 culture = hausa
 culture = east_kwa
 culture = yoruba

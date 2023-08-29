@@ -1,7 +1,7 @@
 capital = 608
 primary_culture = east_kwa
 culture = yoruba
-culture = ibo
+culture = songhai
 religion = animist
 government = democracy
 plurality = 0.0

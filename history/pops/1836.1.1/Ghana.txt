@@ -303,7 +303,7 @@
 	}
 
 	slaves = {
-		culture = mande
+		culture = songhai
 		religion = sunni
 		size = 10500
 	}

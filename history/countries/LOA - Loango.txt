@@ -1,5 +1,5 @@
 capital = 2624
-primary_culture = bakongo
+primary_culture = christ_bantu
 culture = christ_bakongo
 religion = jesuite
 government = absolute_monarchy

@@ -1,5 +1,5 @@
 capital = 2034
-primary_culture = rundi_ganda
+primary_culture = christ_bantu
 culture = lacus_bantu
 culture = lega_bantu
 religion = animist

@@ -1239,25 +1239,25 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 100
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 1150
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 250
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 21500
 	}
@@ -1265,31 +1265,31 @@
 #Arequipa (72000/18000 POPS)
 2304 = {
 	aristocrats = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 375
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 125
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 200
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 1050
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 3250
 	}
@@ -1323,73 +1323,73 @@
 #Tacna (100000/25000 POPS)
 2578 = {
 	aristocrats = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 550
 	}
 
 	bureaucrats = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 25
 	}
 
 	officers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 50
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 150
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 250
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 100
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 3925
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 100
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 1100
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 200
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 16700
 	}
 
 	slaves = {
-		culture = aimara
+		culture = quechua
 		religion = kristiyanu
 		size = 2000
 	}

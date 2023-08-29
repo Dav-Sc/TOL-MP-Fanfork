@@ -557,31 +557,31 @@
 #Mwanza (368000/92000 POPS)
 2044 = {
 	aristocrats = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 475
 	}
 
 	clergymen = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = nilotic
+		culture = african_minor
 		religion = animist
 		size = 9025
 	}
