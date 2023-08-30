@@ -1,8 +1,10 @@
 # TOL-MP-Fanfork
 
-### Removed Nations:
+All credits go to Jupiterson and his team, check out the OG [https://github.com/Jupiterson/Throne-of-Lorraine](https://github.com/Jupiterson/Throne-of-Lorraine)
 
-Removed Nations:
+This is a fan edit of the game to improve multiplayer stability, any edits welcome.
+
+### Removed Nations:
 
 * Litcheinstein
 * Chechnya
