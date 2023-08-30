@@ -1,0 +1,23 @@
+machinepart_mp = {
+    id = 1001001
+    title = "Facory Time!!!!"
+    desc = "Test"
+    picture = 911
+
+	fire_only_once = yes
+
+    trigger = {
+        is_civilized = yes
+        is_player = yes
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+
+    option = {
+        name = "EVTNAME1001001"
+        build_factory_in_capital_state = machine_parts_factory
+    }
+}

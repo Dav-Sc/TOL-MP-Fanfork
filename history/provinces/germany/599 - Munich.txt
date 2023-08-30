@@ -10,11 +10,16 @@ terrain = munich
 #	building = glass_factory
 #	upgrade = yes
 #}
-#state_building = {
-#	level = 1
-#	building = winery
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = winery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 2 }
 1861.1.1 = {
 	state_building = {

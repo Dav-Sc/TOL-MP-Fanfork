@@ -561,7 +561,7 @@
 		size = 1125
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = venetian
 		religion = catholic
 		size = 10000

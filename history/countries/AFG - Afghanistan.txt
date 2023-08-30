@@ -1,5 +1,6 @@
 capital = 1209
 primary_culture = pashtun
+culture = kazak
 culture = tajik
 religion = sunni
 government = absolute_monarchy
