@@ -6,7 +6,7 @@ This is a fan edit of the game to improve multiplayer stability, any edits welco
 
 ### Removed Nations:
 
-* Litcheinstein
+* Lichtenstein
 * Chechnya
 * Ossetia
 * German Minors Combined
