@@ -1,0 +1,17 @@
+# Reset Infamy Event
+country_event = {
+    id = reset_infamy_event
+    title = "Reset Infamy"
+    desc = "All player countries' infamy is reset to 0."
+    
+    is_triggered_only = yes
+    
+    immediate = {
+        every_country = {
+            limit = {
+                is_human = yes
+            }
+            set_infamy = 0
+        }
+    }
+}

@@ -102,4 +102,577 @@ political_decisions = {
 			}
 		}
 	}
+	#Become England
+	end_of_the_UK = {
+		potential = {
+			tag = ENG
+			NOT = { has_global_flag = united_kingdom_no_more }
+			NOT = { has_country_flag = dismantling_treaty }
+			SCO = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+			IRE = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+		}
+
+		allow = {
+			war = no
+			SCO = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+			IRE = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+		}
+
+		effect = {
+			set_global_flag = united_kingdom_no_more
+			remove_accepted_culture = australian
+			remove_accepted_culture = akino_german
+			ENG_300 = { add_core = ENL }
+			ENG_277 = { add_core = ENL }
+			ENG_281 = { add_core = ENL }
+			ENG_284 = { add_core = ENL }
+			ENG_291 = { add_core = ENL }
+			ENG_296 = { add_core = ENL }
+			517 = { add_core = ENL }
+			ENG = {
+				all_core = { remove_core = ENG }
+			}
+			change_tag = ENL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	build_the_big_ben = {
+		picture = bigben
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+				tag = UOW
+			}
+			OR = {
+				ai = no
+				year = 1844
+			}
+			NOT = { has_country_flag = big_ben_construction }
+			300 = { NOT = { has_province_modifier = the_big_ben } }
+		}
+
+		allow = {
+			year = 1844
+			money = 7500
+			election = no
+			war = no
+			upper_house = { ideology = conservative value = 0.3 }
+		}
+
+		effect = {
+			set_country_flag = big_ben_construction
+			country_event = 3697000
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	gold_coast_treaty = {
+		picture = treaty_signing
+		potential = {
+			owns = 1908
+			is_greater_power = yes
+			is_canal_enabled = 2
+			OR = {
+				year = 1900
+				ATJ = { exists = no }
+			}
+			NET = {
+				owns = 1909
+				owns = 1413
+				NOT = { owns = 1910 }
+			}
+			NOT = { tag = NET }
+			NOT = { has_country_flag = gold_coast_treaty }
+		}
+
+		allow = {
+			war = no
+			money = 10000
+			NET = {
+				war = no
+				owns = 1909
+			}
+		}
+
+		effect = {
+			set_country_flag = gold_coast_treaty
+			treasury = -10000
+			NET = { country_event = 36960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				truce_with = NET
+			}
+			modifier = {
+				factor = 0
+				NOT = { relation = { who = NET value = -50 } }
+			}
+		}
+	}
+	found_the_bbc = {
+		picture = found_the_bbc
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+				tag = UOW
+			}
+			mass_politics = 1
+			NOT = { has_country_flag = we_are_live_from_london }
+		}
+
+		allow = { invention = national_radio_networks }
+
+		effect = {
+			any_country = { relation = { who = THIS value = 5 } }
+			any_pop = { militancy = -0.5 }
+			prestige = 10
+			set_country_flag = we_are_live_from_london
+		}
+	}
+
+	the_scotland_yard = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+				tag = UOW
+			}
+			NOT = { has_country_flag = elementary_my_dear_watson } # I know, he never says it in the books, yadiyadi.
+		}
+
+		allow = { realism = 1 }
+
+		effect = {
+			add_country_modifier = { name = the_yard duration = -1 }
+			set_country_flag = elementary_my_dear_watson
+		}
+	}
+
+	the_foster_act = {
+		picture = william_foster
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+				tag = UOW
+			}
+			NOT = { school_reforms = good_schools }
+			NOT = { has_country_flag = foster_act_enacted }
+		}
+
+		allow = {
+			war = no
+			OR = {
+				biologism = 1
+				revolution_n_counterrevolution = 1
+			}
+		}
+
+		effect = {
+			set_country_flag = foster_act_enacted
+
+			random_owned = {
+				limit = { owner = { school_reforms = acceptable_schools } }
+				owner = { social_reform = good_schools }
+			}
+
+			random_owned = {
+				limit = { owner = { school_reforms = low_schools } }
+				owner = { social_reform = acceptable_schools }
+			}
+
+			random_owned = {
+				limit = { owner = { school_reforms = no_schools } }
+				owner = { social_reform = low_schools }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	british_imperial_airways = {
+		picture = imperial_airways
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			is_greater_power = yes
+			aeronautics = 1
+			NOT = { has_country_flag = imperial_airways }
+		}
+
+		allow = {
+			war = no
+			year = 1920
+		}
+
+		effect = {
+			prestige = 75
+			plurality = 5
+			treasury = -80000
+			set_country_flag = imperial_airways
+		}
+	}
+
+	landship_committee = {
+		picture = landship
+		potential = {
+			owns = 284
+			OR = {
+				tag = ENG
+				tag = ENL
+				tag = UOW
+			}
+			NOT = { has_global_flag = landship_committee }
+			invention = tank_experiments
+			NOT = { 284 = { state_scope = { has_building = barrel_factory } } }
+			year = 1900
+		}
+
+		allow = {
+			is_greater_power = yes
+			invention = tank_experiments
+			is_disarmed = no
+			money = 31000
+		}
+
+		effect = {
+			treasury = -30000
+			random_owned = {
+				limit = {
+					province_id = 284
+					state_scope = { NOT = { has_building = barrel_factory } }
+				}
+				owner = {
+					capital = 284
+					build_factory_in_capital_state = barrel_factory
+				}
+			}
+			random_owned = {
+				limit = { province_id = 300 } #London
+				THIS = { capital = 300 }
+			}
+			set_global_flag = landship_committee
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	royal_aircraft_factory = {
+		picture = royal_aircraft_factory
+		potential = {
+			owns = 297
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			aeronautics = 1
+			NOT = { has_global_flag = royal_aircraft_factory }
+			NOT = { 297 = { state_scope = { has_building = aeroplane_factory } } }
+		}
+
+		allow = {
+			is_greater_power = yes
+			invention = wright_n_langleys_aeroplanes
+			is_disarmed = no
+			money = 31000
+		}
+
+		effect = {
+			set_global_flag = royal_aircraft_factory
+			treasury = -30000
+			random_owned = {
+				limit = {
+					province_id = 297
+					state_scope = { NOT = { has_building = aeroplane_factory } }
+				}
+
+				owner = {
+					capital = 297
+					build_factory_in_capital_state = aeroplane_factory
+				}
+			}
+			random_owned = {
+				limit = { province_id = 300 } #London
+				THIS = { capital = 300 }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	treaty_of_heligoland = {
+		picture = the_heligoland_question
+		potential = {
+			tag = ENG
+			533 = { owned_by = ENG }
+			OR = {
+				GER = {
+					exists = yes
+					any_owned_province = {
+						OR = {
+							continent = central_africa
+							AND = {
+								continent = east_africa
+								NOT = { is_core = ETH }
+							}
+							AND = {
+								continent = west_africa
+								NOT = { is_core = CMR }
+							}
+							continent = africa
+						}
+						is_colonial = yes
+						OR = {
+							any_neighbor_province = { owned_by = THIS }
+							port = yes
+						}
+					}
+				}
+				GCF = {
+					exists = yes
+					any_owned_province = {
+						OR = {
+							continent = central_africa
+							AND = {
+								continent = east_africa
+								NOT = { is_core = ETH }
+							}
+							AND = {
+								continent = west_africa
+								NOT = { is_core = CMR }
+							}
+							continent = africa
+						}
+						is_colonial = yes
+						OR = {
+							any_neighbor_province = { owned_by = THIS }
+							port = yes
+						}
+					}
+				}
+			}
+			OR = {
+				ai = no
+				year = 1881
+			}
+			NOT = { has_country_flag = treaty_of_heligoland }
+		}
+
+		allow = {
+			NOT = { any_greater_power = { war_with = THIS } }
+			NOT = { government = fascist_dictatorship }
+			NOT = { government = proletarian_dictatorship }
+			2013 = { empty = no }
+			2015 = { empty = no }
+			OR = {
+				GER = {
+					exists = yes
+					NOT = { war_with = THIS }
+				}
+				GCF = {
+					exists = yes
+					NOT = { war_with = THIS }
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = treaty_of_heligoland
+			badboy = -1
+			random_country = {
+				limit = {
+					exists = yes
+					OR = {
+						tag = GER
+						tag = GCF
+					}
+				}
+				country_event = 33006
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#####################################################
+	#Irish Woes#
+	#####################################################
+
+	ric_reorganize = {
+		picture = ric_police
+		potential = {
+			tag = ENG
+			any_owned_province = { is_core = IRE }
+			NOT = { has_country_flag = ric_reorganized }
+		}
+
+		allow = { war = no }
+
+		effect = {
+			set_country_flag = ric_reorganized
+			any_owned = {
+				limit = { is_core = IRE }
+				add_province_modifier = { name = royal_irish_constabulary duration = -1 }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	invest_in_irish = {
+		picture = ireland
+		potential = {
+			tag = ENG
+			any_owned_province = { is_core = IRE }
+			NOT = {
+				exists = IRE
+				accepted_culture = irish
+				has_country_flag = invest_in_irish
+			}
+			OR = {
+				government = hms_government
+				government = democracy
+				government = constitutional_empire
+				government = proletarian_dictatorship
+			}
+			OR = {
+				has_country_flag = help_for_the_irish
+				has_country_flag = irish_republican_brotherhood
+			}
+		}
+
+		allow = {
+			prestige = 50
+			money = 850001
+			NOT = { citizenship_policy = residency }
+			social_science = 1
+		}
+
+		effect = {
+			set_country_flag = invest_in_irish
+			random_owned = {
+				limit = { owner = { NOT = { has_country_flag = irish_republican_brotherhood } } }
+				owner = { add_accepted_culture = irish }
+			}
+			prestige = -50
+			treasury = -850000
+			any_owned = {
+				remove_province_modifier = irish_oppression
+				remove_province_modifier = enclosures
+				remove_province_modifier = royal_irish_constabulary
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = irish
+					has_pop_religion = catholic
+				}
+				militancy = -5
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_irish_dominion = {
+		picture = ireland
+		potential = {
+			tag = ENG
+			IRE = {
+				owns = 254
+				OR = {
+					government = democracy
+					government = hms_government
+					government = constitutional_empire
+				}
+				ai = yes
+				vassal_of = ENG
+				NOT = { government = colonial_company }
+			}
+			truce_with = IRE
+			NOT = { has_country_flag = sinn_fein_victory }
+			NOT = { year = 1905 }
+			#NOT = { has_global_flag = irish_war_of_independence }
+			NOT = { has_country_flag = the_irish_dominion }
+		}
+
+		allow = { war = no }
+
+		effect = {
+			set_country_flag = the_irish_dominion
+			prestige = 5
+			IRE = {
+				government = colonial_company
+				add_accepted_culture = british
+				any_owned = {
+					limit = { region = ENG_254 }
+					add_core = THIS
+					secede_province = THIS
+				}
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	the_irish_republic = {
+		picture = ireland
+		potential = {
+			tag = IRE
+			OR = {
+				government = constitutional_empire
+				government = hms_government
+				government = dominion
+				government = colonial_company
+			}
+			NOT = { has_country_flag = easter_rising }
+			is_vassal = no
+			OR = {
+				NOT = { has_country_flag = the_irish_republic }
+				AND = {
+					has_country_flag = the_irish_republic
+					NOT = { government = democracy }
+					ENG = { has_country_flag = the_irish_dominion }
+				}
+			}
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+		}
+
+		effect = {
+			set_country_flag = the_irish_republic
+			prestige = 5
+			government = democracy
+			remove_accepted_culture = british
+		}
+
+		ai_will_do = { factor = 1 }
+	}
 }
