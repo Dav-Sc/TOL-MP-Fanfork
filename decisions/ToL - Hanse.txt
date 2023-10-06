@@ -189,25 +189,14 @@ political_decisions = {
 		effect = {
 			set_country_flag = the_confederation_is_legitime
 			prestige = 10
-			random_owned = {
-				limit = {
-					owner = {
-						NOT = {
-							has_country_flag = end_of_the_confederation
-						}
-					}
-				}
-				any_country = {
-				limit = {
-				    is_culture_group = germanic
-					capital_scope = { continent = europe }
-					vassal_of = THIS
-				}
-				any_owned = {
-    add_core = THIS
-  }
-			}
-			}
+			POM = { any_owned = { add_core = HNS } }
+			HAN = { any_owned = { add_core = HNS } }
+			MST = { any_owned = { add_core = HNS } }
+			MEC = { any_owned = { add_core = HNS } }
+			MAG = { any_owned = { add_core = HNS } }
+			SWH = { any_owned = { add_core = HNS } }
+			DZG = { any_owned = { add_core = HNS } }
+			BRN = { any_owned = { add_core = HNS } }
 			set_country_flag = yes_germany
 		}
 		ai_will_do = { factor = 1 }
@@ -310,13 +299,15 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = united_hanse
-			any_country = {
-				limit = {
-					primary_culture = north_german
-					vassal_of = THIS
-				}
-				annex_to = THIS
-			}
+			POM = { any_owned = { annex_to = HNS } }
+			HAN = { any_owned = { annex_to = HNS } }
+			MST = { any_owned = { annex_to = HNS } }
+			MEC = { any_owned = { annex_to = HNS } }
+			MAG = { any_owned = { annex_to = HNS } }
+			SWH = { any_owned = { annex_to = HNS } }
+			DZG = { any_owned = { annex_to = HNS } }
+			BRN = { any_owned = { annex_to = HNS } }
+			
 		}
 		ai_will_do = { factor = 1 }
 	}
