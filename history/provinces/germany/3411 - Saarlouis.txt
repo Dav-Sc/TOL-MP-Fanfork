@@ -1,5 +1,5 @@
-owner = SAL
-controller = SAL
+owner = RHI
+controller = RHI
 add_core = LOR
 add_core = SAL
 add_core = SAA
